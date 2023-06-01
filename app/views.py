@@ -34,8 +34,32 @@ def home(request):
     }
     return render(request,'home.html', context)
 
-def about_article(request):
-    return render(request,'about_article.html')
+def about_article1(request):
+    return render(request,'about_article1.html')
+
+def about_article2(request):
+    return render(request,'about_article2.html')
+
+def about_article3(request):
+    return render(request,'about_article3.html')
+
+def about_article4(request):
+    return render(request,'about_article4.html')
+
+def about_article5(request):
+    return render(request,'about_article5.html')
+
+def about_article6(request):
+    return render(request,'about_article6.html')
+
+def about_article7(request):
+    return render(request,'about_article7.html')
+
+def about_article8(request):
+    return render(request,'about_article8.html')
+
+def about_article9(request):
+    return render(request,'about_article9.html')
 
 def blogs_view(request, category_slug=None):
     categories = Category.objects.all()
