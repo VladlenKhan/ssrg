@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load i18n %}
 {% block content %}
  
 <div class="section">
@@ -8,12 +8,12 @@
         <br><br>
         <div>
           <ul style="list-style-type: none; ">
-              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> Оригинальность текста: </span> не менее 75% (проверка в системе «антиплагиат»)</li>
-              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> Минимальный объем статьи: </span>   3 страниц </li>
-              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> Языки статьи: </span>   русский, английский</li>
-              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> Шрифт: </span> Times New Roman</li>
-              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> Размер шрифта: </span> 14 пунктов</li>
-              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> Междустрочный интервал: </span> 1.5 пункта</li>
+              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> {% trans 'Оригинальность текста' %}: </span> не менее 75% (проверка в системе «антиплагиат»)</li>
+              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> {% trans 'Минимальный объем статьи' %}: </span>   3 страниц </li>
+              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> {% trans 'Языки статьи' %}: </span>   русский, английский</li>
+              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> {% trans 'Шрифт' %}: </span> Times New Roman</li>
+              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> {% trans 'Размер шрифта' %}: </span> 14 пунктов</li>
+              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> {% trans 'Междустрочный интервал' %}: </span> 1.5 пункта</li>
               <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> Поля: </span> с каждой стороны листа по 2 см</li>
               <br>
               <li> <h3> Структура статьи </h3></li>
