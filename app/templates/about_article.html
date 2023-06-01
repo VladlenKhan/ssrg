@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+ 
+<div class="section">
+    <div class="container">
+      <h2>Требования к оформлению статьи в научном журнале "{{req.name_article}}"</h2> 
+        <br><br>
+        <div>
+          <ul style="list-style-type: none; ">
+              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> Минимальный объем статьи: </span>   {{req.min_volume}} </li>
+              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> Шрифт: </span> {{req.font}}</li>
+              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> Размер шрифта: </span> {{req.font_size}}</li>
+              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> Междустрочный интервал: </span> {{req.line_spacing}}</li>
+              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> Поля: </span> {{req.margins}}</li>
+              <li style="font-size: 100%;"><span style="font-size:18px;color:black;"> Языки журнала: </span> {{req.journal_languages}}</li>
+              <br>
+              <!-- #Научный руководитель я не знаю куда пропало это поле -->
+              <li> <h3> Структура статьи </h3></li>
+             <li> <span style="font-size:18px;color:black;">1. Заголовок/название статьи: </span> {{req.header_title}}</li>
+             <li> <span style="font-size:18px;color:black;">2. ФИО автора: </span> {{req.author_name}}</li>
+             <li> <span style="font-size:18px;color:black;">3. Ученое звание, ученая степень, ВУЗ, страна, город: </span> {{req.student_info}}</li>
+             <li> <span style="font-size:18px;color:black;"> 4. {{req.annotation}}</span></li>
+             {% if req.supervisor_info %} 
+             <li> <span style="font-size:18px;color:black;"> 5. {{req.supervisor_info}}</span></li>
+             {% elif req.article_text %}
+             <li> <span style="font-size:18px;color:black;"> 6. {{req.article_text}} </span></li>
+             {% elif req.bibliography %}
+             <li> <span style="font-size:18px;color:black;"> 7. {{req.bibliography}} </span></li>
+             {% endif %}
+              <br>
+             <h5> Статья не должна: быть ранее опубликована, а также представлена для рассмотрения и публикации в другом издании. <br> <br>
+              Запрещается: использовать способы для обхода антиплагиата: слова-формулы, замену русских букв латинскими и т.д.
+              Данные нарушения выявляются с помощью программного обеспечения и статья возвращается на доработку </h5>
+            </ul>       
+        </div>
+    </div>
+</div>
+
+{% endblock %}

@@ -73,119 +73,16 @@
     <h1>{% trans 'Требования к оформлению статьи' %} </h1>
     <br>
     <div class="row">
-   
+      {% for req in reqs %}
       <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="{% url 'about_article1' %}">
-          <div class="block"> <span class="colored-box text-center h3 mb-4">01</span>
-            <h5 class="mb-3 service-title">{% trans 'статья в научном журнале "Интернаука"' %}</h5>
-            <p class="mb-0 service-description text-success" >{% trans 'Подробнее' %}</p>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="{% url 'about_article2' %}">
-          <div class="block"> <span class="colored-box text-center h3 mb-4">02</span>
-            <h5 class="mb-3 service-title">статья в научном журнале "Студенческий вестник"</h5>
+        <a class="text-black" href="{% url 'about_article' id=req.id %}">
+          <div class="block"> <span class="colored-box text-center h3 mb-4">{{ forloop.counter|add:'00' }}</span>
+            <h5 class="mb-3 service-title">{{ req.name_article }}</h5>
             <p class="mb-0 service-description text-success">{% trans 'Подробнее' %}</p>
           </div>
         </a>
       </div>
-      <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="{% url 'about_article3' %}">
-          <div class="block"> <span class="colored-box text-center h3 mb-4">
-
-
-              03
-
-            </span>
-            <h5 class="mb-3 service-title">статья в научных конференциях</h5>
-            <p class="mb-0 service-description text-success">{% trans 'Подробнее' %}</p>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="{% url 'about_article4' %}">
-          <div class="block"> <span class="colored-box text-center h3 mb-4">
-
-
-              04
-
-            </span>
-            <h5 class="mb-3 service-title"> статья в конференции «Молодой исследователь»</h5>
-            <p class="mb-0 service-description text-success">{% trans 'Подробнее' %}</p>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="{% url 'about_article5' %}">
-          <div class="block"> <span class="colored-box text-center h3 mb-4">
-
-
-              05
-
-            </span>
-            <h5 class="mb-3 service-title">статья в международной конференции Испании</h5>
-            <p class="mb-0 service-description text-success">{% trans 'Подробнее' %}</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="{% url 'about_article6' %}">
-          <div class="block"> <span class="colored-box text-center h3 mb-4">
-
-
-              06
-
-            </span>
-            <h5 class="mb-3 service-title">статья в международной конференции Нидерландов</h5>
-            <p class="mb-0 service-description text-success">{% trans 'Подробнее' %}</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="{% url 'about_article7' %}">
-          <div class="block"> <span class="colored-box text-center h3 mb-4">
-
-
-              07
-
-            </span>
-            <h5 class="mb-3 service-title">статья в международной конференции США</h5>
-            <p class="mb-0 service-description text-success">{% trans 'Подробнее' %}</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="{% url 'about_article8' %}">
-          <div class="block"> <span class="colored-box text-center h3 mb-4">
-
-
-              08
-
-            </span>
-            <h5 class="mb-3 service-title">статья в ВАК</h5>
-            <p class="mb-0 service-description text-success">{% trans 'Подробнее' %}</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-lg-4 col-md-6 service-item">
-        <a class="text-black" href="{% url 'about_article9' %}">
-          <div class="block"> <span class="colored-box text-center h3 mb-4">
-
-
-              09
-
-            </span>
-            <h5 class="mb-3 service-title">статья в РИНЦ</h5>
-            <p class="mb-0 service-description text-success">{% trans 'Подробнее' %}</p>
-          </div>
-        </a>
-      </div>
-
+      {% endfor %}
     </div>
   </div>
 </section>

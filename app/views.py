@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from .models import Blog, Category, MultipleImage
+from .models import Blog, Category, MultipleImage, Article
 from django.contrib.auth.models import User
 from django.contrib.auth import update_session_auth_hash
 from .forms import SignUpForm, ArticleForm, CustomUserChangeForm, CustomPasswordChangeForm
@@ -16,6 +16,8 @@ import os
 from django.conf import settings
 from django.utils.translation import gettext_lazy as _
 
+
+
 def download_file(request, pk):
     post = get_object_or_404(Blog, pk=pk)
     file_path = os.path.join(settings.MEDIA_ROOT, str(post.file))
@@ -28,38 +30,26 @@ def download_file(request, pk):
     raise Http404
 
 def home(request):
+    requirements = Article.objects.all()
     popular_blogs = Blog.objects.order_by('-views_count')[:4]
     context = {
-        'popular_blogs': popular_blogs
+        'popular_blogs': popular_blogs,
+        'reqs': requirements
     }
     return render(request,'home.html', context)
 
-def about_article1(request):
-    return render(request,'about_article1.html')
 
-def about_article2(request):
-    return render(request,'about_article2.html')
 
-def about_article3(request):
-    return render(request,'about_article3.html')
 
-def about_article4(request):
-    return render(request,'about_article4.html')
+def about_article(request, id):
+    req = get_object_or_404(Article, id=id)
+    context = {
+        'req': req
+    }
+    return render(request, 'about_article.html', context)
 
-def about_article5(request):
-    return render(request,'about_article5.html')
 
-def about_article6(request):
-    return render(request,'about_article6.html')
 
-def about_article7(request):
-    return render(request,'about_article7.html')
-
-def about_article8(request):
-    return render(request,'about_article8.html')
-
-def about_article9(request):
-    return render(request,'about_article9.html')
 
 def blogs_view(request, category_slug=None):
     categories = Category.objects.all()

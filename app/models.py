@@ -44,3 +44,34 @@ class MultipleImage(models.Model):
     class Meta:
         verbose_name = 'Изображение'
         verbose_name_plural = 'Изображения'
+
+
+
+class Article(models.Model):
+
+    name_article = models.CharField(max_length=255, verbose_name='Название конференции/статьи')
+
+
+    min_volume = models.CharField(max_length=255, verbose_name='Минимальный объем статьи', blank=True, null=True)
+    font = models.CharField(max_length=255, verbose_name='Шрифт', blank=True, null=True)
+    font_size = models.CharField(max_length=255, verbose_name='Размер шрифта', blank=True, null=True)
+    line_spacing = models.CharField(max_length=255,  verbose_name='Междустрочный интервал', blank=True, null=True)
+    margins = models.CharField(max_length=255, verbose_name='Поля', blank=True, null=True)
+    journal_languages = models.CharField(max_length=255, verbose_name='Языки журнала', blank=True, null=True)
+    # Другие поля модели
+
+    
+
+    header_title = models.CharField(blank=True, null=True, verbose_name='Заголовок/название статьи', max_length=255)
+    author_name = models.CharField(blank=True, null=True, verbose_name='ФИО автора', max_length=255)
+    student_info = models.CharField(blank=True, null=True, verbose_name=' Ученое звание, Студент, магистрант или аспирант, вуз, страна, город', max_length=255)
+    annotation = models.CharField(blank=True, null=True, verbose_name='Аннотация', max_length=255)
+    supervisor_info = models.CharField(blank=True, null=True, verbose_name='Ключевые слова', max_length=255)
+    article_text = models.CharField(blank=True, null=True, verbose_name='Текст статьи/Текст статьи на английском языке', max_length=255)
+    bibliography = models.CharField(blank=True, null=True, verbose_name='Список литературы/Список литературы на английском языке', max_length=255)
+
+    # Другие поля модели
+
+    class Meta:
+        verbose_name = 'Требование статьи'
+        verbose_name_plural = 'Требования статей'
