@@ -49,7 +49,7 @@ class MultipleImage(models.Model):
 
 class Article(models.Model):
 
-    name_article = models.CharField(max_length=255, verbose_name='Название конференции/статьи')
+    name_article = models.CharField(max_length=255, verbose_name='Требования к оформлению статьи...(в научном...    )')
 
 
     min_volume = models.CharField(max_length=255, verbose_name='Минимальный объем статьи', blank=True, null=True)
@@ -62,13 +62,13 @@ class Article(models.Model):
 
     
 
-    header_title = models.CharField(blank=True, null=True, verbose_name='Заголовок/название статьи', max_length=255)
-    author_name = models.CharField(blank=True, null=True, verbose_name='ФИО автора', max_length=255)
-    student_info = models.CharField(blank=True, null=True, verbose_name=' Ученое звание, Студент, магистрант или аспирант, вуз, страна, город', max_length=255)
-    annotation = models.CharField(blank=True, null=True, verbose_name='Аннотация', max_length=255)
-    supervisor_info = models.CharField(blank=True, null=True, verbose_name='Ключевые слова', max_length=255)
-    article_text = models.CharField(blank=True, null=True, verbose_name='Текст статьи/Текст статьи на английском языке', max_length=255)
-    bibliography = models.CharField(blank=True, null=True, verbose_name='Список литературы/Список литературы на английском языке', max_length=255)
+    header_title = models.TextField(blank=True, null=True, verbose_name='Заголовок/название статьи', max_length=255)
+    author_name = models.TextField(blank=True, null=True, verbose_name='ФИО автора', max_length=255)
+    student_info = models.TextField(blank=True, null=True, verbose_name=' Ученое звание, Студент, магистрант или аспирант, вуз, страна, город', max_length=255)
+    annotation = models.TextField(blank=True, null=True, verbose_name='Аннотация', max_length=255)
+    key_words = models.TextField(blank=True, null=True, verbose_name='Ключевые слова', max_length=255)
+    article_text = models.TextField(blank=True, null=True, verbose_name='Текст статьи/Текст статьи на английском языке', max_length=255)
+    bibliography = models.TextField(blank=True, null=True, verbose_name='Список литературы/Список литературы на английском языке', max_length=255)
 
     # Другие поля модели
 

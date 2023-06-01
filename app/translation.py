@@ -28,7 +28,7 @@ class ArticleTranslationOptions(TranslationOptions):
         'author_name',
         'student_info',
         'annotation',
-        'supervisor_info',
+        'key_words',
         'article_text',
         'bibliography',
         # Добавьте остальные поля модели Article здесь
