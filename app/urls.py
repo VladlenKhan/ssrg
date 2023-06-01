@@ -7,6 +7,7 @@ urlpatterns = [
     path('login/',login_view,name='login'),
     path('logout/', user_logout, name='logout'),
     path('register/',register,name='register'),
+    path('about_article/',about_article, name='about_article'),
     
     # user
     path('user/<str:username>/', user_view, name='user'),

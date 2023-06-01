@@ -46,10 +46,17 @@
     <header class="navigation bg-tertiary  ">
         <nav class="navbar navbar-expand-xl navbar-light text-center py-3 fixed-top" style="background-color: rgb(255, 253, 253);">
             <div class="container">
-                <a class="navbar-brand" href="{% url 'home'%}">
-                    <img loading="prelaod" decoding="async" class="img-fluid" width="160"
-                        src="{% static 'images/logo.png' %}" alt="Wallet">
+                <a class="navbar-brand" style="margin:-20px 10px 0 4px ;" href="{% url 'home'%}">
+                    <img loading="prelaod" decoding="async" class="img-fluid"  width="60"
+                        src="{% static 'images/logordz.png' %}" alt="Wallet">
+                         
                 </a>
+                <div>
+                    <a href="{% url 'home'%}">
+                    <span style="color:#145c94;font-weight: 900; font-size:27px;">RDZ </span>
+                    <span style="color:#28bdbe;">science</span>
+               </a> 
+            </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>

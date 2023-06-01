@@ -34,6 +34,8 @@ def home(request):
     }
     return render(request,'home.html', context)
 
+def about_article(request):
+    return render(request,'about_article.html')
 
 def blogs_view(request, category_slug=None):
     categories = Category.objects.all()
