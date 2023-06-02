@@ -65,11 +65,14 @@ class Article(models.Model):
     header_title = models.TextField(blank=True, null=True, verbose_name='Заголовок/название статьи', max_length=255)
     author_name = models.TextField(blank=True, null=True, verbose_name='ФИО автора', max_length=255)
     student_info = models.TextField(blank=True, null=True, verbose_name=' Ученое звание, Студент, магистрант или аспирант, вуз, страна, город', max_length=255)
+    supervisor = models.TextField(blank=True, null=True, verbose_name='Научный руководитель', max_length=255)
     annotation = models.TextField(blank=True, null=True, verbose_name='Аннотация', max_length=255)
     key_words = models.TextField(blank=True, null=True, verbose_name='Ключевые слова', max_length=255)
     article_text = models.TextField(blank=True, null=True, verbose_name='Текст статьи/Текст статьи на английском языке', max_length=255)
     bibliography = models.TextField(blank=True, null=True, verbose_name='Список литературы/Список литературы на английском языке', max_length=255)
 
+
+    instruction = models.FileField(upload_to='reqs/', blank=True, verbose_name='Инструкция оформления')
     # Другие поля модели
 
     class Meta:

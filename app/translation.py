@@ -27,6 +27,7 @@ class ArticleTranslationOptions(TranslationOptions):
         'header_title',
         'author_name',
         'student_info',
+        'supervisor',
         'annotation',
         'key_words',
         'article_text',

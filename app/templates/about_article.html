@@ -5,7 +5,7 @@
 
 <div class="section">
   <div class="container">
-    <h2>Требования к оформлению статьи в научном журнале "{{req.name_article}}"</h2>
+    <h2>Требования к оформлению статьи  "{{req.name_article}}"</h2>
     <br><br>
     
     <div  >
@@ -42,6 +42,9 @@
         {% if req.student_info %}
         <li> <span class="olispan" style="font-size:20px;color:black;">Ученое звание, ученая степень, ВУЗ, страна, город: </span> <span class="olispan2">{{req.student_info | linebreaksbr  }}</span></li>
         {% endif %}
+        {% if req.supervisor %}
+        <li> <span class="olispan" style="font-size:20px;color:black;">Научный руководитель: </span> <span class="olispan2">{{req.supervisor | linebreaksbr  }}</span></li>
+        {% endif %}
         {% if req.annotation %}
         <li> <span class="olispan" style="font-size:20px;color:black;">{{req.annotation | linebreaksbr}}</span></li>
         {% endif %}
@@ -65,9 +68,11 @@
     </div>
 <br><br><br>
   
-<a href="#"> <img src="https://www.internauka.org/images/doc-big.png" alt=""><br><br> Скачать образец оформления</a>
-   
-  
+{% if req.instruction %}
+<a href="{% url 'download_instruction' req.pk %}" class="btn btn-primary">{% trans 'Скачать файл' %}
+<img src="https://www.internauka.org/images/doc-big.png" alt=""><br><br> Скачать образец оформления</a>
+</a>
+{% endif %}  
 </div>
  </div>
 <style>
@@ -86,3 +91,5 @@
 </style>
 
 {% endblock %}
+
+  
