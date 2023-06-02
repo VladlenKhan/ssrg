@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="{% static 'plugins/font-awesome/brands.css' %}">
     <link rel="stylesheet" href="{% static 'plugins/font-awesome/solid.css' %}">
 
+    <link rel="shortcut icon" href="{% static 'images/logordz.png' %}" type="image/x-icon">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <title>Internauka</title>
+    <title>RDZ-SCIENCE</title>
     <style>
         .blog-image{
           width: 100%;
@@ -46,10 +47,17 @@
     <header class="navigation bg-tertiary  ">
         <nav class="navbar navbar-expand-xl navbar-light text-center py-3 fixed-top" style="background-color: rgb(255, 253, 253);">
             <div class="container">
-                <a class="navbar-brand" href="{% url 'home'%}">
-                    <img loading="prelaod" decoding="async" class="img-fluid" width="160"
-                        src="{% static 'images/logo.png' %}" alt="Wallet">
+                <a class="navbar-brand" style="margin:-20px 10px 0 4px ;" href="{% url 'home'%}">
+                    <img loading="prelaod" decoding="async" class="img-fluid"  width="60"
+                        src="{% static 'images/logordz.png' %}" alt="Wallet">
+                         
                 </a>
+                <div>
+                    <a href="{% url 'home'%}">
+                    <span style="color:#145c94;font-weight: 900; font-size:27px;">RDZ </span>
+                    <span style="color:#28bdbe;">science</span>
+               </a> 
+            </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
@@ -194,9 +202,15 @@
             <div class="row align-items-center mt-5 text-center text-md-start">
                 <div class="col-lg-4">
                     <a href="/">
-                        <img loading="prelaod" decoding="async" class="img-fluid" width="160"
-                            src="{% static 'images/logo.png' %}" alt="Wallet">
+                        <img loading="prelaod" decoding="async" class="img-fluid" width="60"
+                            src="{% static 'images/logordz.png' %}"  alt="Wallet"> 
+
+                             
                     </a>
+                    <div>
+                    <div style="color:#145c94;font-weight: 900; font-size:27px;">RDZ</div>
+                    <div style="color:#28bdbe;line-height:1px;">science</div>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
                     <ul class="list-unstyled list-inline mb-0 text-lg-center">
