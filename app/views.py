@@ -29,6 +29,17 @@ def download_file(request, pk):
             return response
     raise Http404
 
+def download_instruction(request, pk):
+    model_instance = get_object_or_404(Article, pk=pk)
+    file_path = os.path.join(settings.MEDIA_ROOT, str(model_instance.instruction))
+    
+    if os.path.exists(file_path):
+        with open(file_path, 'rb') as fh:
+            response = HttpResponse(fh.read(), content_type="application/octet-stream")
+            response['Content-Disposition'] = 'attachment; filename=' + os.path.basename(file_path)
+            return response
+    raise Http404
+
 def home(request):
     requirements = Article.objects.all()
     popular_blogs = Blog.objects.order_by('-views_count')[:4]

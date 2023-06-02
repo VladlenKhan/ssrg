@@ -70,6 +70,8 @@ class Article(models.Model):
     article_text = models.TextField(blank=True, null=True, verbose_name='Текст статьи/Текст статьи на английском языке', max_length=255)
     bibliography = models.TextField(blank=True, null=True, verbose_name='Список литературы/Список литературы на английском языке', max_length=255)
 
+
+    instruction = models.FileField(upload_to='reqs/', blank=True, verbose_name='Инструкция оформления')
     # Другие поля модели
 
     class Meta:

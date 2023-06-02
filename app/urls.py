@@ -29,4 +29,5 @@ urlpatterns = [
 
     # dowload file
     path('download_file/<int:pk>/', download_file, name='download_file'),
+    path('download_instruction/<int:pk>/', download_instruction, name='download_instruction'),
 ]
