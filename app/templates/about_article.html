@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load bleach_tags %}
+{% block content %}
+
+<div class="section">
+  <div class="container">
+    <h2>Требования к оформлению статьи в научном журнале "{{req.name_article}}"</h2>
+    <br><br>
+    <div>
+      <ul style="list-style-type: none; ">
+        {% if req.min_volume%}
+        <li style="font-size: 100%;"><span style="font-size:18px;color:black;font-weight: bold;"> Минимальный объем статьи: </span> {{req.min_volume}} </li>
+        {% endif %}
+        {% if req.font%}
+        <li style="font-size: 100%;"><span style="font-size:18px;color:black;font-weight: bold;"> Шрифт: </span> {{req.font}}</li>
+        {% endif %}
+        {% if req.font_size%}
+        <li style="font-size: 100%;"><span style="font-size:18px;color:black;font-weight: bold;"> Размер шрифта: </span> {{req.font_size}} </li>
+        {% endif %}
+        {% if req.line_spacing%}
+        <li style="font-size: 100%;"><span style="font-size:18px;color:black;font-weight: bold;"> Междустрочный интервал: </span> {{req.line_spacing}}</li>
+        {% endif %}
+        {% if req.margins%}
+        <li style="font-size: 100%;"><span style="font-size:18px;color:black;font-weight: bold;"> Поля: </span> {{req.margins}}</li>
+        {% endif %}
+        {% if req.journal_languages%}
+        <li style="font-size: 100%;"><span style="font-size:18px;color:black;font-weight: bold;"> Языки журнала: </span> {{req.journal_languages}}</li>
+        {% endif %}
+        <br>
+      </ul>
+      <h3> Структура статьи </h3>
+      <ol class="structure">
+        {% if req.header_title  %}
+        <li> <span class="olispan" style="font-size:20px;color:black;">Заголовок/название статьи: </span> <span class="olispan2">{{req.header_title | linebreaksbr}}</span></li>
+        {% endif %}
+        {% if req.author_name %}
+        <li> <span class="olispan" style="font-size:20px;color:black;">ФИО автора: </span> <span class="olispan2">{{req.author_name | linebreaksbr}}</span></li>
+        {% endif %}
+        {% if req.student_info %}
+        <li> <span class="olispan" style="font-size:20px;color:black;">Ученое звание, ученая степень, ВУЗ, страна, город: </span> <span class="olispan2">{{req.student_info | linebreaksbr  }}</span></li>
+        {% endif %}
+        {% if req.annotation %}
+        <li> <span class="olispan" style="font-size:20px;color:black;">{{req.annotation | linebreaksbr}}</span></li>
+        {% endif %}
+        {% if req.key_words %}
+        <li> <span class="olispan" style="font-size:20px;color:black;">{{req.key_words | linebreaksbr}}</span></li>
+        {% endif %}
+        {% if req.article_text %}
+        <li> <span class="olispan" style="font-size:20px;color:black;">{{req.article_text | linebreaksbr}} </span></li>
+        {% endif %}
+        {% if req.bibliography %}
+        <li> <span class="olispan" style="font-size:20px;color:black;">{{req.bibliography | linebreaksbr  }}</span></li>
+        {% endif %}
+      </ol> 
+        <br>
+        <h5 style="font-weight: 100;"> <span style="font-weight: bold;">Статья не должна:</span> быть ранее опубликована, а также представлена для рассмотрения и публикации в другом
+          издании.</h5> <br>
+        <h5 style="font-weight: 100;"><span style="font-weight: bold;">Запрещается:</span> использовать способы для обхода антиплагиата: слова-формулы, замену русских букв латинскими и
+          т.д.
+          Данные нарушения выявляются с помощью программного обеспечения и статья возвращается на доработку </h5>
+      
+    </div>
+  </div>
+</div>
+<style>
+  ol li {
+    color: black;
+    font-size: 20px;
+  }
+
+  .olispan {
+    font-weight: bold;
+  }
+
+  .olispan2{
+    font-size: 17px;
+  }
+</style>
+
+{% endblock %}
