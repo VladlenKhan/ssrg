@@ -79,9 +79,9 @@
                       <div class="pt-4">
                         <p class="mb-3">{{ blog.created_at | date:'d M Y' }}</p>
                         {% if blog.approved == True %}
-                        <p class="mb-3">Опубликовано</p>
+                        <p class="mb-3">{% trans 'Опубликовано' %}</p>
                         {% else %}
-                        <p class="mb-3">Проверка...</p>
+                        <p class="mb-3">{% trans 'Проверка...' %}</p>
                         {% endif %}
                         <p class="mb-3"><img src="{% static 'eye.png' %}" width="25" alt=""> {% trans 'Просмотров' %}: {{ blog.views_count }} </p>
                         <h2 class="h4"><a class="text-black" href="{% url 'blog_detail' pk=blog.pk %}">{{blog.title}}</a></h2>
@@ -142,7 +142,7 @@
             <h5 class="widget-title"><span>{% trans 'Категории' %}</span></h5>
             <ul class="list-unstyled widget-list">
               <li {% if not current_category_slug %}class="active" {% endif %}>
-                <a href="{% url 'user' user.username %}">{% trans 'All' %}</a>
+                <a href="{% url 'user' user.username %}">{% trans 'Все' %}</a>
               </li>
               {% for cat in categories %}
               <li {% if current_category_slug == cat.slug %} class="active" {% endif %}>

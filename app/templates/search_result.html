@@ -98,7 +98,7 @@
             <h5 class="widget-title"><span>{% trans 'Категории' %}</span></h5>
             <ul class="list-unstyled widget-list">
               <li {% if not current_category_slug %}class="active" {% endif %}>
-                <a href="{% url 'blogs' %}">Все</a>
+                <a href="{% url 'blogs' %}">{% trans 'Все' %}</a>
               </li>
               {% for cat in categories %}
               <li {% if current_category_slug == cat.slug %}class="active" {% endif %}>
