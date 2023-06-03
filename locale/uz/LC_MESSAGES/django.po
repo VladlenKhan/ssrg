@@ -20,141 +20,143 @@ msgstr ""
 
 #: .\app\forms.py:13 .\app\templates\change_password.html:21
 msgid "Старый пароль"
-msgstr ""
+msgstr "Eski maxfiy soʻz"
 
 #: .\app\forms.py:19
 msgid "Новый"
-msgstr ""
+msgstr "Yangi"
 
 #: .\app\forms.py:26 .\app\templates\change_password.html:38
 msgid "Подтвердите новый пароль"
-msgstr ""
+msgstr "Yangi maxfiy soʻzingizni tasdiqlash"
 
 #: .\app\forms.py:34
 msgid "Введите email"
-msgstr ""
+msgstr "Elektron pochta manzilingizni kiriting"
 
 #: .\app\forms.py:45 .\app\templates\login.html:24
 msgid "Введите логин"
-msgstr ""
+msgstr "login"
 
 #: .\app\forms.py:50 .\app\templates\login.html:32
 msgid "Введите пароль"
-msgstr ""
+msgstr "Maxfiy soʻzingizni kiriting"
 
 #: .\app\forms.py:55
 msgid "Подтвердите пароль"
-msgstr ""
+msgstr "Maxfiy soʻzingizni tasdiqlash"
 
 #: .\app\forms.py:67
 msgid "Ваш логин"
-msgstr ""
+msgstr "Foydalanuvchi ismingiz"
 
 #: .\app\forms.py:71
 msgid "Ваш email"
-msgstr ""
+msgstr "Sizning e-mail"
 
 #: .\app\forms.py:77
 msgid "Введите название"
-msgstr ""
+msgstr "Nom kiriting"
 
 #: .\app\forms.py:84
 msgid "Введите описание"
-msgstr ""
+msgstr "Tavsifni kiriting"
 
 #: .\app\templates\about_article.html:8 .\app\templates\home.html:73
 msgid "Требования к оформлению статьи"
-msgstr ""
+msgstr "Maqolani loyihalashtirishga qo'yiladigan talablar"
 
 #: .\app\templates\about_article.html:14
 msgid "Минимальный объем статьи:"
-msgstr ""
+msgstr "Minimal maqola hajmi:"
 
 #: .\app\templates\about_article.html:17
 msgid "Шрифт:"
-msgstr ""
+msgstr "Shrift:"
 
 #: .\app\templates\about_article.html:20
 msgid "Размер шрифта:"
-msgstr ""
+msgstr "Shrift oʻlchami:"
 
 #: .\app\templates\about_article.html:23
 msgid "Междустрочный интервал:"
-msgstr ""
+msgstr "Satr oraligʻi:"
 
 #: .\app\templates\about_article.html:26
 msgid "Поля:"
-msgstr ""
+msgstr "Sogʻys:"
 
 #: .\app\templates\about_article.html:29
 msgid "Языки журнала:"
-msgstr ""
+msgstr "Jurnal tillari:"
 
 #: .\app\templates\about_article.html:37
 msgid "Заголовок/название статьи:"
-msgstr ""
+msgstr "Maqolaning sarlavhasi/sarlavhasi:"
 
 #: .\app\templates\about_article.html:40
 msgid "ФИО автора:"
-msgstr ""
+msgstr "Muallifning ismi:"
 
 #: .\app\templates\about_article.html:43
 msgid "Ученое звание, ученая степень, ВУЗ, страна, город:"
-msgstr ""
+msgstr "Akademik unvoni, ilmiy darajasi, universitet, mamlakat, shahar:"
 
 #: .\app\templates\about_article.html:46
 msgid "Научный руководитель:"
-msgstr ""
+msgstr "Nazoratchi:"
 
 #: .\app\templates\about_article.html:62
 msgid "Статья не должна:"
-msgstr ""
+msgstr "Maqolada bunday bo'lmasligi kerak:"
 
 #: .\app\templates\about_article.html:66
 msgid ""
 "Данные нарушения выявляются с помощью программного обеспечения и статья "
 "возвращается на доработку "
 msgstr ""
+"Bu qoidabuzarliklar dasturiy ta'minot va maqola yordamida aniqlanadi"
+"Qayta ko'rib chiqish uchun qaytaradi "
 
 #: .\app\templates\about_article.html:72 .\app\templates\blog_detail.html:54
 msgid "Скачать файл"
-msgstr ""
+msgstr "Faylni yuklab olish"
 
 #: .\app\templates\about_article.html:73
 msgid "Скачать образец оформления"
-msgstr ""
+msgstr "Namunaviy dizayn yuklab olish"
 
 #: .\app\templates\add_post.html:8
 msgid "Создать статью"
-msgstr ""
+msgstr "Maqola yaratish"
 
 #: .\app\templates\add_post.html:16 .\app\templates\change_blog.html:16
 msgid "Все поля должны быть заполнены!"
-msgstr ""
+msgstr "Barcha maydonlar to'ldirilishi kerak!"
 
 #: .\app\templates\add_post.html:25 .\app\templates\change_blog.html:25
 msgid "Название"
-msgstr ""
+msgstr "Nom"
 
 #: .\app\templates\add_post.html:31 .\app\templates\change_blog.html:31
 msgid "Описание"
-msgstr ""
+msgstr "Taʼrifi"
 
 #: .\app\templates\add_post.html:39 .\app\templates\change_blog.html:38
 msgid "Загрузите картинку"
-msgstr ""
+msgstr "Rasmni yuklash"
 
 #: .\app\templates\add_post.html:45
 msgid "Выберите Файл (pdf)"
-msgstr ""
+msgstr "Faylni tanlash (pdf)"
 
 #: .\app\templates\add_post.html:51 .\app\templates\change_blog.html:44
 msgid "Выберите категорию"
-msgstr ""
+msgstr "Kategoriyani tanlash"
 
 #: .\app\templates\add_post.html:57
 msgid "Создать"
-msgstr ""
+msgstr "Yaratish"
 
 #: .\app\templates\base.html:67 .\app\templates\blog.html:31
 msgid "Главная"
@@ -162,174 +164,174 @@ msgstr "Katta"
 
 #: .\app\templates\base.html:69 .\app\templates\base.html:148
 msgid "О нас"
-msgstr ""
+msgstr "Biz haqimizda"
 
 #: .\app\templates\base.html:71 .\app\templates\base.html:140
 msgid "Все статьи"
-msgstr ""
+msgstr "Hamma maqolalar"
 
 #: .\app\templates\base.html:97
 msgid "Search"
-msgstr ""
+msgstr "Search"
 
 #: .\app\templates\base.html:99
 msgid "Поиск"
-msgstr ""
+msgstr "Qidirish"
 
 #: .\app\templates\base.html:107
 msgid "Профиль"
-msgstr ""
+msgstr "Profil"
 
 #: .\app\templates\base.html:109
 msgid "Добавить статью"
-msgstr ""
+msgstr "Maqola qoʻshish"
 
 #: .\app\templates\base.html:112
 msgid "Выйти"
-msgstr ""
+msgstr "Chiqish"
 
 #: .\app\templates\base.html:119 .\app\templates\login.html:37
 msgid "Войти"
-msgstr ""
+msgstr "Kirish"
 
 #: .\app\templates\base.html:120 .\app\templates\register.html:61
 msgid "Зарегистрироваться"
-msgstr ""
+msgstr "Ro'yxatdan o'tish"
 
 #: .\app\templates\base.html:138
 msgid "Услуги"
-msgstr ""
+msgstr "Xizmatlar"
 
 #: .\app\templates\base.html:150
 msgid "Про нас"
-msgstr ""
+msgstr "Biz haqimizda"
 
 #: .\app\templates\base.html:152 .\app\templates\home.html:276
 msgid "Команда"
-msgstr ""
+msgstr "Jamoa"
 
 #: .\app\templates\base.html:159
 msgid "Помощь"
-msgstr ""
+msgstr "Yordam"
 
 #: .\app\templates\base.html:161
 msgid "Связь с нами"
-msgstr ""
+msgstr "Biz bilan bog'laning"
 
 #: .\app\templates\base.html:163 .\app\templates\home.html:650
 msgid "Ответы на вопросы"
-msgstr ""
+msgstr "Savollar javob berdi"
 
 #: .\app\templates\base.html:170
 msgid "Подписаться"
-msgstr ""
+msgstr "Obuna bo'ling"
 
 #: .\app\templates\base.html:187
 msgid "Узнай первым о новостях издательства"
-msgstr ""
+msgstr "Nashriyot uyi yangiliklari haqida birinchi bo'lib biling"
 
 #: .\app\templates\base.html:207
 msgid "Контактные номера:"
-msgstr ""
+msgstr "Aloqa raqamlari:"
 
 #: .\app\templates\blog.html:29 .\app\templates\blog.html:32
 msgid "Статьи"
-msgstr ""
+msgstr "Maqola"
 
 #: .\app\templates\blog.html:116 .\app\templates\blog.html:209
 #: .\app\templates\blog_detail.html:27
 msgid "Просмотров"
-msgstr ""
+msgstr "Qarashlar"
 
 #: .\app\templates\blog.html:121 .\app\templates\home.html:81
 #: .\app\templates\home.html:590 .\app\templates\search_result.html:46
 #: .\app\templates\user.html:84
 msgid "Подробнее"
-msgstr ""
+msgstr "Ko'proq o'rganing"
 
 #: .\app\templates\blog.html:128
 msgid "Временно постов нет"
-msgstr ""
+msgstr "Vaqtinchalik postlar yo'q"
 
 #: .\app\templates\blog.html:173 .\app\templates\search_result.html:98
 #: .\app\templates\user.html:136
 msgid "Категории"
-msgstr ""
+msgstr "Turkum"
 
 #: .\app\templates\blog.html:176 .\app\templates\user.html:139
 msgid "All"
-msgstr ""
+msgstr "All"
 
 #: .\app\templates\blog.html:190 .\app\templates\search_result.html:115
 msgid "Последние стати"
-msgstr ""
+msgstr "So'nggi maqolalar"
 
 #: .\app\templates\blog_detail.html:30
 msgid "Category"
-msgstr ""
+msgstr "Category"
 
 #: .\app\templates\change_blog.html:8
 msgid "Изменить статью"
-msgstr ""
+msgstr "Maqolatahrirlash"
 
 #: .\app\templates\change_blog.html:50
 msgid "Выберите файл"
-msgstr ""
+msgstr "Faylni tanlash"
 
 #: .\app\templates\change_blog.html:58
 msgid "Удалить изображение?"
-msgstr ""
+msgstr "Rasmni olib tashlashni istaysizmi?"
 
 #: .\app\templates\change_blog.html:73 .\app\templates\edit_user.html:43
 msgid "Save"
-msgstr ""
+msgstr "Save"
 
 #: .\app\templates\change_password.html:8
 #: .\app\templates\change_password.html:47 .\app\templates\edit_user.html:38
 msgid "Change password"
-msgstr ""
+msgstr "maxfiy soʻzni oʻzgartirish"
 
 #: .\app\templates\change_password.html:26
 msgid "Пароль введен неправильно. Пожалуйста, проверьте и повторите попытку."
-msgstr ""
+msgstr "Maxfiy soʻz notoʻgʻri kiritilgan. Iltimos, tekshirib ko'ring va qayta urinib ko'ring."
 
 #: .\app\templates\change_password.html:32
 msgid "New password"
-msgstr ""
+msgstr "Yangi parol"
 
 #: .\app\templates\change_password.html:42 .\app\templates\register.html:58
 msgid "Пароли не совпадают"
-msgstr ""
+msgstr "Maxfiy soʻzlar mos kelmaydi"
 
 #: .\app\templates\edit_user.html:8
 msgid "Изменить данные"
-msgstr ""
+msgstr "Maʼlumotni tahrirlash"
 
 #: .\app\templates\edit_user.html:16
 msgid "Такое имя пользователя уже занято"
-msgstr ""
+msgstr "Bunday foydalanuvchi nomi allaqachon olingan"
 
 #: .\app\templates\edit_user.html:23 .\app\templates\user.html:18
 msgid "Имя пользователя"
-msgstr ""
+msgstr "Foydalanuvchi nomi"
 
 #: .\app\templates\edit_user.html:29 .\app\templates\register.html:27
 #: .\app\templates\user.html:16
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: .\app\templates\edit_user.html:35 .\app\templates\login.html:29
 #: .\app\templates\register.html:45 .\app\templates\user.html:20
 msgid "Password"
-msgstr ""
+msgstr "Parol"
 
 #: .\app\templates\home.html:11
 msgid "Официальный сайт RDZ-SCIENCE, МЕЖДУНАРОДНЫЙ НАУЧНО-ТЕХНИЧЕСКИЙ ЖУРНАЛ."
-msgstr ""
+msgstr ""RDZ-SCIENCE" xalqaro ilmiy-texnik jurnalining rasmiy veb-sayti."
 
 #: .\app\templates\home.html:72
 msgid "Оформление"
-msgstr ""
+msgstr "Tipografiya"
 
 #: .\app\templates\home.html:100
 msgid ""
@@ -341,63 +343,72 @@ msgid ""
 "номер за 2023 год. Этот журнал индексируется в авторитетных базах данных и "
 "издается в электронном виде."
 msgstr ""
+"O'zbekiston Respublikasining "Fan va ilmiy faoliyat to'g'risida"gi Qonuni, vazifalar, "
+"O'zbekiston Respublikasi Prezidentining 29-sonli PF-6097-sonli Farmoni bilan ta'minlangan"
+"2020 yil oktyabr, shu jumladan"2030 yilgacha ilm-fan" xalqaro ilmiy »
+maqsadida tashkil etilgan "XALQARO FAN VA TEXNOLOGIYALAR JURNALI"
+"Rivojlanish konsepsiyasi"ning bajarilishini ta'minlash, 1-sonda maqolalar qabul qilinganligini e'lon qilish "
+"2023 yil masalasi. Ushbu jurnal izchil ma'lumotlar bazalarida indeksatsiyalangan va "
+«elektron shaklda eʼlon qilinadi."
 
 #: .\app\templates\home.html:151
 msgid "Наши направления"
-msgstr ""
+msgstr "Bizning yo'nalishlarimiz"
 
 #: .\app\templates\home.html:152
 msgid ""
 "«МЕЖДУНАРОДНЫЙ ЖУРНАЛ НАУКИ И ТЕХНОЛОГИИ» принимает статьи по следующим "
 "направлениям:"
 msgstr ""
+"XALQARO FAN VA TEXNOLOGIYALAR JURNALI" quyidagi maqolalarni qabul qiladi »
+"Yo'nalishlar:"
 
 #: .\app\templates\home.html:166
 msgid "Точные и естественные науки"
-msgstr ""
+msgstr "Aniq va tabiiy fanlari"
 
 #: .\app\templates\home.html:177
 msgid "Медицинские науки"
-msgstr ""
+msgstr "Tibbiyot fanlari"
 
 #: .\app\templates\home.html:189
 msgid "Технические науки"
-msgstr ""
+msgstr "Texnika fanlari"
 
 #: .\app\templates\home.html:202
 msgid "Педагогические науки"
-msgstr ""
+msgstr "Pedagogika  fanlari"
 
 #: .\app\templates\home.html:213
 msgid "Социальные и гуманитарные науки"
-msgstr ""
+msgstr "Ijtimoiy-gumanitar fanlar"
 
 #: .\app\templates\home.html:227
 msgid "экономика"
-msgstr ""
+msgstr "iqtisod"
 
 #: .\app\templates\home.html:238
 msgid "Науки философии и филологии"
-msgstr ""
+msgstr " falsafa va filologiya fanlari"
 
 #: .\app\templates\home.html:249
 msgid "Искусство и культурология"
-msgstr ""
+msgstr "San’at va madaniyat fanlari"
 
 #: .\app\templates\home.html:260
 msgid "Физкультура и спорт"
-msgstr ""
+msgstr "Jismoniy tarbiya va sport"
 
 #: .\app\templates\home.html:277
 msgid "Наши сотрудники"
-msgstr ""
+msgstr "Bizning xodimlarimiz"
 
 #: .\app\templates\home.html:351
 msgid ""
 "Старший научный сотрудник Института астрономии РАН. Кандидат физико-"
 "математических наук. Член редколлегии Международного научно-технического "
 "журнала общества «РДЗ-НАУКА». "
-msgstr ""
+msgstr "O'zR FA Astronomiya instituti katta ilmiy xodimi. Fizika-matematika fanlari nomzodi. "RDZ-SCIENCE" jamiyatining "Internationale Journal of Science and Technology" xalqaro ilmiy jurnali tahrir hay'ati a'zosi."
 
 #: .\app\templates\home.html:374
 msgid ""
@@ -405,14 +416,14 @@ msgid ""
 "кафедры педагогики начального образования, кандидат психологических наук. "
 "Член редколлегии международного научного журнала «Internationale Journal of "
 "Science and Technology» общества «РДЗ-НАУКА»."
-msgstr ""
+msgstr "Nizomiy nomidagi Toshkent davlat pedagogika universiteti "Boshlang'ich ta'lim pedagogikasi kafedrasi professori, psixologiya fanlari nomzodi. "RDZ-SCIENCE" jamiyatining "Internationale Journal of Science and Technology" xalqaro ilmiy jurnali tahrir hay'ati a'zosi"
 
 #: .\app\templates\home.html:398
 msgid ""
 "Доцент кафедры физики и методики преподавания Ташкентского государственного "
 "педагогического университета им. Низоми, кандидат педагогических наук, член "
 "редколлегии Международного журнала науки и техники."
-msgstr ""
+msgstr "Nizomiy nomidagi Toshkent davlat pedagogika universiteti Fizika va uni o‘qitish metodikasi kafedrasi dotsenti v.b., pedagogika fanlari nomzodi, "Internationale Journal of Science and Technology" xalqaro ilmiy jurnali tahrir hay'ati a'zosi."
 
 #: .\app\templates\home.html:490
 msgid ""
@@ -420,88 +431,98 @@ msgid ""
 "факультета ТДПУ. Доктор философских наук (PhD) в области педагогических "
 "наук, член редколлегии международного научного журнала «Internationale "
 "Journal of Science and Technology» общества «РДЗ-НАУКА»."
-msgstr ""
+msgstr "Fizika-matematika fanlari nomzodi,
+Nizomiy nomidagi Toshkent Davlat Pedagogika Universiteti dotsenti, "RDZ-SCIENCE" jamiyatining "Internationale Journal of Science and Technology" xalqaro ilmiy jurnali tahrir hay'ati a'zosi."
 
 #: .\app\templates\home.html:550
 msgid "Интересные новости"
-msgstr ""
+msgstr "Qiziqarli yangiliklar"
 
 #: .\app\templates\home.html:551
 msgid "Популярные статьи"
-msgstr ""
+msgstr "Ommabop maqolalar"
 
 #: .\app\templates\home.html:584
 msgid "Просмотров:"
-msgstr ""
+msgstr "Qarashlar:"
 
 #: .\app\templates\home.html:597
 msgid "Временно постов нет... "
-msgstr ""
+msgstr "Postlar vaqtincha yoʻq..."
 
 #: .\app\templates\home.html:651
 msgid "Часто задаваемые вопросы"
-msgstr ""
+msgstr "Tez-tez beriladigan savollar"
 
 #: .\app\templates\home.html:660
 msgid "Статья должна быть написана в формате IMRAD международного уровня;"
-msgstr ""
+msgstr "Maqola xalqaro darajadagi IMRAD formatida yozilishi kerak;"
 
 #: .\app\templates\home.html:665
 msgid ""
 "Название статьи, аннотация и ключевые слова должны быть представлены на "
 "узбекском, русском и английском языках. "
 msgstr ""
+"Maqolaning sarlavhasi, abstrakt va kalit so'zlar taqdim etilishi kerak "
+"O'zbek, rus va ingliz tillari."
 
 #: .\app\templates\home.html:672
 msgid ""
 "Статьи должны быть представлены на актуальные темы, относящиеся к "
 "направлению научного журнала"
 msgstr ""
+"Tegishli mavzular bo'yicha maqolalar taqdim etilishi kerak"
+"Ilmiy jurnalning yo'nalishi"
 
 #: .\app\templates\home.html:676
 msgid ""
 "основанные на научных и законченных мнениях, с предложениями и "
 "рекомендациями;"
 msgstr ""
+"Ilmiy va to'liq mulohazalar asosida, takliflar bilan va "
+"tavsiyalar;"
 
 #: .\app\templates\home.html:683
 msgid "Текст статьи должен быть в формате А4 "
-msgstr ""
+msgstr "Maqola matni A4 formatda bo'lishi kerak "
 
 #: .\app\templates\home.html:686
 msgid "с полями 2 см сверху и снизу, 2 см слева, 2 см справа;"
-msgstr ""
+msgstr "yuqorida va pastda 2 sm, chapda 2 sm, o'ng tomonda 2 sm;"
 
 #: .\app\templates\home.html:693
 msgid ""
 "Текст статьи должен быть в текстовом редакторе Word, шрифт Times New Roman"
 msgstr ""
+"Maqola matni matn muharririda bo'lishi kerak Word, shrift Times New Roman"
 
 #: .\app\templates\home.html:697
 msgid "размер 14, интервал 1,15, объем 3-10 страниц"
-msgstr ""
+msgstr "hajmi 14, oraliq 1.15, hajmi 3-10 bet"
 
 #: .\app\templates\home.html:704
 msgid "При принятии представленной статьи взимается вознаграждение"
-msgstr ""
+msgstr "Taqdim etilgan maqolani qabul qilgandan so'ng, to'lov olinadi"
 
 #: .\app\templates\home.html:708
 msgid "сум за статью."
-msgstr ""
+msgstr "har bir maqola uchun yig'indi."
 
 #: .\app\templates\home.html:718
 msgid ""
 "Статьи на узбекском, русском и английском языках принимаются до 1 июля 2023 "
 "года в электронном виде по телеграм-адресу @IJST_2023. Контактный телефон:  "
 msgstr ""
+"O'zbek, rus va ingliz tillaridagi maqolalar 2023-yil 1-iyulgacha qabul qilinadi"
+"@IJST_2023 telegram manzilida elektron shaklda yillar. Aloqa telefon raqami: "
 
 #: .\app\templates\home.html:721
 msgid "Коллекционная форма журнала - 3 июля 2023 г."
-msgstr ""
+msgstr "Ko'rgazma to'plami to'plami - 3 Iyulya 2023"
 
 #: .\app\templates\home.html:724
 msgid "Он будет размещен в Telegram-канале"
-msgstr ""
+msgstr "Telegram kanaliga joylanadi"
 
 #: .\app\templates\home.html:729
 msgid ""
@@ -509,104 +530,108 @@ msgid ""
 "неотредактированные статьи, не присланные в соответствии с требованиями, "
 "опубликованы не будут;"
 msgstr ""
+"Taqdim etilgan ilmiy maqolalar tahririyat tomonidan ko'rib chiqiladi va "
+"talablarga muvofiq taqdim etilmagan o'tilgan maqolalar, "
+«nashr etilmaydi;"
 
 #: .\app\templates\home.html:735
 msgid "Каждая статья индексируется в международных базах данных"
-msgstr ""
+msgstr "Har bir maqola xalqaro ma'lumotlar bazalarida indeksatsiya qilinadi"
 
 #: .\app\templates\home.html:736
 msgid "(база OAK 14). Каждой статье присваивается номер DOI."
-msgstr ""
+msgstr "(OAK 14 bazasi). Har bir maqolaga DOI raqami tayinlanadi."
 
 #: .\app\templates\login.html:8
 msgid "Вход"
-msgstr ""
+msgstr "Kirish"
 
 #: .\app\templates\login.html:16
 msgid "Неправильно введен логин или пароль"
-msgstr ""
+msgstr "Foydalanuvchi nomi yoki maxfiy soʻz notoʻgʻri kiritilgan"
 
 #: .\app\templates\login.html:22 .\app\templates\register.html:39
 msgid "Логин"
-msgstr ""
+msgstr "login"
 
 #: .\app\templates\register.html:8
 msgid "Регистрация"
-msgstr ""
+msgstr "Ro'yxatdan o'ting"
 
 #: .\app\templates\register.html:17
 msgid ""
 "Ошибка при регистрации. Пожалуйста, проверьте данные и повторите попытку"
 msgstr ""
+"Ro'yxatdan o'tish paytida xatolik. Iltimos tafsilotlarni tekshiring va qaytadan urinib ko'ring"
 
 #: .\app\templates\register.html:36
 msgid "Такой логин уже существует"
-msgstr ""
+msgstr "Bunday login allaqachon mavjud"
 
 #: .\app\templates\register.html:51
 msgid "Повторите Пароль"
-msgstr ""
+msgstr "Maxfiy soʻzni takrorlash"
 
 #: .\app\templates\search_result.html:11
 msgid "Результаты поиска для"
-msgstr ""
+msgstr "Qidiruv natijalari"
 
 #: .\app\templates\search_result.html:53
 msgid "К сожалению, ничего не найдено по вашему запросу"
-msgstr ""
+msgstr "Kechirasiz, qidiruvingiz uchun hech narsa topilmadi"
 
 #: .\app\templates\user.html:9
 msgid "Добро пожаловать"
-msgstr ""
+msgstr "Xush kelibsiz"
 
 #: .\app\templates\user.html:22
 msgid "Change"
-msgstr ""
+msgstr "Oʻzgartirish"
 
 #: .\app\templates\user.html:40
 msgid "Ваши статьи"
-msgstr ""
+msgstr "Maqolalaringiz"
 
 #: .\app\templates\user.html:46
 msgid "Категория:"
-msgstr ""
+msgstr "Turkum:"
 
 #: .\app\templates\user.html:85
 msgid "Редактировать"
-msgstr ""
+msgstr "Tahrirlash"
 
 #: .\app\templates\user.html:86
 msgid "Delete"
-msgstr ""
+msgstr "Oʻchirish"
 
 #: .\app\templates\user.html:92
 msgid "У вас нет постов"
-msgstr ""
+msgstr "Sizda hech qanday xabar yo'q"
 
 #: .\app\templates\user.html:93
 msgid "Создать пост"
-msgstr ""
+msgstr "Post yaratish"
 
 #: .\app\views.py:203
 msgid "Изменения сохранены!"
-msgstr ""
+msgstr "O'zgarishlar saqlanib qoldi!"
 
 #: .\app\views.py:221
 msgid "Ваш пароль был успешно изменен!"
-msgstr ""
+msgstr "Maxfiy soʻzingiz muvaffaqiyatli oʻzgartirildi!"
 
 #: .\app\views.py:246
 msgid "Ваш пост успешно добавлен!"
-msgstr ""
+msgstr "Sizning postingiz muvaffaqiyatli qo'shildi!"
 
 #: .\app\views.py:283
 msgid "Пост успешно был изменен!"
-msgstr ""
+msgstr "Post muvaffaqiyatli o'zgartirildi!"
 
 #: .\app\views.py:287
 msgid "Необходимо добавить фотографию или удалить существующую."
-msgstr ""
+msgstr "Siz fotosurat qo'shishingiz yoki mavjud bo'lganingizni o'chirishingiz kerak."
 
 #: .\app\views.py:305
 msgid "Запись была удалена!"
-msgstr ""
+msgstr "Yozuv oʻchirildi!"
