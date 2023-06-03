@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 18:43+0500\n"
+"POT-Creation-Date: 2023-06-03 19:40+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,20 +118,36 @@ msgstr "Supervisor"
 
 #: .\app\templates\about_article.html:62
 msgid "Статья не должна:"
-msgstr "The article should not"
+msgstr "The article should not:"
 
-#: .\app\templates\about_article.html:66
+#: .\app\templates\about_article.html:62
+msgid ""
+"быть ранее опубликована, а также представлена для рассмотрения и публикации "
+"в другом издании."
+msgstr "be previously published, as well as submitted for review and publication in another publication."
+
+#: .\app\templates\about_article.html:63
+msgid "Запрещается:"
+msgstr "Prohibited:"
+
+#: .\app\templates\about_article.html:63
+msgid ""
+"использовать способы для обхода антиплагиата: слова-формулы, замену русских "
+"букв латинскими и т.д."
+msgstr "use ways to bypass anti-plagiarism: formula words, replacing Russian letters with Latin letters, etc."
+
+#: .\app\templates\about_article.html:64
 msgid ""
 "Данные нарушения выявляются с помощью программного обеспечения и статья "
 "возвращается на доработку "
 msgstr ""
 "These violations are detected using software and articleReturns for revision"
 
-#: .\app\templates\about_article.html:72 .\app\templates\blog_detail.html:54
+#: .\app\templates\about_article.html:70 .\app\templates\blog_detail.html:54
 msgid "Скачать файл"
 msgstr "Download file"
 
-#: .\app\templates\about_article.html:73
+#: .\app\templates\about_article.html:71
 msgid "Скачать образец оформления"
 msgstr "Download a sample design"
 
@@ -245,18 +261,18 @@ msgid "Статьи"
 msgstr "Articles"
 
 #: .\app\templates\blog.html:36 .\app\templates\blog.html:176
-#: .\app\templates\search_result.html:101
+#: .\app\templates\search_result.html:101 .\app\templates\user.html:151
 msgid "Все"
 msgstr "All"
 
 #: .\app\templates\blog.html:116 .\app\templates\blog.html:209
-#: .\app\templates\blog_detail.html:27 .\app\templates\user.html:86
+#: .\app\templates\blog_detail.html:27 .\app\templates\user.html:89
 msgid "Просмотров"
 msgstr "Views"
 
 #: .\app\templates\blog.html:121 .\app\templates\home.html:81
 #: .\app\templates\home.html:613 .\app\templates\search_result.html:46
-#: .\app\templates\user.html:90
+#: .\app\templates\user.html:96
 msgid "Подробнее"
 msgstr "Learn more"
 
@@ -265,9 +281,13 @@ msgid "Временно постов нет"
 msgstr "There are no posts temporarily"
 
 #: .\app\templates\blog.html:173 .\app\templates\search_result.html:98
-#: .\app\templates\user.html:142
+#: .\app\templates\user.html:148
 msgid "Категории"
 msgstr "Categories"
+
+#: .\app\templates\blog.html:190 .\app\templates\search_result.html:115
+msgid "Последние статьи"
+msgstr "Latest articles"
 
 #: .\app\templates\blog_detail.html:30
 msgid "Категория"
@@ -629,7 +649,13 @@ msgid ""
 "Статьи, принятые в журнал, будут предоставлены автору в течение 3-х рабочих "
 "дней с БЕСПЛАТНЫМ сертификатом, письмом о принятии и авторским "
 "свидетельством."
-msgstr "Professors and teachers, doctoral students, independent researchers, teachers of secondary schools and academic lyceums, graduate students, talented students and other representatives of science can send articles to the journal. Articles accepted to the journal will be provided to the author within 3 working days with a FREE certificate, a letter of acceptance and an author's certificate."
+msgstr ""
+"Professors and teachers, doctoral students, independent researchers, "
+"teachers of secondary schools and academic lyceums, graduate students, "
+"talented students and other representatives of science can send articles to "
+"the journal. Articles accepted to the journal will be provided to the author "
+"within 3 working days with a FREE certificate, a letter of acceptance and an "
+"author's certificate."
 
 #: .\app\templates\login.html:8
 msgid "Вход"
@@ -670,10 +696,6 @@ msgstr "Search results for"
 msgid "К сожалению, ничего не найдено по вашему запросу"
 msgstr "Sorry, nothing was found for your search"
 
-#: .\app\templates\search_result.html:115
-msgid "Последние статьи"
-msgstr "Latest articles"
-
 #: .\app\templates\user.html:9
 msgid "Добро пожаловать"
 msgstr "Welcome"
@@ -694,29 +716,25 @@ msgstr "Category:"
 msgid "Опубликовано"
 msgstr "Published"
 
-#: .\app\templates\user.html:84
+#: .\app\templates\user.html:87
 msgid "Проверка..."
 msgstr "Verifying..."
 
-#: .\app\templates\user.html:91
+#: .\app\templates\user.html:97
 msgid "Редактировать"
 msgstr "Edit"
 
-#: .\app\templates\user.html:92
+#: .\app\templates\user.html:98
 msgid "Delete"
 msgstr "Delete"
 
-#: .\app\templates\user.html:98
+#: .\app\templates\user.html:104
 msgid "У вас нет постов"
 msgstr "You don't have any posts"
 
-#: .\app\templates\user.html:99
+#: .\app\templates\user.html:105
 msgid "Создать пост"
 msgstr "Create a post"
-
-#: .\app\templates\user.html:145
-msgid "All"
-msgstr "All"
 
 #: .\app\views.py:207
 msgid "Изменения сохранены!"
@@ -728,7 +746,8 @@ msgstr "Your password has been successfully changed!"
 
 #: .\app\views.py:251
 msgid "Ваш пост успешно добавлен и ожидает проверку администратора!"
-msgstr "Your post has been added successfully and is awaiting admin verification!"
+msgstr ""
+"Your post has been added successfully and is awaiting admin verification!"
 
 #: .\app\views.py:288
 msgid "Пост успешно был изменен!"
@@ -741,6 +760,9 @@ msgstr "You need to add a photo or delete an existing one."
 #: .\app\views.py:310
 msgid "Запись была удалена!"
 msgstr "The entry has been deleted!"
+
+#~ msgid "All"
+#~ msgstr "All"
 
 #~ msgid "Новый"
 #~ msgstr "New"

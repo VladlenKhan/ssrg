@@ -79,17 +79,16 @@
                       <div class="pt-4">
                         <p class="mb-3">{{ blog.created_at | date:'d M Y' }}</p>
                         {% if blog.approved == True %}
-                        <p class="mb-3">{% trans 'Опубликовано' %}</p>
+                        <p class="mb-3 " style="background-color: green; text-align: center; color:white;font-size:20px;"   >{% trans 'Опубликовано' %}</p>
+                        <style>
+                           
+                        </style>
                         {% else %}
-                        <p class="mb-3">{% trans 'Проверка...' %}</p>
+                        <p class="mb-3  " style="background-color: red; text-align: center; color:white;font-size:20px;">{% trans 'Проверка...' %}</p>
                         {% endif %}
                         <p class="mb-3"><img src="{% static 'eye.png' %}" width="25" alt=""> {% trans 'Просмотров' %}: {{ blog.views_count }} </p>
 
-                        {% if blog.approved == True %}
-                        <p class="mb-3 text-success">Опубликовано</p>
-                        {% else %}
-                        <p class="mb-3 text-danger">Проверка...</p>
-                        {% endif %}
+                       
 
                         <h2 class="h4"><a class="text-black" href="{% url 'blog_detail' pk=blog.pk %}">{{blog.title}}</a></h2>
                         <p style="white-space: pre-wrap; word-break: break-all;">{{ blog.description | bleach_clean:50 | safe }}</p>

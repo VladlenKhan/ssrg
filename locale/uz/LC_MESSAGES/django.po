@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 18:43+0500\n"
+"POT-Creation-Date: 2023-06-03 19:40+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,7 +110,23 @@ msgstr "Nazoratchi:"
 msgid "Статья не должна:"
 msgstr "Maqolada bunday bo'lmasligi kerak:"
 
-#: .\app\templates\about_article.html:66
+#: .\app\templates\about_article.html:62
+msgid ""
+"быть ранее опубликована, а также представлена для рассмотрения и публикации "
+"в другом издании."
+msgstr "ilgari nashr etilgan va boshqa nashrda ko'rib chiqish va nashr etish uchun taqdim etilgan."
+
+#: .\app\templates\about_article.html:63
+msgid "Запрещается:"
+msgstr "Taqiqlangan:"
+
+#: .\app\templates\about_article.html:63
+msgid ""
+"использовать способы для обхода антиплагиата: слова-формулы, замену русских "
+"букв латинскими и т.д."
+msgstr "anti-plagiatni chetlab o'tish usullaridan foydalaning: formulali so'zlar, rus harflarini lotin harflari bilan almashtirish va boshqalar."
+
+#: .\app\templates\about_article.html:64
 msgid ""
 "Данные нарушения выявляются с помощью программного обеспечения и статья "
 "возвращается на доработку "
@@ -118,11 +134,11 @@ msgstr ""
 "Bu qoidabuzarliklar dasturiy ta'minot va maqola yordamida aniqlanadiQayta "
 "ko'rib chiqish uchun qaytaradi "
 
-#: .\app\templates\about_article.html:72 .\app\templates\blog_detail.html:54
+#: .\app\templates\about_article.html:70 .\app\templates\blog_detail.html:54
 msgid "Скачать файл"
 msgstr "Faylni yuklab olish"
 
-#: .\app\templates\about_article.html:73
+#: .\app\templates\about_article.html:71
 msgid "Скачать образец оформления"
 msgstr "Namunaviy dizayn yuklab olish"
 
@@ -232,18 +248,18 @@ msgid "Статьи"
 msgstr "Maqola"
 
 #: .\app\templates\blog.html:36 .\app\templates\blog.html:176
-#: .\app\templates\search_result.html:101
+#: .\app\templates\search_result.html:101 .\app\templates\user.html:151
 msgid "Все"
 msgstr "Hammasi"
 
 #: .\app\templates\blog.html:116 .\app\templates\blog.html:209
-#: .\app\templates\blog_detail.html:27 .\app\templates\user.html:86
+#: .\app\templates\blog_detail.html:27 .\app\templates\user.html:89
 msgid "Просмотров"
 msgstr "Qarashlar"
 
 #: .\app\templates\blog.html:121 .\app\templates\home.html:81
 #: .\app\templates\home.html:613 .\app\templates\search_result.html:46
-#: .\app\templates\user.html:90
+#: .\app\templates\user.html:96
 msgid "Подробнее"
 msgstr "Ko'proq o'rganing"
 
@@ -252,12 +268,12 @@ msgid "Временно постов нет"
 msgstr "Vaqtinchalik postlar yo'q"
 
 #: .\app\templates\blog.html:173 .\app\templates\search_result.html:98
-#: .\app\templates\user.html:142
+#: .\app\templates\user.html:148
 msgid "Категории"
 msgstr "Kategoriyalar"
 
-#: .\app\templates\blog.html:190
-msgid "Последние стати"
+#: .\app\templates\blog.html:190 .\app\templates\search_result.html:115
+msgid "Последние статьи"
 msgstr "So'nggi maqolalar"
 
 #: .\app\templates\blog_detail.html:30
@@ -653,10 +669,6 @@ msgstr "Qidiruv natijalari"
 msgid "К сожалению, ничего не найдено по вашему запросу"
 msgstr "Kechirasiz, qidiruvingiz uchun hech narsa topilmadi"
 
-#: .\app\templates\search_result.html:115
-msgid "Последние статьи"
-msgstr "So'nggi maqolalar"
-
 #: .\app\templates\user.html:9
 msgid "Добро пожаловать"
 msgstr "Xush kelibsiz"
@@ -677,23 +689,23 @@ msgstr "Turkum:"
 msgid "Опубликовано"
 msgstr "Nashr qilingan"
 
-#: .\app\templates\user.html:84
+#: .\app\templates\user.html:87
 msgid "Проверка..."
 msgstr "Tasdiqlangan..."
 
-#: .\app\templates\user.html:91
+#: .\app\templates\user.html:97
 msgid "Редактировать"
 msgstr "Tahrirlash"
 
-#: .\app\templates\user.html:92
+#: .\app\templates\user.html:98
 msgid "Delete"
 msgstr "Oʻchirish"
 
-#: .\app\templates\user.html:98
+#: .\app\templates\user.html:104
 msgid "У вас нет постов"
 msgstr "Sizda hech qanday xabar yo'q"
 
-#: .\app\templates\user.html:99
+#: .\app\templates\user.html:105
 msgid "Создать пост"
 msgstr "Post yaratish"
 
@@ -707,7 +719,9 @@ msgstr "Sizning parolingiz muvaffaqiyatli o'zgartirildi!"
 
 #: .\app\views.py:251
 msgid "Ваш пост успешно добавлен и ожидает проверку администратора!"
-msgstr "Sizning xabaringiz muvaffaqiyatli qo'shildi va administrator tekshiruvini kutmoqda!"
+msgstr ""
+"Sizning xabaringiz muvaffaqiyatli qo'shildi va administrator tekshiruvini "
+"kutmoqda!"
 
 #: .\app\views.py:288
 msgid "Пост успешно был изменен!"
@@ -721,6 +735,9 @@ msgstr ""
 #: .\app\views.py:310
 msgid "Запись была удалена!"
 msgstr "Yozuv oʻchirildi!"
+
+#~ msgid "Последние стати"
+#~ msgstr "So'nggi maqolalar"
 
 #~ msgid "Новый"
 #~ msgstr "Yangi"
