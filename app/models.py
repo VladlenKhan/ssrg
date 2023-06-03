@@ -1,19 +1,20 @@
 from django.db import models
 from django.contrib.auth.models import User
-
+from ckeditor.fields import RichTextField
 
 class Blog(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     title = models.CharField(max_length=500, verbose_name='Название')
-    description = models.TextField('Описание')
+    description = RichTextField('Описание')
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blogs', verbose_name='Пользователь', null=True)
     category = models.ForeignKey('Category', on_delete=models.CASCADE, related_name='blogs', verbose_name='Категория', null=True)
     file = models.FileField(upload_to='files/', blank=True, verbose_name='Файл для скачивания(pdf)')
     views_count = models.PositiveIntegerField(default=0)
+    approved = models.BooleanField(default=False, verbose_name='Подтверждено')
 
-    def __str__(self) -> str:
+    def __str__(self):
         return f'{self.title} ===> {self.user}'
-    
+
     def increment_views(self):
         self.views_count += 1
         self.save()
@@ -41,9 +42,11 @@ class MultipleImage(models.Model):
     def __str__(self):
         return self.blog.title
     
+
     class Meta:
         verbose_name = 'Изображение'
         verbose_name_plural = 'Изображения'
+
 
 
 

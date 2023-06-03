@@ -46,7 +46,7 @@ class MultipleImageInline(admin.TabularInline):
 
 @admin.register(Blog)
 class BlogAdmin(TranslationAdmin):
-    list_display = ("title_ru", "title_uz", "title_en", "user",)
+    list_display = ("title_ru", "title_uz", "title_en", "user","approved")
     inlines = [MultipleImageInline]
 
 
