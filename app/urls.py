@@ -4,19 +4,12 @@ from .views import *
 
 urlpatterns = [
     path('',home,name='home'),
+    
     path('login/',login_view,name='login'),
     path('logout/', user_logout, name='logout'),
     path('register/',register,name='register'),
-    path('about_article1/',about_article1, name='about_article1'),
-    path('about_article2/',about_article2, name='about_article2'),
-    path('about_article3/',about_article3, name='about_article3'),
-    path('about_article4/',about_article4, name='about_article4'),
-    path('about_article5/',about_article5, name='about_article5'),
-    path('about_article6/',about_article6, name='about_article6'),
-    path('about_article7/',about_article7, name='about_article7'),
-    path('about_article8/',about_article8, name='about_article8'),
-    path('about_article9/',about_article9, name='about_article9'),
-    
+
+    path('<int:id>/', about_article, name='about_article'),
     # user
     path('user/<str:username>/', user_view, name='user'),
     path('user/<str:username>/<slug:category_slug>', user_view, name='user_blogs'),
@@ -36,4 +29,5 @@ urlpatterns = [
 
     # dowload file
     path('download_file/<int:pk>/', download_file, name='download_file'),
+    path('download_instruction/<int:pk>/', download_instruction, name='download_instruction'),
 ]

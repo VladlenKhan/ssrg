@@ -16,7 +16,7 @@ class CustomPasswordChangeForm(PasswordChangeForm):
     new_password1 = forms.CharField(
         widget=forms.PasswordInput(attrs={
             'class': 'form-control',
-            'placeholder': _('Новый'),
+            'placeholder': _('Новый пароль'),
             }),
         
     )

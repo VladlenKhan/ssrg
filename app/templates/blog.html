@@ -33,7 +33,7 @@
 					{% if category %}
 					<li class="list-inline-item">/ &nbsp; {{ category.name }}</li>
 					{% else %}
-					<li class="list-inline-item">/ &nbsp; Все</li>
+					<li class="list-inline-item">/ &nbsp; {% trans 'Все' %}</li>
 					{% endif %}
 				</ul>
 			</div>
@@ -173,7 +173,7 @@
 					<h5 class="widget-title"><span>{% trans 'Категории' %}</span></h5>
 					<ul class="list-unstyled widget-list">
 						<li {% if not current_category_slug %}class="active" {% endif %}>
-							<a href="{% url 'blogs' %}">{% trans 'All' %}</a>
+							<a href="{% url 'blogs' %}">{% trans 'Все' %}</a>
 						</li>
 						{% for cat in categories%}
 						<li {% if current_category_slug == cat.slug %}class="active" {% endif %}>
@@ -187,7 +187,7 @@
 				</div>
 
 				<div class="widget">
-					<h5 class="widget-title"><span>{% trans 'Последние стати' %}</span></h5>
+					<h5 class="widget-title"><span>{% trans 'Последние статьи' %}</span></h5>
 					{% for blog in latest_blogs %}
 						<ul class="list-unstyled widget-list">
 							<li class="d-flex widget-post align-items-center">

@@ -27,7 +27,7 @@
           <span> <img src="{% static 'eye.png' %}" width="25" alt=""> {% trans 'Просмотров' %}: {{ post.views_count }}
             <span class="mx-2">/</span>
           </span>
-          <p class="list-inline-item">{% trans 'Category' %}: <a
+          <p class="list-inline-item">{% trans 'Категория' %}: <a
               href="{% url 'blogs_by_category' category_slug=post.category.slug %}" class="ml-1">{{post.category}}</a>
           </p>
           
