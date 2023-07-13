@@ -37,7 +37,7 @@
           <div class="post-slider slider-sm rounded">
             {% if post.images.exists %}
             {% for image in post.images.all %}
-            <img loading="lazy" class="im" decoding="async" style="width: 100%; object-fit: cover;" src="{{ image.image.url }}"
+            <img loading="lazy" class="im" decoding="async" width="100%" style="height:auto;" src="{{ image.image.url }}"
               alt="Post Thumbnail">
             {% endfor %}
             {% else %}
@@ -53,15 +53,15 @@
         {% if post.file %}
         <a href="{% url 'download_file' post.pk %}" class="btn btn-primary">{% trans 'Скачать файл' %}</a>
         {% endif %}
+        <br><br><br>
+        <h4>Автор: {{ post.user.username }}</h4>
       </div>
     </div>
   </div>
 </div>
 
 <style>
-  .im{
-    height: 800px;
-  }
+ 
   @media screen and (min-width:375px) and (max-width:425px) {
     .im{
       height: 350px;
