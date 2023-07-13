@@ -604,7 +604,7 @@
                 </div>
                 <div class="pt-4">
                   <p class="mb-3">{{ blog.created_at | date:'d M Y' }}</p>
-                  <p class="mb-3"> <img src="{% static 'eye.png' %}" width="25" alt="">{% trans 'Просмотров:' %} {{ blog.views_count }} </p>
+                  <p class="mb-3"> <img src="{% static 'eye.png' %}" width="25" alt="">  {% trans 'Просмотров:' %} {{ blog.views_count }} | автор: {{ blog.user.username }} </p>
                   <h2 class="h4"><a class="text-black" style="word-break: break-all;"
                       href="{% url 'blog_detail' pk=blog.pk %}">{{blog.title |truncatechars:80 }}</a></h2>
                   <p style="white-space: pre-wrap; word-break: break-all;">{{ blog.description | bleach_clean:80 | safe }}</p>

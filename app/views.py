@@ -113,6 +113,7 @@ def user_view(request, username, category_slug=None):
     if category_slug:
         category = get_object_or_404(Category, slug=category_slug)
         articles = articles.filter(category=category)
+
     p = Paginator(articles, 8, orphans=0)
     page = request.GET.get('page')
     pages = p.get_page(page)
@@ -132,7 +133,6 @@ def search_result(request):
     if query:
         current_language = mt_settings.DEFAULT_LANGUAGE 
         blogs = Blog.objects.filter(approved=True).filter(Q({'title_%s__icontains' % current_language: query}) | Q({'description_%s__icontains' % current_language: query})).order_by('-created_at')
-
         p = Paginator(blogs, 6, orphans=0, allow_empty_first_page=True)
         page = request.GET.get('page')
         pages = p.get_page(page)
@@ -141,6 +141,7 @@ def search_result(request):
         blogs = Blog.objects.filter(approved=True)
         pages = None
         nums = None
+        
     categories = Category.objects.all()
     latest_blogs = Blog.objects.filter(approved=True).order_by('-created_at')[:3]
 
