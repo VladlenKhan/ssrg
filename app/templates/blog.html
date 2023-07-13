@@ -8,14 +8,12 @@
 	<center>
 
 		{% if messages %}
-
 		{% for message in messages %}
 		<div style="display: flex;">
 			<h3 {% if message.tags %} class="{{ message.tags }}" {% endif %} style="color: green;padding-top:50px;">{{ message }} </h3>
 			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
 		</div>
 		{% endfor %}
-
 		{% endif %}
 
 	</center>
@@ -181,9 +179,6 @@
 						</li>
 						{% endfor %}
 					</ul>
-
-
-
 				</div>
 
 				<div class="widget">
