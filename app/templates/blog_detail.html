@@ -54,7 +54,7 @@
         <a href="{% url 'download_file' post.pk %}" class="btn btn-primary">{% trans 'Скачать файл' %}</a>
         {% endif %}
         <br><br><br>
-        <h4>Автор: {{ post.user.username }}</h4>
+        <h4>{% trans 'Автор' %}: {{ post.user.username }}</h4>
       </div>
     </div>
   </div>
