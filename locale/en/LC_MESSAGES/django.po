@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-19 15:20+0500\n"
+"POT-Creation-Date: 2023-07-20 17:35+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -252,7 +252,7 @@ msgstr "Help"
 msgid "Связь с нами"
 msgstr "Contact us"
 
-#: .\app\templates\base.html:160 .\app\templates\home.html:673
+#: .\app\templates\base.html:160 .\app\templates\home.html:888
 msgid "Ответы на вопросы"
 msgstr "Questions Answered"
 
@@ -275,7 +275,7 @@ msgid "Просмотров"
 msgstr "Views"
 
 #: .\app\templates\blog.html:119 .\app\templates\home.html:81
-#: .\app\templates\home.html:613 .\app\templates\search_result.html:46
+#: .\app\templates\home.html:828 .\app\templates\search_result.html:46
 #: .\app\templates\user.html:96
 msgid "Подробнее"
 msgstr "Learn more"
@@ -392,7 +392,34 @@ msgid ""
 "антиплагиата. © Международный журнал науки и техники При использовании "
 "статей обязательно указывать авторов статьи, название журнала и URL на "
 "сайте. Телефон: +998(90)347-98-31;"
-msgstr "In order to ensure the implementation of tasks provided for by the Law of the Republic of Uzbekistan  On Science and Scientific Activity , the Decree of the President of the Republic of Uzbekistan No. PF-6097 of October 29, 2020, including the  Concept of Science Development until 2030 ,  Science and innovation  international scientific journal was established in May 2023. License State registration certificate No. 083538 was submitted by the Information and Mass Communications Agency under the Presidential Administration of the Republic of Uzbekistan on May 24, 2023. Indexing All accepted articles are indexed in the international scientific databases Index Copernicus, OpenAire, ZENODO, Cyberleninka and Google Scholar. Editorial board The editorial board of the journal includes leading scientists, doctors of science, professors of the Republic of Uzbekistan, as well as foreign experts, which allows for competent examination of works in a wide range of specialties. Founder The founder of the magazine is  RDZ-SCIENCE  Society. Chief editor: Muslimova Yulduz. Articles To date, more than 30 articles have been published in the magazine. The authors of the article will receive a certificate with a QR code, an ID number and DOI numbers. Magazine site The official website of the journal is http://rdz-science.com/, and accepted articles will be posted on this site. Also, magazine collections are placed in the archive section of the site. Anti-plagiarism The journal accepts articles with more than 70% originality. Unity check is carried out by editors in three systems - Plagiarism.uz, AntiPlagiarism.NET and PlagiarismCheckerX. All the authors of the article will be given a certificate confirming the anti-plagiarism result. © Internationale journal of Science and Technology When using articles, it is required to indicate the authors of the article, the name of the journal and the URL on the site. Phone: +998(90)347-98-31;"
+msgstr ""
+"In order to ensure the implementation of tasks provided for by the Law of "
+"the Republic of Uzbekistan  On Science and Scientific Activity , the Decree "
+"of the President of the Republic of Uzbekistan No. PF-6097 of October 29, "
+"2020, including the  Concept of Science Development until 2030 ,  Science "
+"and innovation  international scientific journal was established in May "
+"2023. License State registration certificate No. 083538 was submitted by the "
+"Information and Mass Communications Agency under the Presidential "
+"Administration of the Republic of Uzbekistan on May 24, 2023. Indexing All "
+"accepted articles are indexed in the international scientific databases "
+"Index Copernicus, OpenAire, ZENODO, Cyberleninka and Google Scholar. "
+"Editorial board The editorial board of the journal includes leading "
+"scientists, doctors of science, professors of the Republic of Uzbekistan, as "
+"well as foreign experts, which allows for competent examination of works in "
+"a wide range of specialties. Founder The founder of the magazine is  RDZ-"
+"SCIENCE  Society. Chief editor: Muslimova Yulduz. Articles To date, more "
+"than 30 articles have been published in the magazine. The authors of the "
+"article will receive a certificate with a QR code, an ID number and DOI "
+"numbers. Magazine site The official website of the journal is http://rdz-"
+"science.com/, and accepted articles will be posted on this site. Also, "
+"magazine collections are placed in the archive section of the site. Anti-"
+"plagiarism The journal accepts articles with more than 70% originality. "
+"Unity check is carried out by editors in three systems - Plagiarism.uz, "
+"AntiPlagiarism.NET and PlagiarismCheckerX. All the authors of the article "
+"will be given a certificate confirming the anti-plagiarism result. © "
+"Internationale journal of Science and Technology When using articles, it is "
+"required to indicate the authors of the article, the name of the journal and "
+"the URL on the site. Phone: +998(90)347-98-31;"
 
 #: .\app\templates\home.html:150
 msgid "Наши направления"
@@ -446,7 +473,7 @@ msgstr "Physical education and sports"
 msgid "Наши сотрудники"
 msgstr "Our employees"
 
-#: .\app\templates\home.html:355
+#: .\app\templates\home.html:405
 msgid ""
 "Старший научный сотрудник Института астрономии РАН. Кандидат физико-"
 "математических наук. Член редколлегии Международного научно-технического "
@@ -457,7 +484,7 @@ msgstr ""
 "Editorial Board of the International Scientific and Technical Journal of the "
 "Society 'RDZ-SCIENCE'."
 
-#: .\app\templates\home.html:378
+#: .\app\templates\home.html:428
 msgid ""
 "Низомий Ташкентский государственный педагогический университет «Профессор "
 "кафедры педагогики начального образования, кандидат психологических наук. "
@@ -469,7 +496,7 @@ msgstr ""
 "the editorial board of the international scientific journal 'Internationale "
 "Journal of Science and Technology' of the society 'RDZ-SCIENCE'."
 
-#: .\app\templates\home.html:402
+#: .\app\templates\home.html:452
 msgid ""
 "Доцент кафедры физики и методики преподавания Ташкентского государственного "
 "педагогического университета им. Низоми, кандидат педагогических наук, член "
@@ -480,7 +507,7 @@ msgstr ""
 "Sciences, Member of the Editorial Board of the International Journal of "
 "Science and Technology."
 
-#: .\app\templates\home.html:423
+#: .\app\templates\home.html:473
 msgid ""
 "Кандидат физико-математических наук, Доцент Ташкентского государственного "
 "педагогического университета имени Низоми, член редколлегии Международного "
@@ -491,7 +518,7 @@ msgstr ""
 "of the International Scientific and Technical Journal of the Society 'RDZ-"
 "SCIENCE'."
 
-#: .\app\templates\home.html:444
+#: .\app\templates\home.html:494
 msgid ""
 "Ташкентский государственный педагогический университет имени Низоми "
 "Профессор кафедры «Педагогика начального образования», член редколлегии "
@@ -502,7 +529,7 @@ msgstr ""
 "the editorial board of the international scientific journal 'Internationale "
 "Journal of Science and Technology' of the society 'RDZ-SCIENCE'."
 
-#: .\app\templates\home.html:465
+#: .\app\templates\home.html:515
 msgid ""
 "Кандидат физико-математических наук, Ташкентский государственный "
 "педагогический университет, доцент кафедры физики и методики ее "
@@ -514,7 +541,7 @@ msgstr ""
 "Methods, Member of the editorial board of the International Scientific and "
 "Technical Journal of the Society 'RDZ-SCIENCE'."
 
-#: .\app\templates\home.html:487
+#: .\app\templates\home.html:537
 msgid ""
 "Доцент кафедры физики и методики ее преподавания физико-математического "
 "факультета ТДПУ. Доктор философских наук (PhD) в области педагогических "
@@ -527,7 +554,7 @@ msgstr ""
 "international scientific journal 'Internationale Journal of Science and "
 "Technology' of the society 'RDZ-SCIENCE'."
 
-#: .\app\templates\home.html:511
+#: .\app\templates\home.html:561
 msgid ""
 "Адъюнкт-профессор методики преподавания физики и астрономии в Университете "
 "Найроби, доктор философии по физике и математике Член редакционной коллегии "
@@ -538,35 +565,111 @@ msgstr ""
 "Member of the Editorial Board of the International Journal of Science and "
 "Technology RDZ-SCIENCE."
 
-#: .\app\templates\home.html:573
+#: .\app\templates\home.html:581
+msgid ""
+"доктор педагогических наук, профессор Ташкентского государственного "
+"педагогического университета имени Низами"
+msgstr ""
+"Doctor of Pedagogical Sciences,Professor of Tashkent State Pedagogical "
+"University named after Nizami"
+
+#: .\app\templates\home.html:601
+msgid ""
+"кандидат педагогических наук, доцент Ташкентского государственного "
+"педагогического университета имени Низами"
+msgstr ""
+"Candidate of Pedagogical Sciences,Associate Professor of Tashkent State "
+"Pedagogical University named after Nizami"
+
+#: .\app\templates\home.html:621
+msgid ""
+"кандидат технических наук, доцент Ташкентского государственного "
+"педагогического университета имени Низами"
+msgstr ""
+"Candidate of Technical Sciences, Associate Professor of the Tashkent State "
+"Pedagogical University named after Nizami"
+
+#: .\app\templates\home.html:642
+msgid ""
+"кандидат физико-математических наук, доцент,профессор кафедры физики и "
+"астрономии Навоийского государственного педагогического института"
+msgstr ""
+"Candidate of Physical and Mathematical Sciences, Associate Professor, "
+"Professor of the Department of Physics and Astronomy of the Navoi State "
+"Pedagogical Institute"
+
+#: .\app\templates\home.html:664
+msgid ""
+"кандидат педагогических наук, Доцент Белорусско-Узбекского совместного "
+"междисциплинарного института практических технических квалификаций в Ташкенте"
+msgstr ""
+"Candidate of Pedagogical Sciences,Associate professor of the Belarus-"
+"Uzbekistan Joint Interdisciplinary Practical Technical Qualifications "
+"Institute in Tashkent"
+
+#: .\app\templates\home.html:686
+msgid ""
+"Навоийский государственный педагогический институт, доцент кафедры "
+"информатики, доктор философии педагогических наук (PhD). Член редколлегии "
+"Международного научно-технического журнала общества «РДЗ-НАУКА»."
+msgstr ""
+"Navoi State Pedagogical Institute, Associate Professor of Informatics "
+"Department, Doctor of Philosophy in Pedagogical Sciences (PhD). Member of "
+"the editorial board of the International Journal of Science and Technology "
+"of the RDZ-SCIENCE society."
+
+#: .\app\templates\home.html:706
+msgid ""
+"Навоийский государственный педагогический институт, профессор кафедры физики "
+"и астрономии, кандидат физико-математических наук, член редколлегии "
+"«Международного научно-технического журнала» общества «РДЗ-НАУКА»."
+msgstr ""
+"Navoi State Pedagogical Institute, Professor of the Department of Physics "
+"and Astronomy, Candidate of Physical and Mathematical Sciences, Member of "
+"the Editorial Board of the International Scientific and Technical Journal of "
+"the RDZ-NAUKA Society."
+
+#: .\app\templates\home.html:726
+msgid ""
+"Старший преподаватель кафедры методики преподавания физики Джизакского "
+"государственного педагогического института, кандидат физико-математических "
+"наук, член редколлегии Международного научно-технического журнала общества "
+"«РДЗ-НАУКА»."
+msgstr ""
+"Senior teacher of the Department of Physics Teaching Methodology of the "
+"Jizzakh State Pedagogical Institute, candidate of physics and mathematics "
+"sciences, member of the editorial board of the International Journal of "
+"Science and Technology of the RDZ-SCIENCE society."
+
+#: .\app\templates\home.html:788
 msgid "Интересные новости"
 msgstr "Interesting news"
 
-#: .\app\templates\home.html:574
+#: .\app\templates\home.html:789
 msgid "Популярные статьи"
 msgstr "Popular Articles"
 
-#: .\app\templates\home.html:607
+#: .\app\templates\home.html:822
 msgid "Просмотров:"
 msgstr "Views:"
 
-#: .\app\templates\home.html:607
+#: .\app\templates\home.html:822
 msgid "автор"
 msgstr "author"
 
-#: .\app\templates\home.html:620
+#: .\app\templates\home.html:835
 msgid "Временно постов нет... "
 msgstr "There are no posts temporarily..."
 
-#: .\app\templates\home.html:674
+#: .\app\templates\home.html:889
 msgid "Часто задаваемые вопросы"
 msgstr "Frequently Asked Questions"
 
-#: .\app\templates\home.html:683
+#: .\app\templates\home.html:898
 msgid "Статья должна быть написана в формате IMRAD международного уровня"
 msgstr "The article should be written in IMRAD format of international level"
 
-#: .\app\templates\home.html:688
+#: .\app\templates\home.html:903
 msgid ""
 "Название статьи, аннотация и ключевые слова должны быть представлены на "
 "узбекском, русском и английском языках. "
@@ -574,7 +677,7 @@ msgstr ""
 "The title of the article, abstract and keywords should be submitted to "
 "Uzbek, Russian and English."
 
-#: .\app\templates\home.html:695
+#: .\app\templates\home.html:910
 msgid ""
 "Статьи должны быть представлены на актуальные темы, относящиеся к "
 "направлению научного журнала"
@@ -582,7 +685,7 @@ msgstr ""
 "Articles should be submitted on relevant topics related toDirection of a "
 "scientific journal"
 
-#: .\app\templates\home.html:699
+#: .\app\templates\home.html:914
 msgid ""
 "основанные на научных и законченных мнениях, с предложениями и "
 "рекомендациями;"
@@ -590,34 +693,34 @@ msgstr ""
 "based on scientific and complete opinions, with suggestions and "
 "recommendations;"
 
-#: .\app\templates\home.html:706
+#: .\app\templates\home.html:921
 msgid "Текст статьи должен быть в формате А4 "
 msgstr "The text of the article should be in A4 format "
 
-#: .\app\templates\home.html:709
+#: .\app\templates\home.html:924
 msgid "с полями 2 см сверху и снизу, 2 см слева, 2 см справа;"
 msgstr ""
 "with margins of 2 cm above and bottom, 2 cm on the left, 2 cm on the right"
 
-#: .\app\templates\home.html:716
+#: .\app\templates\home.html:931
 msgid ""
 "Текст статьи должен быть в текстовом редакторе Word, шрифт Times New Roman"
 msgstr ""
 "The text of the article should be in a text editor Word, font Times New Roman"
 
-#: .\app\templates\home.html:720
+#: .\app\templates\home.html:935
 msgid "размер 14, интервал 1,15, объем 3-10 страниц"
 msgstr "size 14, spacing 1.15, volume 3-10 pages"
 
-#: .\app\templates\home.html:727
+#: .\app\templates\home.html:942
 msgid "При принятии представленной статьи взимается вознаграждение"
 msgstr "Upon acceptance of the submitted article, a fee is charged"
 
-#: .\app\templates\home.html:731
+#: .\app\templates\home.html:946
 msgid "сум за статью."
 msgstr "sum per article."
 
-#: .\app\templates\home.html:741
+#: .\app\templates\home.html:957
 msgid ""
 "Статьи на узбекском, русском и английском языках принимаются до 1 июля 2023 "
 "года в электронном виде по телеграм-адресу @IJST_2023. Контактный телефон:  "
@@ -625,15 +728,15 @@ msgstr ""
 "Articles in Uzbek, Russian and English are accepted until July 1, 2023years "
 "in electronic form at the telegram address @IJST_2023. Contact phone number: "
 
-#: .\app\templates\home.html:744
+#: .\app\templates\home.html:960
 msgid "Коллекционная форма журнала - 3 июля 2023 г."
 msgstr "Magazine Collection Kit - July 3, 2023"
 
-#: .\app\templates\home.html:747
+#: .\app\templates\home.html:963
 msgid "Он будет размещен в Telegram-канале"
 msgstr "It will be posted on the Telegram channel"
 
-#: .\app\templates\home.html:752
+#: .\app\templates\home.html:968
 msgid ""
 "Присланные научные статьи будут рассмотрены редакционной коллегией, а "
 "неотредактированные статьи, не присланные в соответствии с требованиями, "
@@ -643,15 +746,15 @@ msgstr ""
 "and Unedited articles not submitted in accordance with the requirements, "
 "will not be published;"
 
-#: .\app\templates\home.html:758
+#: .\app\templates\home.html:974
 msgid "Каждая статья индексируется в международных базах данных"
 msgstr "Each article is indexed in international databases"
 
-#: .\app\templates\home.html:759
+#: .\app\templates\home.html:975
 msgid "(база OAK 14). Каждой статье присваивается номер DOI."
 msgstr "(OAK 14 base). Each article is assigned a DOI number."
 
-#: .\app\templates\home.html:760
+#: .\app\templates\home.html:976
 msgid ""
 "Присылать статьи в журнал могут профессора и преподаватели, докторанты, "
 "независимые исследователи, учителя общеобразовательных школ и академических "
@@ -666,6 +769,40 @@ msgstr ""
 "the journal. Articles accepted to the journal will be provided to the author "
 "within 3 working days with a FREE certificate, a letter of acceptance and an "
 "author's certificate."
+
+#: .\app\templates\home.html:985
+msgid ""
+"Лицензионное (договорное) соглашение Отправляя статью в МЕЖДУНАРОДНЫЙ ЖУРНАЛ "
+"НАУКИ И ТЕХНОЛОГИИ, я подтверждаю следующее: <br> 1. Я уполномочен заключить "
+"настоящее соглашение от имени моих соавторов. <br> 2. От своего имени, а "
+"также от имени соавторов гарантирую следующее: - статья является "
+"оригинальной и официально не публиковалась и не рецензировалась в других "
+"журналах. Не нарушает авторские права третьих лиц;– Я/мы являемся "
+"единственным(и) автором(ами) статьи и обладаем всеми полномочиями на "
+"заключение настоящего договора и передачу всех прав на статью международному "
+"научному журналу «INTERNATIONAL JOURNAL OF SCIENCE AND TECHNOLOGY» и это не "
+"нарушает других наших обязательств; – статья не содержит противоправной, "
+"клеветнической информации и не является нарушением договора в случае ее "
+"публикации. Информация, представленная в статье, достоверна; - Я/мы приняли "
+"соответствующие меры для обеспечения целостности статьи. Согласно научным "
+"данным, доступным мне/нам сейчас, все аргументы, представленные в статье, "
+"верны, и все формулы или инструкции в статье не причинят никакого вреда "
+"пользователю, если их строго соблюдать. <br> 3. Я и все соавторы "
+"соглашаемся, что если статья будет принята к публикации, статья будет "
+"находиться под лицензией Creative Commons Attribution <br> 4.0.4. Мне и всем "
+"соавторам известно, что в случае принятия статьи к публикации в "
+"международном научном журнале «INTERNATIONAL JOURNAL OF SCIENCE AND "
+"TECHNOLOGY» вся информация в статье предоставляется по лицензии Creative "
+"Commons Attribution-License 4.0;<br> 5. Автор(ы) статьи(й) может оставить за "
+"собой права на свою статью(и), уведомив об этом журнал в письменной форме во "
+"время подачи статьи(й). <br> 6. Журнал позволяет автору (авторам) сохранять "
+"право на публикацию без ограничений. © \"МЕЖДУНАРОДНЫЙ ЖУРНАЛ НАУКИ И "
+"ТЕХНОЛОГИИ\" международный научный журнал При использовании статей "
+"обязательно указывать авторов статьи, название журнала и URL-адрес на сайте "
+"Телефон: +99890 347-98-31 , +998948053533, электронная почта "
+"scienceresearch47@gmail.com"
+
+msgstr "License Agreement By submitting an article to INTERNATIONAL JOURNAL OF SCIENCE AND TECHNOLOGY, I confirm the following: 1. On behalf of my co-authors, I am authorized to enter into this agreement. 2. On my own behalf, as well as on behalf of the co-authors, I guarantee the following: - the article is original and has not been officially published or reviewed in other journals. Does not violate the copyright of third parties; – I/we are the sole author(s) of the article and have full authority to enter into this agreement and assign all rights to the article to the international scientific journal INTERNATIONAL JOURNAL OF SCIENCE AND TECHNOLOGY and this does not violate our other obligations; information about it is not available, and if it is published, it will not lead to a violation of the concluded contract. The information provided in the article is reliable;- I/we have taken appropriate measures to ensure the integrity of the article. According to the scientific evidence available to me/us now, all the arguments presented in the article are correct and all the formulas or instructions in the article will not cause any harm to the user if strictly followed.3. I and all co-authors agree that if the article is accepted for publication, the article will be licensed under the Creative Commons Attribution 4.0 license.4. I and all co-authors are aware that if the article is accepted for publication in the international scientific journal INTERNATIONAL JOURNAL OF SCIENCE AND TECHNOLOGY, all information in the article is provided under the Creative Commons Attribution-License 4.0 license;5. The author(s) of the article(s) may reserve the rights to their article(s) by notifying the journal in writing at the time of submission of the article(s).6. The journal allows the author(s) to retain the right to publish without any restrictions. © INTERNATIONAL JOURNAL OF SCIENCE AND TECHNOLOGY International scientific journal When using articles, it is required to indicate the authors of the article, the name of the journal and the URL address on the site. Phone: +99890 347-98-31, +998948053533, E-mail scienceresearch47@gmail.com"
 
 #: .\app\templates\login.html:8
 msgid "Вход"

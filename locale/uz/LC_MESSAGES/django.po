@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-19 15:20+0500\n"
+"POT-Creation-Date: 2023-07-20 17:33+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -239,7 +239,7 @@ msgstr "Yordam"
 msgid "Связь с нами"
 msgstr "Biz bilan bog'laning"
 
-#: .\app\templates\base.html:160 .\app\templates\home.html:673
+#: .\app\templates\base.html:160 .\app\templates\home.html:888
 msgid "Ответы на вопросы"
 msgstr "Savollar javob berdi"
 
@@ -262,7 +262,7 @@ msgid "Просмотров"
 msgstr "Qarashlar"
 
 #: .\app\templates\blog.html:119 .\app\templates\home.html:81
-#: .\app\templates\home.html:613 .\app\templates\search_result.html:46
+#: .\app\templates\home.html:828 .\app\templates\search_result.html:46
 #: .\app\templates\user.html:96
 msgid "Подробнее"
 msgstr "Ko'proq o'rganing"
@@ -348,7 +348,33 @@ msgid "Оформление"
 msgstr "Tipografiya"
 
 #: .\app\templates\home.html:99
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| " В целях обеспечения реализации задач, предусмотренных Законом Республики "
+#| "Узбекистан «О науке и научной деятельности», Постановлением Президента "
+#| "Республики Узбекистан от 29 октября 2020 года № ПФ-6097, в том числе "
+#| "Международный научный журнал «Концепция развития науки до 2030 года» "
+#| "«Наука и инновации» учрежден в мае 2023 года. Лицензия Свидетельство о "
+#| "государственной регистрации № 083538 представлено Агентством информации и "
+#| "массовых коммуникаций при Администрации Президента Республики Узбекистан "
+#| "24 мая 2023 года. Индексация Все принятые статьи индексируются в "
+#| "международных научных базах данных Index Copernicus, OpenAire, ZENODO, "
+#| "Cyberleninka и Google Scholar. Редакционная коллегия В состав редколлегии "
+#| "журнала входят ведущие ученые, доктора наук, профессора Республики "
+#| "Узбекистан, а также зарубежные специалисты, что позволяет компетентно "
+#| "рассматривать работы по широкому кругу специальностей. Основатель  "
+#| "Учредителем журнала является Общество «РДЗ-НАУКА». Главный редактор: "
+#| "Муслимова Юлдуз.Статьи На сегодняшний день в журнале опубликовано более "
+#| "30 статей. Авторы статьи получат сертификат с QR-кодом, идентификационным "
+#| "номером и номерами DOI. Сайт журнала Официальный сайт журнала — http://"
+#| "rdz-science.com/, на нем будут размещаться принятые статьи. Также "
+#| "сборники журналов размещены в архивном разделе сайта. Антиплагиат Журнал "
+#| "принимает статьи с оригинальностью более 70%%. Проверка Unity "
+#| "осуществляется редакторами в трех системах — Plagiarism.uz, "
+#| "AntiPlagiarism.NET и PlagiarismCheckerX. Всем авторам статьи будет выдан "
+#| "сертификат, подтверждающий результат антиплагиата. © Международный журнал "
+#| "науки и техники При использовании статей обязательно указывать авторов "
+#| "статьи, название журнала и URL на сайте. Телефон: +998(90)347-98-31;"
 msgid ""
 " В целях обеспечения реализации задач, предусмотренных Законом Республики "
 "Узбекистан «О науке и научной деятельности», Постановлением Президента "
@@ -375,7 +401,35 @@ msgid ""
 "антиплагиата. © Международный журнал науки и техники При использовании "
 "статей обязательно указывать авторов статьи, название журнала и URL на "
 "сайте. Телефон: +998(90)347-98-31;"
-msgstr "xalqaro ilmiy jurnali Ilm-fan va ilmiy faoliyat toʻgʻrisida Oʻzbekiston Respublikasi Qonuni, Oʻzbekiston Respublikasi Prezidentining 2020 yil 29-oktabrdagi PF-6097-sonli farmonida koʻzda tutilgan vazifalar, jumladan, Ilm-fanni 2030-yilgacha rivojlantirish konsepsiyasi ijrosini ta’minlash maqsadida Science and innovation xalqaro ilmiy jurnali 2023 yil may oyida tashkil etilgan. Litsenziya O‘zbekiston Respublikasi Prezidenti Administratsiyasi huzuridagi Axborot va ommaviy kommunikatsiyalar agentligi tomonidan 2023 yil 24 may kuni davlat roʻyxatidan oʻtkazilgan va №083538 sonli guvohnoma taqdim etilgan.Indekslash Qabul qilingan barcha maqolalar Index Copernicus, OpenAire, ZENODO, Cyberleninka va Google Scholar xalqaro ilmiy bazalarida indekslanadi. Tahrir hay’ati Jurnal tahrir hay’ati tarkibiga Oʻzbekiston Respublikasining yetakchi olimlari, fan doktorlari, professorlari, shuningdek, xorijiy ekspertlar kiradi, bu esa keng doiradagi mutaxassisliklar bo‘yicha ishlarni malakali ekspertizadan o‘tkazish imkonini beradi. Muassis Jurnal ta’sischisi RDZ-SCIENCE Jamiyati. Bosh muharriri: Muslimova Yulduz. Maqolalar Hozirgi kunga qadar jurnalda 30 dan ortiq maqola nashr etildi. Maqola mualliflariga QR kodli, ID raqamga ega va DOI raqamlari yozilgan sertifikat taqdim etiladi. Jurnal sayti Jurnalning rasmiy sayti http://rdz-science.com/ boʻlib, qabul qilingan maqolalar ushbu saytga joylab boriladi. Shuningdek, jurnal to’plamlari ham saytning arxiv boʻlimiga joylashtirib boriladi. Antiplagiat Jurnalga originalligi 70% dan yuqori boʻlgan maqolalar qabul qilinadi. Yagonalikni tekshirish muharrirlar tomonidan uchta tizimida – Plagiarism.uz, AntiPlagiarism.NET va PlagiarismCheckerX da amalga oshiriladi. Barcha maqola mualliflariga antiplagiat natijasi tasdiqlangan sertifikat beriladi.  © Internationale journal of Science and Technology xalqaro ilmiy jurnali Maqolalardan foydalanilganda maqola mualliflarini, jurnal nomini va saytdagi URL manzilini ko'rsatish talab etiladi.Tel: +998(90)347-98-31;"
+msgstr ""
+"xalqaro ilmiy jurnali Ilm-fan va ilmiy faoliyat toʻgʻrisida Oʻzbekiston "
+"Respublikasi Qonuni, Oʻzbekiston Respublikasi Prezidentining 2020 yil 29-"
+"oktabrdagi PF-6097-sonli farmonida koʻzda tutilgan vazifalar, jumladan, Ilm-"
+"fanni 2030-yilgacha rivojlantirish konsepsiyasi ijrosini ta’minlash "
+"maqsadida Science and innovation xalqaro ilmiy jurnali 2023 yil may oyida "
+"tashkil etilgan. Litsenziya O‘zbekiston Respublikasi Prezidenti "
+"Administratsiyasi huzuridagi Axborot va ommaviy kommunikatsiyalar agentligi "
+"tomonidan 2023 yil 24 may kuni davlat roʻyxatidan oʻtkazilgan va №083538 "
+"sonli guvohnoma taqdim etilgan.Indekslash Qabul qilingan barcha maqolalar "
+"Index Copernicus, OpenAire, ZENODO, Cyberleninka va Google Scholar xalqaro "
+"ilmiy bazalarida indekslanadi. Tahrir hay’ati Jurnal tahrir hay’ati "
+"tarkibiga Oʻzbekiston Respublikasining yetakchi olimlari, fan doktorlari, "
+"professorlari, shuningdek, xorijiy ekspertlar kiradi, bu esa keng doiradagi "
+"mutaxassisliklar bo‘yicha ishlarni malakali ekspertizadan o‘tkazish imkonini "
+"beradi. Muassis Jurnal ta’sischisi RDZ-SCIENCE Jamiyati. Bosh muharriri: "
+"Muslimova Yulduz. Maqolalar Hozirgi kunga qadar jurnalda 30 dan ortiq maqola "
+"nashr etildi. Maqola mualliflariga QR kodli, ID raqamga ega va DOI raqamlari "
+"yozilgan sertifikat taqdim etiladi. Jurnal sayti Jurnalning rasmiy "
+"sayti http://rdz-science.com/ boʻlib, qabul qilingan maqolalar ushbu saytga "
+"joylab boriladi. Shuningdek, jurnal to’plamlari ham saytning arxiv boʻlimiga "
+"joylashtirib boriladi. Antiplagiat Jurnalga originalligi 70% dan yuqori "
+"boʻlgan maqolalar qabul qilinadi. Yagonalikni tekshirish muharrirlar "
+"tomonidan uchta tizimida – Plagiarism.uz, AntiPlagiarism.NET va "
+"PlagiarismCheckerX da amalga oshiriladi. Barcha maqola mualliflariga "
+"antiplagiat natijasi tasdiqlangan sertifikat beriladi.  © Internationale "
+"journal of Science and Technology xalqaro ilmiy jurnali Maqolalardan "
+"foydalanilganda maqola mualliflarini, jurnal nomini va saytdagi URL "
+"manzilini ko'rsatish talab etiladi.Tel: +998(90)347-98-31;"
 
 #: .\app\templates\home.html:150
 msgid "Наши направления"
@@ -429,7 +483,7 @@ msgstr "Jismoniy tarbiya va sport"
 msgid "Наши сотрудники"
 msgstr "Bizning xodimlarimiz"
 
-#: .\app\templates\home.html:355
+#: .\app\templates\home.html:405
 msgid ""
 "Старший научный сотрудник Института астрономии РАН. Кандидат физико-"
 "математических наук. Член редколлегии Международного научно-технического "
@@ -439,7 +493,7 @@ msgstr ""
 "D. Fizika va matematika fanlari bo'yicha. «RDZ-NAUKA» jamiyatining xalqaro "
 "ilmiy-texnikaviy jurnali tahririyat hay'ati a'zosi."
 
-#: .\app\templates\home.html:378
+#: .\app\templates\home.html:428
 msgid ""
 "Низомий Ташкентский государственный педагогический университет «Профессор "
 "кафедры педагогики начального образования, кандидат психологических наук. "
@@ -451,7 +505,7 @@ msgstr ""
 "Internationale Journal of Science and Technology» xalqaro ilmiy jurnali RDZ-"
 "SCIENCE jamiyatining tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:402
+#: .\app\templates\home.html:452
 msgid ""
 "Доцент кафедры физики и методики преподавания Ташкентского государственного "
 "педагогического университета им. Низоми, кандидат педагогических наук, член "
@@ -462,7 +516,7 @@ msgstr ""
 "«Internationale Journal of Science and Technology» xalqaro ilmiy jurnali "
 "tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:423
+#: .\app\templates\home.html:473
 msgid ""
 "Кандидат физико-математических наук, Доцент Ташкентского государственного "
 "педагогического университета имени Низоми, член редколлегии Международного "
@@ -473,7 +527,7 @@ msgstr ""
 "«Internationale Journal of Science and Technology» xalqaro ilmiy jurnali "
 "tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:444
+#: .\app\templates\home.html:494
 msgid ""
 "Ташкентский государственный педагогический университет имени Низоми "
 "Профессор кафедры «Педагогика начального образования», член редколлегии "
@@ -484,7 +538,7 @@ msgstr ""
 "Internationale Journal of Science and Technology» xalqaro ilmiy jurnali RDZ-"
 "SCIENCE jamiyatining tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:465
+#: .\app\templates\home.html:515
 msgid ""
 "Кандидат физико-математических наук, Ташкентский государственный "
 "педагогический университет, доцент кафедры физики и методики ее "
@@ -496,7 +550,7 @@ msgstr ""
 "Internationale Journal of Science and Technology» xalqaro ilmiy jurnali RDZ-"
 "SCIENCE jamiyatining tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:487
+#: .\app\templates\home.html:537
 msgid ""
 "Доцент кафедры физики и методики ее преподавания физико-математического "
 "факультета ТДПУ. Доктор философских наук (PhD) в области педагогических "
@@ -507,7 +561,7 @@ msgstr ""
 "oʻqitish metodikasi kafedrasi dotsenti, Internationale Journal of Science "
 "and Technology xalqaro ilmiy jurnali tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:511
+#: .\app\templates\home.html:561
 msgid ""
 "Адъюнкт-профессор методики преподавания физики и астрономии в Университете "
 "Найроби, доктор философии по физике и математике Член редакционной коллегии "
@@ -518,35 +572,109 @@ msgstr ""
 "«Internationale Journal of Science and Technology» xalqaro ilmiy jurnali "
 "tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:573
+#: .\app\templates\home.html:581
+msgid ""
+"доктор педагогических наук, профессор Ташкентского государственного "
+"педагогического университета имени Низами"
+msgstr ""
+"Pedagogika fanlari doktori,Nizomiy nomidagi Toshkent davlat pedagogika "
+"universiteti professori"
+
+#: .\app\templates\home.html:601
+msgid ""
+"кандидат педагогических наук, доцент Ташкентского государственного "
+"педагогического университета имени Низами"
+msgstr ""
+"Pedagogika fanlari nomzodi,Nizomiy nomidagi Toshkent davlat pedagogika "
+"universiteti dotsenti"
+
+#: .\app\templates\home.html:621
+msgid ""
+"кандидат технических наук, доцент Ташкентского государственного "
+"педагогического университета имени Низами"
+msgstr ""
+"Texnika fanlari nomzodi,Nizomiy nomidagi Toshkent davlat pedagogika "
+"universiteti dotsenti"
+
+#: .\app\templates\home.html:642
+msgid ""
+"кандидат физико-математических наук, доцент,профессор кафедры физики и "
+"астрономии Навоийского государственного педагогического института"
+msgstr ""
+"Fizika-matematika fanlari nomzodi, Dotsent,Navoiy davlat pedagogika "
+"instituti Fizika va astronomiya kafedrasi professori"
+
+#: .\app\templates\home.html:664
+msgid ""
+"кандидат педагогических наук, Доцент Белорусско-Узбекского совместного "
+"междисциплинарного института практических технических квалификаций в Ташкенте"
+msgstr ""
+"Pedagogika fanlari nomzodi,Toshkent shahridagi Belarus - O‘zbekiston qo‘shma "
+"tarmoqlararo amaliy texnik kvalifikatsiyalar instituti dotsenti"
+
+#: .\app\templates\home.html:686
+msgid ""
+"Навоийский государственный педагогический институт, доцент кафедры "
+"информатики, доктор философии педагогических наук (PhD). Член редколлегии "
+"Международного научно-технического журнала общества «РДЗ-НАУКА»."
+msgstr ""
+"Navoiy davlat pedagogika instituti Informatika kafedrasi dotsent v.b., "
+"pedagogika fanlari bo'yicha falsafa doktori (PhD). RDZ-SCIENCE jamiyatining "
+"International Journal of Science and Technology xalqaro ilmiy jurnali tahrir "
+"hay'ati a'zosi."
+
+#: .\app\templates\home.html:706
+msgid ""
+"Навоийский государственный педагогический институт, профессор кафедры физики "
+"и астрономии, кандидат физико-математических наук, член редколлегии "
+"«Международного научно-технического журнала» общества «РДЗ-НАУКА»."
+msgstr ""
+"Navoiy davlat pedagogika instituti fizika va astronomiya kafedrasi professor "
+"v.b., fizika-matematika fanlari nomzodi, RDZ-SCIENCE jamiyatining "
+"International Journal of Science and Technology xalqaro ilmiy jurnali tahrir "
+"hay'ati a'zosi."
+
+#: .\app\templates\home.html:726
+msgid ""
+"Старший преподаватель кафедры методики преподавания физики Джизакского "
+"государственного педагогического института, кандидат физико-математических "
+"наук, член редколлегии Международного научно-технического журнала общества "
+"«РДЗ-НАУКА»."
+msgstr ""
+"Jizzax davlat pedagogika instituti fizika o‘qitish metodikasi kafedrasi "
+"katta o‘qituvchisi, fizika-matematika fanlari nomzodi,  RDZ-SCIENCE "
+"jamiyatining International Journal of Science and Technology xalqaro ilmiy "
+"jurnali tahrir hay'ati a'zosi."
+
+#: .\app\templates\home.html:788
 msgid "Интересные новости"
 msgstr "Qiziqarli yangiliklar"
 
-#: .\app\templates\home.html:574
+#: .\app\templates\home.html:789
 msgid "Популярные статьи"
 msgstr "ILMIY MAQOLALAR"
 
-#: .\app\templates\home.html:607
+#: .\app\templates\home.html:822
 msgid "Просмотров:"
 msgstr "Qarashlar:"
 
-#: .\app\templates\home.html:607
+#: .\app\templates\home.html:822
 msgid "автор"
 msgstr "muallif"
 
-#: .\app\templates\home.html:620
+#: .\app\templates\home.html:835
 msgid "Временно постов нет... "
 msgstr "Postlar vaqtincha yoʻq..."
 
-#: .\app\templates\home.html:674
+#: .\app\templates\home.html:889
 msgid "Часто задаваемые вопросы"
 msgstr "Tez-tez beriladigan savollar"
 
-#: .\app\templates\home.html:683
+#: .\app\templates\home.html:898
 msgid "Статья должна быть написана в формате IMRAD международного уровня"
 msgstr "Maqola xalqaro darajadagi IMRAD formatida yozilishi kerak"
 
-#: .\app\templates\home.html:688
+#: .\app\templates\home.html:903
 msgid ""
 "Название статьи, аннотация и ключевые слова должны быть представлены на "
 "узбекском, русском и английском языках. "
@@ -554,7 +682,7 @@ msgstr ""
 "Maqolaning sarlavhasi, abstrakt va kalit so'zlar taqdim etilishi kerak "
 "O'zbek, rus va ingliz tillari."
 
-#: .\app\templates\home.html:695
+#: .\app\templates\home.html:910
 msgid ""
 "Статьи должны быть представлены на актуальные темы, относящиеся к "
 "направлению научного журнала"
@@ -562,39 +690,39 @@ msgstr ""
 "Tegishli mavzular bo'yicha maqolalar taqdim etilishi kerakIlmiy jurnalning "
 "yo'nalishi"
 
-#: .\app\templates\home.html:699
+#: .\app\templates\home.html:914
 msgid ""
 "основанные на научных и законченных мнениях, с предложениями и "
 "рекомендациями;"
 msgstr "Ilmiy va to'liq mulohazalar asosida, takliflar bilan va tavsiyalar;"
 
-#: .\app\templates\home.html:706
+#: .\app\templates\home.html:921
 msgid "Текст статьи должен быть в формате А4 "
 msgstr "Maqola matni A4 formatda bo'lishi kerak "
 
-#: .\app\templates\home.html:709
+#: .\app\templates\home.html:924
 msgid "с полями 2 см сверху и снизу, 2 см слева, 2 см справа;"
 msgstr "yuqorida va pastda 2 sm, chapda 2 sm, o'ng tomonda 2 sm;"
 
-#: .\app\templates\home.html:716
+#: .\app\templates\home.html:931
 msgid ""
 "Текст статьи должен быть в текстовом редакторе Word, шрифт Times New Roman"
 msgstr ""
 "Maqola matni matn muharririda bo'lishi kerak Word, shrift Times New Roman"
 
-#: .\app\templates\home.html:720
+#: .\app\templates\home.html:935
 msgid "размер 14, интервал 1,15, объем 3-10 страниц"
 msgstr "hajmi 14, oraliq 1.15, hajmi 3-10 bet"
 
-#: .\app\templates\home.html:727
+#: .\app\templates\home.html:942
 msgid "При принятии представленной статьи взимается вознаграждение"
 msgstr "Taqdim etilgan maqolani qabul qilgandan so'ng, to'lov olinadi"
 
-#: .\app\templates\home.html:731
+#: .\app\templates\home.html:946
 msgid "сум за статью."
 msgstr "har bir maqola uchun yig'indi."
 
-#: .\app\templates\home.html:741
+#: .\app\templates\home.html:957
 msgid ""
 "Статьи на узбекском, русском и английском языках принимаются до 1 июля 2023 "
 "года в электронном виде по телеграм-адресу @IJST_2023. Контактный телефон:  "
@@ -603,15 +731,15 @@ msgstr ""
 "qilinadi@IJST_2023 telegram manzilida elektron shaklda yillar. Aloqa telefon "
 "raqami: "
 
-#: .\app\templates\home.html:744
+#: .\app\templates\home.html:960
 msgid "Коллекционная форма журнала - 3 июля 2023 г."
 msgstr "Ko'rgazma to'plami to'plami - 3 Iyulya 2023"
 
-#: .\app\templates\home.html:747
+#: .\app\templates\home.html:963
 msgid "Он будет размещен в Telegram-канале"
 msgstr "Telegram kanaliga joylanadi"
 
-#: .\app\templates\home.html:752
+#: .\app\templates\home.html:968
 msgid ""
 "Присланные научные статьи будут рассмотрены редакционной коллегией, а "
 "неотредактированные статьи, не присланные в соответствии с требованиями, "
@@ -620,15 +748,15 @@ msgstr ""
 "Taqdim etilgan ilmiy maqolalar tahririyat tomonidan ko'rib chiqiladi va "
 "talablarga muvofiq taqdim etilmagan o'tilgan maqolalar, 'nashr etilmaydi';"
 
-#: .\app\templates\home.html:758
+#: .\app\templates\home.html:974
 msgid "Каждая статья индексируется в международных базах данных"
 msgstr "Har bir maqola xalqaro ma'lumotlar bazalarida indeksatsiya qilinadi"
 
-#: .\app\templates\home.html:759
+#: .\app\templates\home.html:975
 msgid "(база OAK 14). Каждой статье присваивается номер DOI."
 msgstr "(OAK 14 bazasi). Har bir maqolaga DOI raqami tayinlanadi."
 
-#: .\app\templates\home.html:760
+#: .\app\templates\home.html:976
 msgid ""
 "Присылать статьи в журнал могут профессора и преподаватели, докторанты, "
 "независимые исследователи, учителя общеобразовательных школ и академических "
@@ -642,6 +770,40 @@ msgstr ""
 "iqtidorli talabalar va boshqa fan namoyandalari maqolalarini yuborishlari "
 "mumkin. Jurnalga qabul qilingan maqolalar muallifga 3 ish kuni ichida BEPUL "
 "sertifikat, qabul xati va mualliflik guvohnomasi bilan taqdim etiladi."
+
+#: .\app\templates\home.html:985
+msgid ""
+"Лицензионное (договорное) соглашение Отправляя статью в МЕЖДУНАРОДНЫЙ ЖУРНАЛ "
+"НАУКИ И ТЕХНОЛОГИИ, я подтверждаю следующее: <br> 1. Я уполномочен заключить "
+"настоящее соглашение от имени моих соавторов. <br> 2. От своего имени, а "
+"также от имени соавторов гарантирую следующее: - статья является "
+"оригинальной и официально не публиковалась и не рецензировалась в других "
+"журналах. Не нарушает авторские права третьих лиц;– Я/мы являемся "
+"единственным(и) автором(ами) статьи и обладаем всеми полномочиями на "
+"заключение настоящего договора и передачу всех прав на статью международному "
+"научному журналу «INTERNATIONAL JOURNAL OF SCIENCE AND TECHNOLOGY» и это не "
+"нарушает других наших обязательств; – статья не содержит противоправной, "
+"клеветнической информации и не является нарушением договора в случае ее "
+"публикации. Информация, представленная в статье, достоверна; - Я/мы приняли "
+"соответствующие меры для обеспечения целостности статьи. Согласно научным "
+"данным, доступным мне/нам сейчас, все аргументы, представленные в статье, "
+"верны, и все формулы или инструкции в статье не причинят никакого вреда "
+"пользователю, если их строго соблюдать. <br> 3. Я и все соавторы "
+"соглашаемся, что если статья будет принята к публикации, статья будет "
+"находиться под лицензией Creative Commons Attribution <br> 4.0.4. Мне и всем "
+"соавторам известно, что в случае принятия статьи к публикации в "
+"международном научном журнале «INTERNATIONAL JOURNAL OF SCIENCE AND "
+"TECHNOLOGY» вся информация в статье предоставляется по лицензии Creative "
+"Commons Attribution-License 4.0;<br> 5. Автор(ы) статьи(й) может оставить за "
+"собой права на свою статью(и), уведомив об этом журнал в письменной форме во "
+"время подачи статьи(й). <br> 6. Журнал позволяет автору (авторам) сохранять "
+"право на публикацию без ограничений. © \"МЕЖДУНАРОДНЫЙ ЖУРНАЛ НАУКИ И "
+"ТЕХНОЛОГИИ\" международный научный журнал При использовании статей "
+"обязательно указывать авторов статьи, название журнала и URL-адрес на сайте "
+"Телефон: +99890 347-98-31 , +998948053533, электронная почта "
+"scienceresearch47@gmail.com"
+
+msgstr "Litsenziya (kelishuv) shartnomasi INTERNATIONAL JOURNAL OF SCIENCE AND TECHNOLOGY xalqaro ilmiy jurnaliga maqola yuborish orqali men quyidagilarni tasdiqlayman: 1. Hammualliflarim nomidan men ushbu shartnomani tuzishga vakolatga egaman. 2. O‘z nomimdan shuningdek hammualliflar nomidan quyidagilarni kafolatlayman: – maqola asliyat bo‘lib, boshqa jurnallarda rasman chop etilmagan va ko‘rib chiqilmagan. Uchinchi shaxslarning mualliflik huquqini buzmaydi; – Men/biz maqolaning yagona muallif(lar)iman va ushbu shartnomani tuzishga to‘liq vakolatga egamiz va maqolaga “INTERNATIONAL JOURNAL OF SCIENCE AND TECHNOLOGY” xalqaro ilmiy jurnaliga barcha huquqlarni beramiz va bu bizning boshqa majburiyatlarimizni buzmaydi;– maqolada g‘ayriqonuniy, tuhmat to‘g‘risidagi ma’lumotlar mavjud emas va u e’lon qilingan taqdirda tuzilgan shartnomani buzishga olib kelmaydi. Maqolada keltirilgan ma’lumotlar ishonchlidir;- Men/biz maqolaning yaxlitligini ta'minlash uchun tegishli choralarni ko'rdik. Hozirda menda/bizda mavjud bo'lgan ilmiy dalillarga ko'ra, maqolada keltirilgan barcha dalillar to'g'ri va maqoladagi barcha formulalar yoki ko'rsatmalar, agar qat'iy rioya qilinsa, foydalanuvchiga hech qanday zarar keltirmaydi.3. Men va barcha hammualliflar maqola nashrga qabul qilinsa, maqola Creative Commons Attribution 4.0 litsenziyasi ostida litsenziyalanishiga rozilik bildiramiz.4. Men va barcha hammualliflar, agar maqola “INTERNATIONAL JOURNAL OF SCIENCE AND TECHNOLOGY” xalqaro ilmiy jurnalida chop etish uchun qabul qilingan boʻlsa, maqoladagi barcha maʼlumotlar Creative Commons Attribution-License 4.0 litsenziyasiga muvofiq taqdim etilishidan xabardormiz;5. Maqola(lar)ning muallif(lar)i maqola(lar)ni topshirish vaqtida jurnalni yozma ravishda xabardor qilish orqali o'z maqola(lar)iga bo'lgan huquqlarni saqlab qolishi mumkin.6. Jurnal muallif(lar)ga hech qanday cheklovlarsiz nashr qilish huquqini saqlab qolishga ruxsat beradi.© “INTERNATIONAL JOURNAL OF SCIENCE AND TECHNOLOGY”  xalqaro ilmiy jurnali Maqolalardan foydalanilganda maqola mualliflarini, jurnal nomini va saytdagi URL manzilini ko'rsatish talab etiladi.Telefon: +99890 347-98-31, +998948053533, E-mail scienceresearch47@gmail.com"
 
 #: .\app\templates\login.html:8
 msgid "Вход"
