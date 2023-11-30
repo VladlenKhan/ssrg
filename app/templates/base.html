@@ -39,7 +39,54 @@
             width: 100%;
             height: 290px;
           }
+          .select ul {
+            position:unset;
+            list-style-type: none;
+            margin-bottom: 10px;
+            padding: 0;
+            display: none;
+            width: 100%;
+          }
         }
+        @media (min-width: 1026px){
+      
+          .select ul {
+            position:absolute;
+        
+          }
+        }
+        
+/* Стилизация кнопки */
+ 
+
+.select {
+  position: relative;
+  display: inline-block; /* Добавлено для предотвращения занимания всей ширины */
+}
+
+ 
+
+/* Стилизация списка */
+.select ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  width: 100%;
+}
+
+/* Стилизация элементов списка */
+.select ul li {
+  padding: 5px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Показать список при наведении */
+.select:hover ul {
+  display: block;
+}
       </style>
 </head>
 
@@ -48,35 +95,48 @@
         <nav class="navbar navbar-expand-xl navbar-light text-center py-3 fixed-top" style="background-color: rgb(255, 253, 253);">
             <div class="container">
                 <a class="navbar-brand" style="margin:-20px 10px 0 4px ;" href="{% url 'home'%}">
-                    <img loading="prelaod" decoding="async" class="img-fluid"  width="60"
+                    <img loading="prelaod" decoding="async" class="img-fluid" width="100"
                         src="{% static 'images/logordz.png' %}" alt="Wallet">  
                 </a>
-                <div>
-                    <a href="{% url 'home'%}">
-                    <span style="color:#145c94;font-weight: 900; font-size:27px;">RDZ</span>
-                    <br>
-                    <span style="color:#28bdbe;position: relative;top:-10px;">science</span>
-               </a> 
-            </div>
+              
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item"> <a class="nav-link" href="{% url 'home'%}">{% trans 'Главная' %}</a>
+                        <li class="nav-item select">           
+                                <a class="nav-link" href="{% url 'home'%}" style="font-size: 14px;">{% trans 'О журнале' %}</a> 
+                                <ul>
+                                  <li><a href="#">миссия</a></li>
+                                  <li><a href="#">редакционная коллегия</a></li>
+                                  <li><a href="#">контакты</a></li>
+                                </ul>   
                         </li>
-                        <li class="nav-item "> <a class="nav-link" href="{% url 'home'%}#ab">{% trans 'О нас'%}</a>
+                        <li class="nav-item select"> 
+                            <a class="nav-link" href="{% url 'home'%}#ab" style="font-size: 14px;">{% trans 'Публикации'%}</a>
+                            <ul>
+                                <li><a href="#">миссия</a></li>
+                                <li><a href="#">редакционная коллегия</a></li>
+                                <li><a href="#">контакты</a></li>
+                              </ul>   
                         </li>
-                        <li class="nav-item "> <a class="nav-link" href="{% url 'blogs' %}">{% trans 'Все статьи' %}</a>
-                        </li>
+                        <li class="nav-item select">
+                             <a class="nav-link" href="{% url 'blogs' %}" style="font-size: 14px;">{% trans 'Для авторов' %}</a>
+                             <ul>
+                                <li><a href="#">миссия</a></li>
+                                <li><a href="#">редакционная коллегия</a></li>
+                                <li><a href="#">контакты</a></li>
+                              </ul>   
+                            </li>
                     </ul>
                     
                     <form action="{% url 'set_language' %}" method="POST">
                         {% csrf_token %}
                         <input name="language" class="form-control" type="hidden" value="{{ request.LANGUAGE_CODE }}">
                       
-                      <select name="language" class="form-control btn btn-outline-primary" onchange="this.form.submit()">
+                      <select name="language" class="form-control btn btn-outline-secondary" onchange="this.form.submit()">
                             {% get_language_info_list for LANGUAGES as languages %}
                             {% for language in languages %}
                             <div class="dropdown-menu">
@@ -93,7 +153,7 @@
                         <br>    
                             <input class="form-control me-2" type="search" name="search"  placeholder="{% trans 'Найти' %}"
                                 style="width:200px; height: 50px; margin-left:10px;display: inline;" aria-label="Search" value="{{ request.GET.search }}">
-                        <button class="btn btn-outline-primary" type="submit" style="margin-right:10px;">{% trans 'Поиск' %}</button>
+                        <button class="btn btn-outline-secondary" type="submit" style="margin-right:10px;">{% trans 'Поиск' %}</button>
                         <br><br>
                     </form>
                     {% if request.user.is_authenticated %}
@@ -113,8 +173,8 @@
                     </ul>
                     {% else %}
                     <div>
-                        <a href="{% url 'login' %}" class="btn btn-outline-primary">{% trans 'Войти' %}</a>
-                        <a href="{% url 'register' %}" class="btn btn-primary ms-2 ms-lg-3">{% trans 'Зарегистрироваться' %}</a>
+                        <a href="{% url 'login' %}" class="btn btn-outline-light">{% trans 'Войти' %}</a>
+                        <a href="{% url 'register' %}" class="btn btn-outline-light ms-2 ms-lg-3">{% trans 'Зарегистрироваться' %}</a>
                     </div>
                     {% endif %}
 
@@ -132,7 +192,7 @@
             <div class="row justify-content-between" >
                 <div class="col-lg-2 col-md-4 col-6 mb-4">
                     <div class="footer-widget">
-                        <h5 class="mb-4 text-primary font-secondary">{% trans 'Услуги' %}</h5>
+                        <h5 class="mb-4  font-secondary">{% trans 'Услуги' %}</h5>
                         <ul class="list-unstyled">
                             <li class="mb-2"><a href="{% url 'blogs' %}">{% trans 'Все статьи' %}</a>
                             </li>
@@ -142,7 +202,7 @@
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 mb-4">
                     <div class="footer-widget">
-                        <h5 class="mb-4 text-primary font-secondary">{% trans 'О нас' %}</h5>
+                        <h5 class="mb-4  font-secondary">{% trans 'О нас' %}</h5>
                         <ul class="list-unstyled">
                             <li class="mb-2"><a href="#ab">{% trans 'Про нас' %}</a>
                             </li>
@@ -153,7 +213,7 @@
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 mb-4">
                     <div class="footer-widget">
-                        <h5 class="mb-4 text-primary font-secondary">{% trans 'Помощь' %}</h5>
+                        <h5 class="mb-4  font-secondary">{% trans 'Помощь' %}</h5>
                         <ul class="list-unstyled">
                             <li class="mb-2"><a href="#con">{% trans 'Связь с нами' %}</a>
                             </li>
@@ -170,12 +230,11 @@
             <div class="row align-items-center mt-5 text-center text-md-start">
                 <div class="col-lg-4">
                     <a href="/">
-                        <img loading="prelaod" decoding="async" class="img-fluid" width="60"
-                            src="{% static 'images/logordz.png' %}"  alt="Wallet"> 
+                        <img loading="prelaod" decoding="async" class="img-fluid" 
+                            src="{% static 'images/logordz.png' %}" width="100"  alt="Wallet"> 
                     </a>
                     <div>
-                    <div style="color:#145c94;font-weight: 900; font-size:27px;">RDZ</div>
-                    <div style="color:#28bdbe;line-height:1px;">science</div>
+                 
                     </div>
                 </div>
                 
@@ -185,11 +244,15 @@
                         </h3>
                     </div>
                     <ul class="list-unstyled list-inline mb-0 text-lg-center">
-                        <li class="list-inline-item me-4"><a href="tel:+998948053533">+998948053533</a>
+                        <li class="list-inline-item me-4"><a href="tel:+998971569421">+998(97)156-94-21</a>
                             
                         </li>
-                        <li class="list-inline-item me-4"><a href="tel:++998903479831 ">+998903479831 </a>
+                        <br>
+                        <br><br>
+                        <li class="list-inline-item me-4">  © Международный журнал Транспорта и технологических машин «International Journal of Transport and Technological Machines» 
+                            
                         </li>
+                        
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-6 text-md-end mt-4 mt-md-0">
