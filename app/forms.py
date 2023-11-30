@@ -74,18 +74,50 @@ class ArticleForm(forms.ModelForm):
     title = forms.CharField(
         widget=forms.TextInput(attrs={
             'class': 'form-control',
-            'placeholder': _("Введите название"),
+            'placeholder': _("Введите текст"),
         }),
         required=True,
     )
+    title_en = forms.CharField(
+        widget=forms.TextInput(attrs={
+            "class": "form-control",
+            "placeholder": _("Введите текст"),
+        }),
+        required=True,
+    )
+    title_uz = forms.CharField(
+        widget=forms.TextInput(attrs={
+            "class": "form-control",
+            "placeholder": _("Введите текст"),
+        }),
+        required=True,
+    )
+
     description = forms.CharField(
         widget=CKEditorWidget(attrs={
             'class': 'form-control',
-            'placeholder': _("Введите описание"),
+            'placeholder': _("Введите текст"),
             'required': True,
         }),
         required=True
     )
+    description_en = forms.CharField(
+        widget=CKEditorWidget(attrs={
+            'class': 'form-control',
+            'placeholder': _("Введите текст"),
+            'required': True,
+        }),
+        required=True
+    )
+    description_uz = forms.CharField(
+        widget=CKEditorWidget(attrs={
+            'class': 'form-control',
+            'placeholder': _("Введите текст"),
+            'required': True,
+        }),
+        required=True
+    )
+
     category = forms.ModelChoiceField(
         queryset=Category.objects.all(),
         widget=forms.Select(attrs={
@@ -102,7 +134,7 @@ class ArticleForm(forms.ModelForm):
 
     class Meta:
         model = Blog
-        fields = ['title', 'description', 'category', 'file']
+        fields = ['title', "title_en","title_uz", 'description', 'description_en', 'description_uz', 'category', 'file']
 
     def __init__(self, *args, **kwargs):
         self.user = kwargs.pop('user', None)
@@ -121,13 +153,13 @@ class ArticleForm(forms.ModelForm):
 
         # Сохранение данных в полях title_ru, title_en, title_uz
         article.title_ru = self.cleaned_data['title']
-        article.title_en = self.cleaned_data['title']
-        article.title_uz = self.cleaned_data['title']
+        article.title_en = self.cleaned_data['title_en']
+        article.title_uz = self.cleaned_data['title_uz']
 
         # Сохранение данных в полях description_ru, description_en, description_uz
         article.description_ru = self.cleaned_data['description']
-        article.description_en = self.cleaned_data['description']
-        article.description_uz = self.cleaned_data['description']
+        article.description_en = self.cleaned_data['description_en']
+        article.description_uz = self.cleaned_data['description_uz']
 
         if commit:
             article.save()

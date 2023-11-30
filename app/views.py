@@ -130,9 +130,17 @@ def user_view(request, username, category_slug=None):
 
 def search_result(request):
     query = request.GET.get('search')
+    
     if query:
-        current_language = mt_settings.DEFAULT_LANGUAGE 
-        blogs = Blog.objects.filter(approved=True).filter(Q({'title_%s__icontains' % current_language: query}) | Q({'description_%s__icontains' % current_language: query})).order_by('-created_at')
+        current_language = mt_settings.DEFAULT_LANGUAGE
+        title_field = f'title_{current_language}'
+        description_field = f'description_{current_language}'
+
+        # Dynamically build Q objects for title and description
+        title_query = Q(**{f'{title_field}__icontains': query})
+        description_query = Q(**{f'{description_field}__icontains': query})
+
+        blogs = Blog.objects.filter(approved=True).filter(title_query | description_query).order_by('-created_at')
         p = Paginator(blogs, 6, orphans=0, allow_empty_first_page=True)
         page = request.GET.get('page')
         pages = p.get_page(page)

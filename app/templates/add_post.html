@@ -22,15 +22,41 @@
                     <form method="post" action="" enctype="multipart/form-data">
                         {% csrf_token %}
                         <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">{% trans 'Название' %}<span style="color: red;">*</span></label>
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">{% trans 'Название на русском' %}<span style="color: red;">*</span></label>
                             <div class="col-sm-10">
                                 {{form.title}}
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">{% trans 'Описание' %}<span style="color: red;">*</span></label>
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">{% trans 'Название на английском' %}<span style="color: red;">*</span></label>
+                            <div class="col-sm-10">
+                                {{form.title_en}}
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">{% trans 'Название на узбекском' %}<span style="color: red;">*</span></label>
+                            <div class="col-sm-10">
+                                {{form.title_uz}}
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">{% trans 'Описание на русском' %}<span style="color: red;">*</span></label>
                             <div class="col-sm-10">
                                 {{form.description}}
+                                {{form.media}}
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">{% trans 'Описание на английском' %}<span style="color: red;">*</span></label>
+                            <div class="col-sm-10">
+                                {{form.description_en}}
+                                {{form.media}}
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">{% trans 'Описание на узбекском' %}<span style="color: red;">*</span></label>
+                            <div class="col-sm-10">
+                                {{form.description_uz}}
                                 {{form.media}}
                             </div>
                         </div>
