@@ -162,6 +162,7 @@ def search_result(request):
         'latest_blogs': latest_blogs
     }
 
+
     return render(request, 'search_result.html', context)
 
 
