@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-01 03:19+0500\n"
+"POT-Creation-Date: 2023-12-02 00:10+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,12 +54,9 @@ msgstr "Foydalanuvchi ismingiz"
 msgid "Ваш email"
 msgstr "Sizning e-mail"
 
-#: .\app\forms.py:77 .\app\forms.py:84 .\app\forms.py:91 .\app\forms.py:99
-#: .\app\forms.py:107 .\app\forms.py:115
-#, fuzzy
-#| msgid "Введите пароль"
+#: .\app\forms.py:77  
 msgid "Введите текст"
-msgstr "Maxfiy soʻzingizni kiriting"
+msgstr "Matn kiriting"
 
 #: .\app\templates\about_article.html:8
 msgid "Требования к оформлению статьи"
@@ -194,22 +191,50 @@ msgid "Создать"
 msgstr "Yaratish"
 
 #: .\app\templates\base.html:110
-#, fuzzy
-#| msgid "Языки журнала:"
+ 
 msgid "О журнале"
-msgstr "Jurnal tillari:"
+msgstr "jurnali haqida"
+
+#: .\app\templates\base.html:112
+msgid "миссия"
+msgstr "missiya"
+
+#: .\app\templates\base.html:113
+msgid "редакционная коллегия"
+msgstr "tahririyat jamoasi"
+
+#: .\app\templates\base.html:114
+ 
+msgid "контакты"
+msgstr "raqam"
 
 #: .\app\templates\base.html:118
-#, fuzzy
-#| msgid "Опубликовано"
+ 
 msgid "Публикации"
-msgstr "Nashr qilingan"
+msgstr "Nashrlar"
+
+#: .\app\templates\base.html:120
+msgid "архивы"
+msgstr "arxivlar"
+
+#: .\app\templates\base.html:121
+msgid "текущий выпуск"
+msgstr "joriy masala"
 
 #: .\app\templates\base.html:126
-#, fuzzy
-#| msgid "ФИО автора:"
+ 
 msgid "Для авторов"
-msgstr "Muallifning ismi:"
+msgstr "Mualliflar uchun"
+
+#: .\app\templates\base.html:128
+ 
+msgid "инструкции для авторов"
+msgstr "mualliflar uchun ko'rsatmalar"
+
+#: .\app\templates\base.html:129  
+ 
+msgid "процесс подачи статей"
+msgstr "maqola topshirish jarayoni"
 
 #: .\app\templates\base.html:154
 msgid "Найти"
@@ -255,7 +280,7 @@ msgstr "Biz haqimizda"
 msgid "Про нас"
 msgstr "Biz haqimizda"
 
-#: .\app\templates\base.html:209 .\app\templates\home.html:257
+#: .\app\templates\base.html:209 .\app\templates\home.html:283
 msgid "Команда"
 msgstr "Jamoa"
 
@@ -267,13 +292,19 @@ msgstr "Yordam"
 msgid "Связь с нами"
 msgstr "Biz bilan bog'laning"
 
-#: .\app\templates\base.html:220 .\app\templates\home.html:870
+#: .\app\templates\base.html:220 .\app\templates\home.html:896
 msgid "Ответы на вопросы"
 msgstr "Savollar javob berdi"
 
 #: .\app\templates\base.html:243
 msgid "Контактные номера:"
 msgstr "Aloqa raqamlari:"
+
+#: .\app\templates\base.html:252
+msgid ""
+"Международный журнал Транспорта и технологических машин «International "
+"Journal of Transport and Technological Machines»"
+msgstr "Transport va texnologik mashinalar xalqaro jurnali"
 
 #: .\app\templates\blog.html:27 .\app\templates\blog.html:30
 msgid "Статьи"
@@ -293,7 +324,7 @@ msgstr "Hammasi"
 msgid "Просмотров"
 msgstr "Qarashlar"
 
-#: .\app\templates\blog.html:119 .\app\templates\home.html:810
+#: .\app\templates\blog.html:119 .\app\templates\home.html:836
 #: .\app\templates\search_result.html:46 .\app\templates\user.html:96
 msgid "Подробнее"
 msgstr "Ko'proq o'rganing"
@@ -383,88 +414,17 @@ msgid "Password"
 msgstr "Parol"
 
 #: .\app\templates\home.html:81
-#, fuzzy, python-format
-#| msgid ""
-#| " В целях обеспечения реализации задач, предусмотренных Законом Республики "
-#| "Узбекистан «О науке и научной деятельности», Постановлением Президента "
-#| "Республики Узбекистан от 29 октября 2020 года № ПФ-6097, в том числе "
-#| "Международный научный журнал «Концепция развития науки до 2030 года» "
-#| "«Наука и инновации» учрежден в мае 2023 года. Лицензия Свидетельство о "
-#| "государственной регистрации № 083538 представлено Агентством информации и "
-#| "массовых коммуникаций при Администрации Президента Республики Узбекистан "
-#| "24 мая 2023 года. Индексация Все принятые статьи индексируются в "
-#| "международных научных базах данных Index Copernicus, OpenAire, ZENODO, "
-#| "Cyberleninka и Google Scholar. Редакционная коллегия В состав редколлегии "
-#| "журнала входят ведущие ученые, доктора наук, профессора Республики "
-#| "Узбекистан, а также зарубежные специалисты, что позволяет компетентно "
-#| "рассматривать работы по широкому кругу специальностей. Основатель  "
-#| "Учредителем журнала является Общество «РДЗ-НАУКА». Главный редактор: "
-#| "Муслимова Юлдуз.Статьи На сегодняшний день в журнале опубликовано более "
-#| "30 статей. Авторы статьи получат сертификат с QR-кодом, идентификационным "
-#| "номером и номерами DOI. Сайт журнала Официальный сайт журнала — http://"
-#| "rdz-science.com/, на нем будут размещаться принятые статьи. Также "
-#| "сборники журналов размещены в архивном разделе сайта. Антиплагиат Журнал "
-#| "принимает статьи с оригинальностью более 70%%. Проверка Unity "
-#| "осуществляется редакторами в трех системах — Plagiarism.uz, "
-#| "AntiPlagiarism.NET и PlagiarismCheckerX. Всем авторам статьи будет выдан "
-#| "сертификат, подтверждающий результат антиплагиата. © Международный журнал "
-#| "науки и техники При использовании статей обязательно указывать авторов "
-#| "статьи, название журнала и URL на сайте. Телефон: +998(90)347-98-31;"
 msgid ""
 " В целях обеспечения реализации задач, предусмотренных Законом Республики "
 "Узбекистан «О науке и научной деятельности», Постановлением Президента "
 "Республики Узбекистан от 29 октября 2020 года № ПФ-6097, в том числе "
-"Международный научный журнал «Концепция развития науки до 2030 года» «Наука "
-"и инновации» учрежден в мае 2023 года. Лицензия Свидетельство о "
-"государственной регистрации № 083538 представлено Агентством информации и "
-"массовых коммуникаций при Администрации Президента Республики Узбекистан 24 "
-"мая 2023 года. Индексация Все принятые статьи индексируются в международных "
-"научных базах данных Index Copernicus, OpenAire, ZENODO, Cyberleninka и "
-"Google Scholar. Редакционная коллегия В состав редколлегии журнала входят "
-"ведущие ученые, доктора наук, профессора Республики Узбекистан, а также "
-"зарубежные специалисты, что позволяет компетентно рассматривать работы по "
-"широкому кругу специальностей. Основатель  Учредителем журнала является "
-"Общество «РДЗ-НАУКА». Главный редактор: Муслимова Юлдуз.Статьи На "
-"сегодняшний день в журнале опубликовано более 30 статей. Авторы статьи "
-"получат сертификат с QR-кодом, идентификационным номером и номерами DOI. "
-"Сайт журнала Официальный сайт журнала — http://rdz-science.com/, на нем "
-"будут размещаться принятые статьи. Также сборники журналов размещены в "
-"архивном разделе сайта. Антиплагиат Журнал принимает статьи с "
-"оригинальностью более 70%%. Проверка Unity осуществляется редакторами в трех "
-"системах — Plagiarism.uz, AntiPlagiarism.NET и PlagiarismCheckerX. Всем "
-"авторам статьи будет выдан сертификат, подтверждающий результат "
-"антиплагиата. © Международный журнал науки и техники При использовании "
-"статей обязательно указывать авторов статьи, название журнала и URL на "
-"сайте. Телефон: +998(90)347-98-31;"
-msgstr ""
-"xalqaro ilmiy jurnali Ilm-fan va ilmiy faoliyat toʻgʻrisida Oʻzbekiston "
-"Respublikasi Qonuni, Oʻzbekiston Respublikasi Prezidentining 2020 yil 29-"
-"oktabrdagi PF-6097-sonli farmonida koʻzda tutilgan vazifalar, jumladan, Ilm-"
-"fanni 2030-yilgacha rivojlantirish konsepsiyasi ijrosini ta’minlash "
-"maqsadida Science and innovation xalqaro ilmiy jurnali 2023 yil may oyida "
-"tashkil etilgan. Litsenziya O‘zbekiston Respublikasi Prezidenti "
-"Administratsiyasi huzuridagi Axborot va ommaviy kommunikatsiyalar agentligi "
-"tomonidan 2023 yil 24 may kuni davlat roʻyxatidan oʻtkazilgan va №083538 "
-"sonli guvohnoma taqdim etilgan.Indekslash Qabul qilingan barcha maqolalar "
-"Index Copernicus, OpenAire, ZENODO, Cyberleninka va Google Scholar xalqaro "
-"ilmiy bazalarida indekslanadi. Tahrir hay’ati Jurnal tahrir hay’ati "
-"tarkibiga Oʻzbekiston Respublikasining yetakchi olimlari, fan doktorlari, "
-"professorlari, shuningdek, xorijiy ekspertlar kiradi, bu esa keng doiradagi "
-"mutaxassisliklar bo‘yicha ishlarni malakali ekspertizadan o‘tkazish imkonini "
-"beradi. Muassis Jurnal ta’sischisi RDZ-SCIENCE Jamiyati. Bosh muharriri: "
-"Muslimova Yulduz. Maqolalar Hozirgi kunga qadar jurnalda 30 dan ortiq maqola "
-"nashr etildi. Maqola mualliflariga QR kodli, ID raqamga ega va DOI raqamlari "
-"yozilgan sertifikat taqdim etiladi. Jurnal sayti Jurnalning rasmiy "
-"sayti http://rdz-science.com/ boʻlib, qabul qilingan maqolalar ushbu saytga "
-"joylab boriladi. Shuningdek, jurnal to’plamlari ham saytning arxiv boʻlimiga "
-"joylashtirib boriladi. Antiplagiat Jurnalga originalligi 70% dan yuqori "
-"boʻlgan maqolalar qabul qilinadi. Yagonalikni tekshirish muharrirlar "
-"tomonidan uchta tizimida – Plagiarism.uz, AntiPlagiarism.NET va "
-"PlagiarismCheckerX da amalga oshiriladi. Barcha maqola mualliflariga "
-"antiplagiat natijasi tasdiqlangan sertifikat beriladi.  © Internationale "
-"journal of Science and Technology xalqaro ilmiy jurnali Maqolalardan "
-"foydalanilganda maqola mualliflarini, jurnal nomini va saytdagi URL "
-"manzilini ko'rsatish talab etiladi.Tel: +998(90)347-98-31;"
+"Международный научный журнал «International Journal of Transport and "
+"Technological Machines» («Международный журнал Транспорта и технологических "
+"машин») учрежден в марте 2023 года. Лицензия Свидетельство о государственной "
+"регистрации № 083538 представлено Агентством информации и массовых "
+"коммуникаций при Администрации Президента Республики Узбекистан 24 мая 2023 "
+"года.              "
+msgstr "O‘zbekiston Respublikasining “Fan va ilmiy faoliyat to‘g‘risida”gi Qonuni, O‘zbekiston Respublikasi Prezidentining 2020-yil 29-oktabrdagi PF-6097-son qarorida nazarda tutilgan vazifalar ijrosini ta’minlash maqsadida, shu jumladan, xalqaro “Transport va texnologik mashinalar xalqaro jurnali” (“International Journal of Transport and Technological Machines”) ilmiy jurnali 2023-yil mart oyida tashkil etilgan. Davlat roʻyxatidan oʻtkazilganligi toʻgʻrisidagi 083538-sonli litsenziya guvohnomasi Oʻzbekiston Respublikasi Prezidenti Administratsiyasi huzuridagi Axborot va ommaviy kommunikatsiyalar agentligi tomonidan 2023-yil 24-mayda taqdim etilgan."
 
 #: .\app\templates\home.html:132
 msgid "Наши направления"
@@ -472,53 +432,62 @@ msgstr "Bizning yo'nalishlarimiz"
 
 #: .\app\templates\home.html:133
 msgid ""
-"«МЕЖДУНАРОДНЫЙ ЖУРНАЛ НАУКИ И ТЕХНОЛОГИИ» принимает статьи по следующим "
-"направлениям:"
-msgstr ""
-"«XALQARO FAN VA TEXNOLOGIYALAR JURNALI» quyidagi yo'nalishlar bo'yicha "
-"maqolalarni qabul qiladi:"
+"Международный журнал транспорта и технологических машин - IJTTM приветствует "
+"оригинальные статьи/обзоры по любой дисциплине.         Темы: (Любые "
+"области, связанные с инженерией, технологиями и приложениями. Не "
+"ограничиваясь приведенными темами):"
+msgstr "Transport va texnologik mashinalar xalqaro jurnali - IJTTM har qanday fan bo'yicha original maqolalar/taqrizlarni qabul qiladi. Mavzular: (Muhandislik, texnologiya va ilovalar bilan bog'liq har qanday sohalar. Ro'yxatdagi mavzular bilan cheklanmagan):"
 
 #: .\app\templates\home.html:147
-msgid "Точные и естественные науки"
-msgstr "Aniq va tabiiy fanlari"
+msgid "Автомобильная инженерия"
+msgstr "Avtomobil muhandisligi"
 
 #: .\app\templates\home.html:158
-msgid "Медицинские науки"
-msgstr "Tibbiyot fanlari"
+msgid "Гражданское строительство"
+msgstr "Qurilish ishi"
 
 #: .\app\templates\home.html:170
-msgid "Технические науки"
-msgstr "Texnika fanlari"
+msgid "Строительная инженерия и менеджмент"
+msgstr "Qurilish muhandisligi va boshqaruvi"
 
 #: .\app\templates\home.html:183
-msgid "Педагогические науки"
-msgstr "Pedagogika  fanlari"
+msgid "Контрольно-измерительная техника"
+msgstr "Asboblar texnologiyasi"
 
 #: .\app\templates\home.html:194
-msgid "Социальные и гуманитарные науки"
-msgstr "Ijtimoiy-gumanitar fanlar"
+msgid "Инженерия окружающей среды"
+msgstr "Atrof-muhit muhandisligi"
 
 #: .\app\templates\home.html:208
-msgid "экономика"
-msgstr "iqtisod"
+
+msgid "Экологические науки  "
+msgstr "Atrof-muhit fanlari"
 
 #: .\app\templates\home.html:219
-msgid "Науки философии и филологии"
-msgstr " falsafa va filologiya fanlari"
+msgid "Зеленое производство"
+msgstr "Yashil ishlab chiqarish"
 
-#: .\app\templates\home.html:230
-msgid "Искусство и культурология"
-msgstr "San’at va madaniyat fanlari"
+#: .\app\templates\home.html:232
+msgid "Промышленная безопасность "
+msgstr "Sanoat xavfsizligi"
 
-#: .\app\templates\home.html:241
-msgid "Физкультура и спорт"
-msgstr "Jismoniy tarbiya va sport"
+#: .\app\templates\home.html:243
+msgid "Технология машиностроения"
+msgstr "Mashinasozlik texnologiyasi"
 
-#: .\app\templates\home.html:258
+#: .\app\templates\home.html:253
+msgid "горное дело"
+msgstr "tog'li ish"
+
+#: .\app\templates\home.html:264
+msgid "Мехатроника"
+msgstr "Mexatronika"
+
+#: .\app\templates\home.html:284
 msgid "Наши сотрудники"
 msgstr "Bizning xodimlarimiz"
 
-#: .\app\templates\home.html:387
+#: .\app\templates\home.html:413
 msgid ""
 "Старший научный сотрудник Института астрономии РАН. Кандидат физико-"
 "математических наук. Член редколлегии Международного научно-технического "
@@ -528,7 +497,7 @@ msgstr ""
 "D. Fizika va matematika fanlari bo'yicha. «RDZ-NAUKA» jamiyatining xalqaro "
 "ilmiy-texnikaviy jurnali tahririyat hay'ati a'zosi."
 
-#: .\app\templates\home.html:410
+#: .\app\templates\home.html:436
 msgid ""
 "Низомий Ташкентский государственный педагогический университет «Профессор "
 "кафедры педагогики начального образования, кандидат психологических наук. "
@@ -540,7 +509,7 @@ msgstr ""
 "Internationale Journal of Science and Technology» xalqaro ilmiy jurnali RDZ-"
 "SCIENCE jamiyatining tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:434
+#: .\app\templates\home.html:460
 msgid ""
 "Доцент кафедры физики и методики преподавания Ташкентского государственного "
 "педагогического университета им. Низоми, кандидат педагогических наук, член "
@@ -551,7 +520,7 @@ msgstr ""
 "«Internationale Journal of Science and Technology» xalqaro ilmiy jurnali "
 "tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:455
+#: .\app\templates\home.html:481
 msgid ""
 "Кандидат физико-математических наук, Доцент Ташкентского государственного "
 "педагогического университета имени Низоми, член редколлегии Международного "
@@ -562,7 +531,7 @@ msgstr ""
 "«Internationale Journal of Science and Technology» xalqaro ilmiy jurnali "
 "tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:476
+#: .\app\templates\home.html:502
 msgid ""
 "Ташкентский государственный педагогический университет имени Низоми "
 "Профессор кафедры «Педагогика начального образования», член редколлегии "
@@ -573,7 +542,7 @@ msgstr ""
 "Internationale Journal of Science and Technology» xalqaro ilmiy jurnali RDZ-"
 "SCIENCE jamiyatining tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:497
+#: .\app\templates\home.html:523
 msgid ""
 "Кандидат физико-математических наук, Ташкентский государственный "
 "педагогический университет, доцент кафедры физики и методики ее "
@@ -585,7 +554,7 @@ msgstr ""
 "Internationale Journal of Science and Technology» xalqaro ilmiy jurnali RDZ-"
 "SCIENCE jamiyatining tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:519
+#: .\app\templates\home.html:545
 msgid ""
 "Доцент кафедры физики и методики ее преподавания физико-математического "
 "факультета ТДПУ. Доктор философских наук (PhD) в области педагогических "
@@ -596,7 +565,7 @@ msgstr ""
 "oʻqitish metodikasi kafedrasi dotsenti, Internationale Journal of Science "
 "and Technology xalqaro ilmiy jurnali tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:543
+#: .\app\templates\home.html:569
 msgid ""
 "Адъюнкт-профессор методики преподавания физики и астрономии в Университете "
 "Найроби, доктор философии по физике и математике Член редакционной коллегии "
@@ -607,7 +576,7 @@ msgstr ""
 "«Internationale Journal of Science and Technology» xalqaro ilmiy jurnali "
 "tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:563
+#: .\app\templates\home.html:589
 msgid ""
 "доктор педагогических наук, профессор Ташкентского государственного "
 "педагогического университета имени Низами"
@@ -615,7 +584,7 @@ msgstr ""
 "Pedagogika fanlari doktori,Nizomiy nomidagi Toshkent davlat pedagogika "
 "universiteti professori"
 
-#: .\app\templates\home.html:583
+#: .\app\templates\home.html:609
 msgid ""
 "кандидат педагогических наук, доцент Ташкентского государственного "
 "педагогического университета имени Низами"
@@ -623,7 +592,7 @@ msgstr ""
 "Pedagogika fanlari nomzodi,Nizomiy nomidagi Toshkent davlat pedagogika "
 "universiteti dotsenti"
 
-#: .\app\templates\home.html:603
+#: .\app\templates\home.html:629
 msgid ""
 "кандидат технических наук, доцент Ташкентского государственного "
 "педагогического университета имени Низами"
@@ -631,7 +600,7 @@ msgstr ""
 "Texnika fanlari nomzodi,Nizomiy nomidagi Toshkent davlat pedagogika "
 "universiteti dotsenti"
 
-#: .\app\templates\home.html:624
+#: .\app\templates\home.html:650
 msgid ""
 "кандидат физико-математических наук, доцент,профессор кафедры физики и "
 "астрономии Навоийского государственного педагогического института"
@@ -639,7 +608,7 @@ msgstr ""
 "Fizika-matematika fanlari nomzodi, Dotsent,Navoiy davlat pedagogika "
 "instituti Fizika va astronomiya kafedrasi professori"
 
-#: .\app\templates\home.html:646
+#: .\app\templates\home.html:672
 msgid ""
 "кандидат педагогических наук, Доцент Белорусско-Узбекского совместного "
 "междисциплинарного института практических технических квалификаций в Ташкенте"
@@ -647,7 +616,7 @@ msgstr ""
 "Pedagogika fanlari nomzodi,Toshkent shahridagi Belarus - O‘zbekiston qo‘shma "
 "tarmoqlararo amaliy texnik kvalifikatsiyalar instituti dotsenti"
 
-#: .\app\templates\home.html:668
+#: .\app\templates\home.html:694
 msgid ""
 "Навоийский государственный педагогический институт, доцент кафедры "
 "информатики, доктор философии педагогических наук (PhD). Член редколлегии "
@@ -658,7 +627,7 @@ msgstr ""
 "International Journal of Science and Technology xalqaro ilmiy jurnali tahrir "
 "hay'ati a'zosi."
 
-#: .\app\templates\home.html:688
+#: .\app\templates\home.html:714
 msgid ""
 "Навоийский государственный педагогический институт, профессор кафедры физики "
 "и астрономии, кандидат физико-математических наук, член редколлегии "
@@ -669,7 +638,7 @@ msgstr ""
 "International Journal of Science and Technology xalqaro ilmiy jurnali tahrir "
 "hay'ati a'zosi."
 
-#: .\app\templates\home.html:708
+#: .\app\templates\home.html:734
 msgid ""
 "Старший преподаватель кафедры методики преподавания физики Джизакского "
 "государственного педагогического института, кандидат физико-математических "
@@ -681,171 +650,375 @@ msgstr ""
 "jamiyatining International Journal of Science and Technology xalqaro ilmiy "
 "jurnali tahrir hay'ati a'zosi."
 
-#: .\app\templates\home.html:770
+#: .\app\templates\home.html:796
 msgid "Интересные новости"
 msgstr "Qiziqarli yangiliklar"
 
-#: .\app\templates\home.html:771
+#: .\app\templates\home.html:797
 msgid "Популярные статьи"
 msgstr "ILMIY MAQOLALAR"
 
-#: .\app\templates\home.html:804
+#: .\app\templates\home.html:830
 msgid "Просмотров:"
 msgstr "Qarashlar:"
 
-#: .\app\templates\home.html:804
+#: .\app\templates\home.html:830
 msgid "автор"
 msgstr "muallif"
 
-#: .\app\templates\home.html:817
+#: .\app\templates\home.html:843
 msgid "Временно постов нет... "
 msgstr "Postlar vaqtincha yoʻq..."
 
-#: .\app\templates\home.html:871
-msgid "Часто задаваемые вопросы"
-msgstr "Tez-tez beriladigan savollar"
-
-#: .\app\templates\home.html:880
-msgid "Статья должна быть написана в формате IMRAD международного уровня"
-msgstr "Maqola xalqaro darajadagi IMRAD formatida yozilishi kerak"
-
-#: .\app\templates\home.html:885
-msgid ""
-"Название статьи, аннотация и ключевые слова должны быть представлены на "
-"узбекском, русском и английском языках. "
-msgstr ""
-"Maqolaning sarlavhasi, abstrakt va kalit so'zlar taqdim etilishi kerak "
-"O'zbek, rus va ingliz tillari."
-
-#: .\app\templates\home.html:892
-msgid ""
-"Статьи должны быть представлены на актуальные темы, относящиеся к "
-"направлению научного журнала"
-msgstr ""
-"Tegishli mavzular bo'yicha maqolalar taqdim etilishi kerakIlmiy jurnalning "
-"yo'nalishi"
-
-#: .\app\templates\home.html:896
-msgid ""
-"основанные на научных и законченных мнениях, с предложениями и "
-"рекомендациями;"
-msgstr "Ilmiy va to'liq mulohazalar asosida, takliflar bilan va tavsiyalar;"
-
-#: .\app\templates\home.html:903
-msgid "Текст статьи должен быть в формате А4 "
-msgstr "Maqola matni A4 formatda bo'lishi kerak "
+#: .\app\templates\home.html:897
+ 
+msgid "Инструкции для авторов"
+msgstr "Mualliflar uchun ko'rsatmalar"
 
 #: .\app\templates\home.html:906
-msgid "с полями 2 см сверху и снизу, 2 см слева, 2 см справа;"
-msgstr "yuqorida va pastda 2 sm, chapda 2 sm, o'ng tomonda 2 sm;"
+ 
+msgid "Подача рукописи"
+msgstr "Qo'lyozmani topshirish"
 
-#: .\app\templates\home.html:913
+#: .\app\templates\home.html:911
 msgid ""
-"Текст статьи должен быть в текстовом редакторе Word, шрифт Times New Roman"
-msgstr ""
-"Maqola matni matn muharririda bo'lishi kerak Word, shrift Times New Roman"
+"Подача рукописи подразумевает: что описываемая работа ранее не "
+"публиковалась; что он не рассматривается для публикации где-либо еще; что ее "
+"публикация была одобрена всеми соавторами, если таковые имеются, а также "
+"ответственными органами – молчаливо или явно – в институте, где была "
+"выполнена работа. Издатель не будет нести юридическую ответственность в "
+"случае каких-либо требований о компенсации.Разрешения Авторы, желающие "
+"включить рисунки, таблицы или отрывки текста, которые уже были опубликованы "
+"где-либо еще, должны получить разрешение владельца(ов) авторских прав как на "
+"печатный, так и на онлайн-формат, а также при подаче своих статей включить "
+"доказательства того, что такое разрешение было предоставлено. . Любой "
+"материал, полученный без таких доказательств, будет считаться исходящим от "
+"авторов. "
+msgstr "Qo'lyozmani topshirish quyidagilarni nazarda tutadi: tasvirlangan asar ilgari nashr etilmagan; boshqa joyda nashr etish uchun ko'rib chiqilmaganligi; uning nashr etilishi barcha hammualliflar tomonidan, agar mavjud bo'lsa, shuningdek, ish bajarilgan institutdagi mas'ul organlar tomonidan - so'zsiz yoki ochiq-oydin ma'qullanganligi. Noshir kompensatsiya talab qilgan taqdirda qonuniy javobgar bo‘lmaydi. Ruxsatlar Boshqa joyda chop etilgan raqamlar, jadvallar yoki matn qismlarini qo‘shishni xohlovchi mualliflar bosma va onlayn nashrlarda mualliflik huquqi egasi(lar)idan ruxsat olishlari kerak. formatini kiriting va maqolalaringizni yuborayotganda bunday ruxsat berilganligini tasdiqlovchi dalillarni kiriting. . Bunday dalillarsiz olingan har qanday material mualliflardan kelib chiqqan deb hisoblanadi."
 
-#: .\app\templates\home.html:917
-msgid "размер 14, интервал 1,15, объем 3-10 страниц"
-msgstr "hajmi 14, oraliq 1.15, hajmi 3-10 bet"
+#: .\app\templates\home.html:918
+msgid "Заявление о вкладе автора"
+msgstr "Muallifning hissasi haqidagi bayonot"
 
-#: .\app\templates\home.html:924
-msgid "При принятии представленной статьи взимается вознаграждение"
-msgstr "Taqdim etilgan maqolani qabul qilgandan so'ng, to'lov olinadi"
+#: .\app\templates\home.html:922
+msgid ""
+"Авторы должны предоставить краткое описание вклада каждого из перечисленных "
+"авторов (пожалуйста, используйте инициалы). Это будет опубликовано в "
+"отдельном разделе перед Благодарностями.    Например: AM и DB задумали и "
+"разработали исследование. АМ и ББ проводили эксперименты. GR предоставил "
+"новые реагенты или аналитические инструменты. AM и GR проанализировали "
+"данные. АМ написал рукопись. Все авторы прочитали и одобрили рукопись."
+msgstr "Mualliflar ro'yxatga olingan har bir muallifning hissalarining qisqacha tavsifini taqdim etishlari kerak (iltimos, bosh harflardan foydalaning). Bu minnatdorchilikdan oldin alohida bo'limda e'lon qilinadi. Masalan: AM va JB tadqiqotni ishlab chiqdi va loyihalashtirdi. AM va BB tajribalarni amalga oshirdi. GR yangi reagentlar yoki analitik vositalarni taqdim etdi. AM va GR ma'lumotlarni tahlil qildi. AM qo'lyozmani yozgan. Barcha mualliflar qo'lyozmani o'qib chiqdilar va tasdiqladilar."
 
-#: .\app\templates\home.html:928
-msgid "сум за статью."
-msgstr "har bir maqola uchun yig'indi."
+#: .\app\templates\home.html:929
+msgid "Титульная страница"
+msgstr "Old sahifa"
+
+#: .\app\templates\home.html:932
+msgid ""
+"На титульном листе должны быть указаны:Полное имя, отчество и фамилия "
+"автора(ов)Краткое и информативное название; избегайте использования "
+"неопределенных сокращений. Ограничьте заголовок 180 символами (включая "
+"пробелы).Аффилированность(я) и адрес(а) всех авторов(ов)Адрес электронной "
+"почты, номера телефона и факса соответствующего автора.Желательно, чтобы вы "
+"использовали свой институциональный адрес электронной почты для переписки."
+"Пожалуйста, предоставьте аннотацию объемом до 250 слов. Аннотация должна "
+"иметь широкую основу, чтобы привлечь внимание широкой аудитории IJTTM. "
+"Избегайте использования неопределенных сокращений или неуказанных ссылок. В "
+"заключение скажите, как эта работа продвинула современное состояние в этой "
+"области.Ключевые словаУкажите от 4 до 6 ключевых слов, которые можно "
+"использовать для индексации. Избегайте использования слов, уже встречающихся "
+"в названии статьи."
+msgstr "Sarlavha sahifasida quyidagilar ko'rsatilishi kerak: muallif(lar)ning to'liq ismi, otasining ismi va familiyasi; qisqacha va ma'lumotli sarlavha; Noaniq qisqartmalardan foydalanishdan saqlaning. Sarlavhani 180 belgi (shu jumladan bo'shliqlar) bilan cheklang. Barcha muallif(lar)ning mansubligi(lar)i va manzil(lar)i elektron pochta manzili, tegishli muallifning telefon va faks raqamlari. Xat yozish uchun institutsional elektron pochta manzilingizdan foydalanganingiz ma'qul. .Iltimos, 250 tagacha soʻzdan iborat konspekt taqdim eting. Referat IJTTMning keng auditoriyasini jalb qilish uchun keng asosda bo'lishi kerak. Noaniq qisqartmalar yoki tasdiqlanmagan havolalardan foydalanishdan saqlaning. Xulosa qilib, ushbu ish sohadagi san'at darajasini qanday oshirdi Kalit so'zlar Indekslash uchun ishlatilishi mumkin bo'lgan 4 dan 6 gacha kalit so'zlarni ro'yxatlang. Maqolaning sarlavhasida allaqachon mavjud bo'lgan so'zlarni ishlatishdan saqlaning."
 
 #: .\app\templates\home.html:939
+msgid "Текст"
+msgstr "Matn"
+
+#: .\app\templates\home.html:943
 msgid ""
-"Статьи на узбекском, русском и английском языках принимаются до 1 июля 2023 "
-"года в электронном виде по телеграм-адресу @IJST_2023. Контактный телефон:  "
-msgstr ""
-"O'zbek, rus va ingliz tillaridagi maqolalar 2023-yil 1-iyulgacha qabul "
-"qilinadi@IJST_2023 telegram manzilida elektron shaklda yillar. Aloqa telefon "
-"raqami: "
-
-#: .\app\templates\home.html:942
-msgid "Коллекционная форма журнала - 3 июля 2023 г."
-msgstr "Ko'rgazma to'plami to'plami - 3 Iyulya 2023"
-
-#: .\app\templates\home.html:945
-msgid "Он будет размещен в Telegram-канале"
-msgstr "Telegram kanaliga joylanadi"
+"Форматирование текстаРукописи должны быть представлены в формате Word.Для "
+"текста используйте обычный простой шрифт (например, Times Roman размером 10 "
+"пунктов).Используйте курсив для выделения.Используйте функцию автоматической "
+"нумерации страниц для нумерации страниц.Не используйте полевые функции."
+"Используйте позиции табуляции или другие команды для отступов, а не пробел."
+"Для создания таблиц используйте функцию таблицы, а не электронные таблицы."
+"Используйте редактор формул или MathType для уравнений.Сохраните файл в "
+"формате docx (Word 2007 или более поздней версии) или формате doc (более "
+"старые версии Word).Рукописи математического содержания также можно "
+"отправлять в формате LaTeX.ЗаголовкиПожалуйста, используйте не более трех "
+"уровней отображаемых заголовков.СокращенияСокращения должны быть определены "
+"при первом упоминании и впоследствии использоваться последовательно."
+"СноскиСноски могут использоваться для предоставления дополнительной "
+"информации, которая может включать в себя цитирование ссылки, включенной в "
+"список литературы. Они не должны состоять исключительно из ссылки на ссылку "
+"и никогда не должны включать библиографические подробности ссылки. Они также "
+"не должны содержать каких-либо рисунков и таблиц.Сноски к тексту нумеруются "
+"последовательно; данные в таблицах должны обозначаться строчными буквами "
+"надстрочного индекса (или звездочками для значений значимости и других "
+"статистических данных). В сносках к названию или авторам статьи ссылочные "
+"обозначения не даются.Всегда используйте сноски вместо концевых."
+msgstr "adabiyotlar ro'yxati. Ular faqat ma'lumotnomaga havoladan iborat bo'lmasligi kerak va hech qachon ma'lumotnomaning bibliografik tafsilotlarini o'z ichiga olmaydi. Shuningdek, ularda rasm yoki jadval bo'lmasligi kerak.Matnga izohlar ketma-ket raqamlangan; jadvallardagi ma'lumotlar yuqori va kichik harflar (yoki ahamiyatlilik qiymatlari va boshqa statistik ma'lumotlar uchun yulduzcha) bilan belgilanishi kerak. Izohlarda maqola sarlavhasi yoki mualliflariga havolalar berilmaydi, so'nggi izohlar o'rniga har doim izohlardan foydalaning."
 
 #: .\app\templates\home.html:950
+ 
+msgid "Научный стиль"
+msgstr "Ilmiy uslub"
+
+#: .\app\templates\home.html:954
 msgid ""
-"Присланные научные статьи будут рассмотрены редакционной коллегией, а "
-"неотредактированные статьи, не присланные в соответствии с требованиями, "
-"опубликованы не будут;"
-msgstr ""
-"Taqdim etilgan ilmiy maqolalar tahririyat tomonidan ko'rib chiqiladi va "
-"talablarga muvofiq taqdim etilmagan o'tilgan maqolalar, 'nashr etilmaydi';"
+"Названия родов и видов должны быть выделены курсивом.Авторы должны внести "
+"новые нуклеотидные последовательности в GenBank до подачи статьи для "
+"публикации в IJTTM. В рукописи должен быть указан инвентарный номер для "
+"новой геномной ДНК, комплементарной ДНК, РНК и других нуклеотидных "
+"последовательностей, обсуждаемых в рукописи.Статистический анализ "
+"результатов:Авторы должны указать в подразделе в конце раздела «Материалы и "
+"методы» воспроизводимость или статистическую значимость результатов, "
+"особенно если это относится к цифрам, где не указаны полосы погрешностей "
+"(например, изображения, блоты).Использование антител:Укажите код продукта "
+"антител, если использовались коммерчески доступные антитела."
+msgstr "Jins va turlarning nomlari kursiv bilan yozilishi kerak Mualliflar maqolani IJTTMda chop etish uchun yuborishdan oldin GenBankga yangi nukleotidlar ketma-ketligini taqdim etishlari kerak. Qo'lyozma yangi genomik DNK, komplementar DNK, RNK va qo'lyozmada muhokama qilingan boshqa nukleotidlar ketma-ketligi uchun kirish raqamini ko'rsatishi kerak.Natijalarning statistik tahlili: Mualliflar Materiallar va usullar bo'limining oxiridagi kichik bo'limda takrorlanishi yoki takrorlanishini ko'rsatishi kerak. natijalarning statistik ahamiyati, ayniqsa, agar bu xato satrlari taqdim etilmagan raqamlarga taalluqli boʻlsa (masalan, tasvirlar, dogʻlar) Antikorlardan foydalanish: Agar savdoda mavjud boʻlgan antikorlardan foydalanilgan boʻlsa, antikor mahsulot kodini koʻrsating."
 
-#: .\app\templates\home.html:956
-msgid "Каждая статья индексируется в международных базах данных"
-msgstr "Har bir maqola xalqaro ma'lumotlar bazalarida indeksatsiya qilinadi"
+#: .\app\templates\home.html:965
+msgid "Рекомендации"
+msgstr "Tavsiyalar"
 
-#: .\app\templates\home.html:957
-msgid "(база OAK 14). Каждой статье присваивается номер DOI."
-msgstr "(OAK 14 bazasi). Har bir maqolaga DOI raqami tayinlanadi."
-
-#: .\app\templates\home.html:958
+#: .\app\templates\home.html:969
 msgid ""
-"Присылать статьи в журнал могут профессора и преподаватели, докторанты, "
-"независимые исследователи, учителя общеобразовательных школ и академических "
-"лицеев, аспиранты, талантливые студенты и другие представители науки. "
-"Статьи, принятые в журнал, будут предоставлены автору в течение 3-х рабочих "
-"дней с БЕСПЛАТНЫМ сертификатом, письмом о принятии и авторским "
-"свидетельством."
-msgstr ""
-"Jurnalga professor-o‘qituvchilar, doktorantlar, mustaqil izlanuvchilar, "
-"umumta’lim maktablari va akademik litsey o‘qituvchilari, aspirantlar, "
-"iqtidorli talabalar va boshqa fan namoyandalari maqolalarini yuborishlari "
-"mumkin. Jurnalga qabul qilingan maqolalar muallifga 3 ish kuni ichida BEPUL "
-"sertifikat, qabul xati va mualliflik guvohnomasi bilan taqdim etiladi."
+"ЦитированиеСсылки в тексте цитируйте по названию и году в скобках. Некоторые "
+"примеры:Исследования в области переговоров охватывают многие дисциплины "
+"(Томпсон, 1990).Позднее этот результат был опровергнут Беккером и Селигманом "
+"(1996).Этот эффект широко изучен (Abbott 1991; Barakat et al. 1995a, b; "
+"Kelso and Smith 1998; Medvec et al. 1999, 2000).Список литературыВ список "
+"использованной литературы следует включать только работы, цитируемые в "
+"тексте и опубликованные или принятые к публикации. Личные сообщения и "
+"неопубликованные работы должны упоминаться только в тексте. Не используйте "
+"сноски или концевые сноски вместо списка литературы.Записи в списке "
+"литературы должны располагаться в алфавитном порядке по фамилиям первого "
+"автора каждой работы. Упорядочивайте публикации нескольких авторов одного и "
+"того же первого автора в алфавитном порядке относительно второго, третьего и "
+"т. д. автора. Публикации одного и того же автора(ов) должны располагаться в "
+"хронологическом порядке.Журнальная статьяГамелен FX, Baquet G, Berthoin S, "
+"Thevenet D, Nourry C, Nottin S, Bosquet L (2009)Влияние высокоинтенсивных "
+"прерывистых тренировок на вариабельность сердечного ритма у детей "
+"препубертатного возраста. Eur J ApplPhysiol 105:731-738. https://doi."
+"org/10.1007/s00421-008-0955-8В идеале должны быть указаны имена всех "
+"авторов, но также допускается использование слова «и др.» в длинных списках "
+"авторов: Smith J, Jones M Jr, Houghton L et al (1999) Будущее медицинского "
+"страхования. N Engl J Med 965: 325–329Статья ДОИСлифка М.К., Уиттон Дж.Л. "
+"(2000)Клинические последствия нарушения регуляции выработки цитокинов. Дж "
+"Мол Мед. https://doi.org/10.1007/s001090000086КнигаСаут Дж., Бласс Б. "
+"(2001)Будущее современной геномики. Блэквелл, ЛондонГлава книгиБраун Б., "
+"Аарон М. (2001) Политика природы. В: Смит Дж. (ред.) Развитие современной "
+"геномики, 3-е изд. Уайли, Нью-Йорк, стр. 230–257.Онлайн-документКартрайт Дж. "
+"(2007) У больших звезд тоже есть погода. Издательство IOP PhysicsWeb. http://"
+"physicalweb.org/articles/news/11/6/16/1. По состоянию на 26 июня 2007 г."
+"ДиссертацияТрент Дж.В. (1975)Экспериментальная острая почечная "
+"недостаточность. Диссертация, Калифорнийский университет. Всегда используйте "
+"стандартное сокращение названия журнала в соответствии со Списком сокращений "
+"заглавных слов ISSN, см.ISSN LTWAЕсли вы не уверены, пожалуйста, используйте "
+"полное название журнала.Важная заметка:В идеале следует указать имена всех "
+"авторов, однако допускается также использование слова «и др.» в длинных "
+"списках авторов, насчитывающих более 15 авторов. Пожалуйста, всегда "
+"указывайте минимум трех авторов:Смит Дж., Джонс М. младший, Хоутон Л. и др. "
+"(1999)Будущее медицинского страхования. N Engl J Med 965: 325–329"
+msgstr "Matnda havolalarni keltirish, ularni sarlavha va yil bo'yicha qavs ichida keltiring. Ba'zi misollar: Muzokaralar bo'yicha tadqiqotlar ko'plab fanlarni qamrab oladi (Tompson 1990).Bu natija keyinchalik Becker va Seligman (1996) tomonidan rad etilgan.Bu ta'sir keng o'rganilgan (Abbott 1991; Barakat et al. 1995a, b; Kelso and Smith 1998; Medvec). va boshqalar 1999, 2000). Adabiyotlar ro'yxati faqat matnda keltirilgan va nashr etilgan yoki nashrga qabul qilingan asarlarni o'z ichiga olishi kerak. Shaxsiy xabarlar va nashr etilmagan asarlar faqat matnda ko'rsatilishi kerak. Bibliografiya oʻrniga izoh yoki soʻnggi izohlardan foydalanmang.Bibliografiyadagi yozuvlar alifbo tartibida har bir asarning birinchi muallifining familiyasi boʻyicha koʻrsatilishi kerak. Xuddi shu birinchi muallifning bir nechta mualliflari nashrlarini ikkinchi, uchinchi va hokazo muallifga nisbatan alifbo tartibida joylashtiring. Xuddi shu muallif(lar)ning nashrlari xronologik tartibda ro'yxatga olinishi kerak.Jurnal maqolasi Hamelin FX, Baquet G, Berthoin S, Thevenet D, Nourry C, Nottin S, Bosquet L (2009) Yurak urish tezligiga yuqori intensivlikdagi intervalgacha ta'limning ta'siri prepubertal bolalar yoshidagi o'zgaruvchanlik. Eur J ApplPhysiol 105:731–738. https://doi.org/10.1007/s00421-008-0955-8Ideal holda barcha mualliflar nomlanishi kerak, lekin “va boshqalar” so‘zi ham qabul qilinadi. uzoq ro'yxatga olingan mualliflar: Smit J, Jons M Jr, Houghton L va boshqalar (1999) Sog'liqni saqlash sug'urtasining kelajagi. N Engl J Med 965: 325–329 Maqola DOISlifka MK, Whitton JL. (2000) Disregulyatsiya qilingan sitokin ishlab chiqarishning klinik oqibatlari. J Mol Med. https://doi.org/10.1007/s001090000086BookSouth J, Blass B (2001) Zamonaviy genomikaning kelajagi. Blekvell, London bo'lim kitobiBrown B, Aaron M (2001) Tabiat siyosati. In: Smit J (ed) Zamonaviy genomikaning rivojlanishi, 3-nashr. Wiley, Nyu-York, 230-257-bet. Onlayn qog'oz Cartwright J (2007) Katta yulduzlarning ham ob-havosi bor. IOP PhysicsWeb tomonidan nashr etilgan. http://physicalweb.org/articles/news/11/6/16/1. 2007 yil 26-iyun kuni Trent J.V. (1975) Eksperimental o'tkir buyrak etishmovchiligi. Dissertatsiya, Kaliforniya universiteti. ISSN Sarlavhali qisqartmalar roʻyxatiga muvofiq har doim jurnal nomining standart qisqartmasidan foydalaning, ISSN LTWA ga qarang. Agar ishonchingiz komil boʻlmasa, jurnalning toʻliq sarlavhasidan foydalaning.Muhim eslatma: Ideal holda, barcha mualliflarning ismlari kiritilishi kerak, lekin  va hokazo  dan foydalanish ham qabul qilinadi. » 15 dan ortiq mualliflar soni bo'lgan mualliflarning uzun ro'yxatlarida. Iltimos, har doim kamida uchta muallifni sanab o'ting: Smit J, Jons M Jr, Houghton L va boshqalar (1999) Sog'liqni saqlash sug'urtasining kelajagi. N Engl J Med 965:325–329"
 
-#: .\app\templates\home.html:967
+#: .\app\templates\home.html:977
+msgid "Таблицы"
+msgstr "Jadvallar"
+
+#: .\app\templates\home.html:981
 msgid ""
-"Международный журнал Транспорта и технологических машин – IJTTM – это "
-"широкомасштабный журнал с двойным слепым рецензированием и открытым "
-"доступом, в котором публикуются новые результаты первичных исследований, "
-"обзоры и короткие сообщения по широкому спектру инженерных дисциплин. "
-"Редакционная коллегия журнала приветствует рукописи как в фундаментальных, "
-"так и в прикладных областях исследований и поощряет публикации, которые "
-"вносят новые и инновационные идеи в инженерную науку и технологии. Все "
-"представленные статьи, которые считаются подходящими для IJTTM, подвергаются "
-"строгому двойному слепому рецензированию для обеспечения высочайшего уровня "
-"качества. Журнал носит междисциплинарный характер и приветствует научно "
-"обоснованные исследования в традиционных и новых областях. Приветствуются "
-"оригинальные статьи, которые вносят существенный вклад в развитие инженерных "
-"наук и сообщают о значительных достижениях в этой области. Процесс "
-"рецензирования осуществляется максимально быстро, чтобы минимизировать "
-"задержки при публикации статей в Интернете.        IJTTM стремится улучшить "
-"понимание технических наук, предоставляя платформу для публикации уникальных "
-"материалов в области техники и технологий по различным темам, включая, "
-"помимо прочего, темы, перечисленные на нашем веб-сайте. Его цели - "
-"обеспечить форум высокого уровня для распространения и обмена передовыми "
-"достижениями в области инженерных исследований и разработок, текущими "
-"результатами первичных исследований и значительными достижениями; сообщать о "
-"прогрессе в инженерной науке, обсуждать актуальные темы, области интересов, "
-"препятствия и перспективы развития техники, а также принимать во внимание "
-"благополучие людей и окружающей среды, а также инженерную этику; продвигать "
-"инженерные прорывы и инновации, которые приносят пользу людям и окружающей "
-"среде.        Географический охват авторов: Австралия, США, Россия, Китай, "
-"Южная Корея, Перу, Греция, Индия, Индонезия, Алжир, Египет, Ирак, Малайзия, "
-"Узбекистан, Казахстан, Таджикистан и др.        В целях обеспечения "
-"реализации задач, предусмотренных Законом Республики Узбекистан «О науке и "
-"научной деятельности», Постановлением Президента Республики Узбекистан от 29 "
-"октября 2020 года № ПФ-6097, в том числе Международный научный журнал "
-"«International Journal of Transport and Technological "
-"Machines» («Международный журнал Транспорта и технологических машин») "
-"учрежден в марте 2023 года. Лицензия Свидетельство о государственной "
-"регистрации № 083538 представлено Агентством информации и массовых "
-"коммуникаций при Администрации Президента Республики Узбекистан 24 мая 2023 "
-"года. "
-msgstr ""
+"Все таблицы нумеруются арабскими цифрами.Таблицы всегда должны цитироваться "
+"в тексте в последовательном нумерованном порядке.Для каждой таблицы укажите "
+"заголовок (название) таблицы, объясняющий ее компоненты.Укажите любой ранее "
+"опубликованный материал, указав первоначальный источник в виде ссылки в "
+"конце заголовка таблицы.Сноски к таблицам должны обозначаться строчными "
+"буквами верхнего индекса (или звездочками для значений значимости и других "
+"статистических данных) и располагаться под телом таблицы."
+msgstr "Barcha jadvallar arab raqamlari bilan raqamlangan. Jadvallar har doim matnda ketma-ket raqamlangan tartibda keltirilishi kerak. Har bir jadval uchun uning tarkibiy qismlarini tushuntirib beruvchi jadval sarlavhasini (sarlavhasini) ko‘rsating. Ma’lumotnoma sifatida asl manbadan iqtibos keltirgan holda avval chop etilgan har qanday materialni keltiring. Jadval sarlavhasi oxiridagi Izohlar kichik bosh harflar (yoki ahamiyatlilik qiymatlari va boshqa statistik ma'lumotlar uchun yulduzchalar) bilan belgilanishi va jadvalning asosiy qismi ostida joylashgan bo'lishi kerak."
+
+#: .\app\templates\home.html:989
+ 
+msgid "Произведение искусства"
+msgstr "San'at asari"
+
+#: .\app\templates\home.html:993
+msgid ""
+"Для обеспечения наилучшего качества конечного продукта настоятельно "
+"рекомендуется отправлять все свои работы – фотографии, штриховые рисунки и "
+"т. д. – в электронном формате. Тогда ваше произведение искусства будет "
+"создано по самым высоким стандартам с максимальной точностью до деталей. "
+"Опубликованная работа будет напрямую отражать качество предоставленного "
+"произведения искусства.Электронная подача фигурокПредоставьте все цифры в "
+"электронном виде.Укажите, какая графическая программа использовалась для "
+"создания произведения искусства.Для векторной графики предпочтительным "
+"форматом является EPS; для полутонов используйте формат TIFF. Файлы MS "
+"Office также принимаются.Векторная графика, содержащая шрифты, должна "
+"содержать шрифты, встроенные в файлы.Назовите файлы рисунков, используя "
+"«Рис» и номер рисунка, например, Fig1.eps.Штриховое ИскусствоОпределение: "
+"Черно-белое изображение без затенения.Не используйте слабые линии и/или "
+"буквы и убедитесь, что все линии и буквы на рисунках разборчивы в "
+"окончательном размере.Все линии должны быть шириной не менее 0,1 мм (0,3 пт)."
+"Отсканированные штриховые рисунки и штриховые рисунки в растровом формате "
+"должны иметь минимальное разрешение 1200 dpi.Векторная графика, содержащая "
+"шрифты, должна содержать шрифты, встроенные в файлы.Полутоновое "
+"искусствоОпределение: фотографии, рисунки или картины с мелкой штриховкой и "
+"т. д.Если на фотографиях используется какое-либо увеличение, укажите это с "
+"помощью масштабных линеек внутри самих рисунков.Полутона должны иметь "
+"минимальное разрешение 300 dpi.Комбинированное искусствоОпределение: "
+"сочетание полутонов и штриховых рисунков, например, полутона, содержащие "
+"штриховой рисунок, обширные буквы, цветные диаграммы и т. д.Комбинированное "
+"изображение должно иметь минимальное разрешение 600 dpi.Цветовое "
+"искусствоЦветное искусство бесплатно для печати и онлайн-публикации.Цветные "
+"иллюстрации должны быть представлены в формате RGB.Рисунок НадписьДля "
+"добавления надписей лучше всего использовать Helvetica или Arial (шрифты без "
+"засечек).Сохраняйте одинаковый размер букв на протяжении всего "
+"окончательного размера, обычно около 2–3 мм (8–12 пикселей).Разница в "
+"размере шрифта на иллюстрации должна быть минимальной, например, не "
+"используйте шрифт размером 8 пунктов на оси и шрифт размером 20 пунктов для "
+"метки оси.Избегайте таких эффектов, как затенение, контурные буквы и т. д.Не "
+"включайте заголовки и подписи в свои иллюстрации.Нумерация рисунковВсе "
+"рисунки нумеруются арабскими цифрами.Рисунки всегда должны приводиться в "
+"тексте в последовательном порядке номеров.Части рисунка следует обозначать "
+"строчными буквами (а, б, в и т. д.).Если в вашей статье появилось приложение "
+"и оно содержит один или несколько рисунков, продолжайте последовательную "
+"нумерацию основного текста. Не нумеруйте рисунки в приложении «А1, А2, А3 и "
+"т. д.». Однако рисунки в онлайн-приложениях (электронный дополнительный "
+"материал) должны быть пронумерованы отдельно.Подписи к рисункамКаждый "
+"рисунок должен иметь краткую подпись, точно описывающую, что изображено на "
+"рисунке. Включайте подписи в текстовый файл рукописи, а не в файл рисунков."
+"Подписи к рисункам начинаются со слова «Рис.», выделенного жирным шрифтом, "
+"за которым следует номер рисунка, также выделенный жирным шрифтом.После "
+"номера не должно быть никаких знаков препинания, а также никаких знаков "
+"препинания в конце подписи.В подписи к рисунку укажите все элементы, "
+"представленные на рисунке; и используйте прямоугольники, круги и т. д. в "
+"качестве точек координат на графиках.Укажите ранее опубликованный материал, "
+"указав первоначальный источник в виде ссылки в конце подписи к рисунку."
+"Размещение и размер фигурыПри подготовке рисунков выбирайте их размеры так, "
+"чтобы они соответствовали ширине столбца.Для большинства журналов цифры "
+"должны быть шириной 39 мм, 84 мм, 129 мм или 174 мм и не выше 234 мм.Для "
+"книг и журналов книжного формата рисунки должны быть шириной 80 мм или 122 "
+"мм и не выше 198 мм.РазрешенияЕсли вы включаете рисунки, которые уже были "
+"опубликованы где-либо еще, вы должны получить разрешение от владельцев "
+"авторских прав как на печатный, так и на онлайн-формат. Имейте в виду, что "
+"некоторые издатели не предоставляют электронные права бесплатно и что IJETT "
+"не сможет возместить любые расходы, которые могли возникнуть при получении "
+"этих разрешений. В таких случаях следует использовать материал из других "
+"источников.ДоступностьЧтобы предоставить людям с любыми способностями и "
+"ограниченными возможностями доступ к содержимому ваших фигурок, убедитесь, "
+"чтоВсе рисунки имеют описательные подписи (слепые пользователи могут затем "
+"использовать программное обеспечение для преобразования текста в речь или "
+"оборудование для преобразования текста в Брайля).Для передачи информации "
+"вместо цветов или в дополнение к ним используются узоры (тогда пользователи "
+"с дальтонизмом смогут различать визуальные элементы).Любая цифровая надпись "
+"имеет коэффициент контрастности не менее 4,5:1."
+msgstr "Yakuniy mahsulotning eng yaxshi sifatini ta'minlash uchun barcha ishlaringizni - fotosuratlar, chizmalar va boshqalarni elektron formatda topshirishingiz qat'iy tavsiya etiladi. Shunda sizning san'at asaringiz eng yuqori standartlarga, batafsil aniqlik bilan yaratiladi. Nashr qilingan ish bevosita taqdim etilgan san'at asarining sifatini aks ettiradi. Raqamlarni elektron tarzda taqdim etish Barcha raqamlarni elektron shaklda yuboring. San'at asarini yaratish uchun qaysi grafik dasturidan foydalanilganligini ko'rsating. Vektorli grafikalar uchun EPS afzal ko'rilgan formatdir; yarim tonlar uchun TIFF formatidan foydalaning. MS Office fayllari ham qabul qilinadi. Shriftlarni o'z ichiga olgan vektorli grafikalar fayllarga o'rnatilgan shriftlarga ega bo'lishi kerak. Chizma fayllarini  Fig  va chizma raqami yordamida nomlang, masalan, Fig1.eps.Line ArtDefinition: Soyasiz qora va oq tasvir .Xira chiziqlar va/yoki harflardan foydalanmang va chizmalardagi barcha chiziqlar va harflar yakuniy o‘lchamda o‘qilishi mumkinligiga ishonch hosil qiling. Barcha chiziqlar kamida 0,1 mm (0,3 pt) kengligida bo‘lishi kerak. Rastr formatidagi skanerlangan chiziqli rasm va chizilgan rasm. Minimal o'lchamlari 1200 dpi bo'lishi kerak. Shriftlarni o'z ichiga olgan vektorli grafikalar fayllarga o'rnatilgan shriftlarni o'z ichiga olishi kerak. Halftone ArtDefinition: fotosuratlar, chizmalar yoki nozik soyali rasmlar va boshqalar. Agar fotosuratlar har qanday kattalashtirishdan foydalansa, buni chizmalarning o'zida masshtab chiziqlari yordamida ko'rsating. Minimal 300 dpi ruxsatga ega boʻlishi kerak. Kombinatsiya sanʼatining taʼrifi: Yarim ohanglar va chizilgan rasmning kombinatsiyasi, masalan, chizilgan rasm, keng harflar, rang jadvallari va boshqalarni oʻz ichiga olgan yarim ohanglar. Kombinatsiya tasviri kamida 600 dpi ruxsatga ega boʻlishi kerak.Color ArtColor art bosma va onlayn nashr uchun bepul. Rangli illyustratsiyalar RGB formatida boʻlishi kerak. Chizma harflari Harf qoʻshish uchun Helvetica yoki Arial (sans-serif shriftlari) dan foydalangan maʼqul. Yakuniy oʻlchamdagi harflarni bir xil oʻlchamda saqlang, odatda 2-gacha. 3 mm (8-12 piksel). Rasmdagi shrift o‘lchamidagi farq minimal bo‘lishi kerak, masalan, o‘qda 8 nuqtali shrift va eksa yorlig‘i uchun 20 nuqtali shriftdan foydalanmang. Soyalash, kontur harflari, Rasmlaringizga sarlavha yoki sarlavha qo'shmang.Raqamlarni raqamlashBarcha raqamlar arab raqamlari bilan raqamlangan.Raqamlar matnda har doim ketma-ket raqamlar tartibida ko'rsatilishi kerak.Rasm qismlari kichik harflar bilan belgilanishi kerak (a,b, c va boshqalar).Agar maqolangizda ilova paydo bo'lsa va unda bir yoki bir nechta rasm mavjud bo'lsa, asosiy matnni ketma-ket raqamlashni davom eting.  A1, A2, A3 va boshqalar  ilovasida chizmalarni raqamlamang. Shu bilan birga, onlayn ilovalardagi raqamlar (elektron qo'shimcha material) alohida raqamlangan bo'lishi kerak. Shakl sarlavhalari Har bir rasmda rasmda aniq nimani ko'rsatganini tasvirlaydigan qisqacha sarlavha bo'lishi kerak. Sarlavhalarni rasm fayliga emas, qoʻlyozma matn fayliga qoʻshing.Rasm sarlavhalari qalin “Rasm” soʻzi bilan boshlanadi, soʻngra raqam raqami ham qalin boʻladi.Raqamdan keyin tinish belgilari va tinish belgilari boʻlmasligi kerak. sarlavha oxirida.Rasm sarlavhasida rasmda keltirilgan barcha elementlarni ko'rsating; va grafiklarda koordinata nuqtalari sifatida to‘rtburchaklar, doiralar va hokazolardan foydalaning. Rasm sarlavhasi oxirida asl manbani havola sifatida ko‘rsatib, avval chop etilgan materialdan iqtibos keltiring. Shaklning joylashuvi va o‘lchami.Raqamlarni tayyorlashda ularni o‘lchamini kengligiga moslashtirib oling. ustun .Ko'pgina jurnallar uchun raqamlar kengligi 39 mm, 84 mm, 129 mm yoki 174 mm bo'lishi va balandligi 234 mm dan oshmasligi kerak. Kitoblar va kitob o'lchamli jurnallar uchun raqamlar 80 mm yoki 122 mm kengligida va 198 mm dan oshmasligi kerak. Ruxsatnomalar boshqa joyda chop etilgan bo'lsa, bosma va onlayn formatlar uchun mualliflik huquqi egalaridan ruxsat olishingiz kerak. Iltimos, shuni yodda tutingki, ba'zi noshirlar elektron huquqlarni bepul taqdim etmaydi va IJETT ushbu ruxsatnomalarni olish uchun qilingan har qanday xarajatlarni qoplay olmaydi. Bunday hollarda, boshqa manbalardan olingan materiallardan foydalanish kerak. Mavjudlik Har qanday qobiliyatli va imkoniyati cheklangan odamlarga raqamlaringiz mazmuniga kirishiga ruxsat berish uchun barcha raqamlarda tavsiflovchi taglavhalar mavjudligiga ishonch hosil qiling (ko‘r foydalanuvchilar keyin matnni nutqqa o‘tkazish dasturi yoki matndan foydalanishi mumkin) Brayl alifbosidagi so‘zlashuv uskunasi).Axborotni uzatish uchun ranglar o‘rniga yoki ularga qo‘shimcha ravishda naqsh ishlatiladi (shuning uchun rangni ko‘r foydalanuvchilar vizual elementlarni ajrata oladi).Har qanday raqamli yozuvning kontrast nisbati kamida 4,5:1 bo‘ladi."
+
+#: .\app\templates\home.html:1001
+msgid "Электронный дополнительный материал"
+msgstr "Elektron qo'shimcha material"
+
+#: .\app\templates\home.html:1005
+msgid ""
+"IJTTM принимает электронные мультимедийные файлы (анимация, фильмы, аудио и "
+"т. д.) и другие дополнительные файлы для публикации в Интернете вместе со "
+"статьей или главой книги. Эта функция может добавить объемности статье "
+"автора, поскольку определенную информацию невозможно распечатать или удобнее "
+"в электронном виде.Перед отправкой наборов исследовательских данных в "
+"качестве дополнительного электронного материала. Мы рекомендуем по "
+"возможности архивировать данные исследований в хранилищах данных."
+"ПодчинениеПредоставляйте все дополнительные материалы в стандартных форматах "
+"файлов.Пожалуйста, укажите в каждом файле следующую информацию: название "
+"статьи, название журнала, имена авторов; аффилиация и адрес электронной "
+"почты соответствующего автора.Чтобы обеспечить возможность загрузки "
+"пользователями, имейте в виду, что файлы большего размера могут потребовать "
+"очень длительного времени загрузки и что у некоторых пользователей могут "
+"возникнуть другие проблемы во время загрузки.Аудио, видео и "
+"анимацияСоотношение сторон: 16:9 или 4:3.Максимальный размер файла: 25 "
+"ГБМинимальная продолжительность видео: 1 сек.Поддерживаемые форматы файлов: "
+"avi, wmv, mp4, mov, m2p, mp2, mpg, mpeg, flv, mxf, mts, m4v, 3gp.Текст и "
+"презентацииОтправьте свой материал в формате PDF; Файлы .doc или .ppt не "
+"подходят для долгосрочной жизнеспособности.Коллекцию рисунков также можно "
+"объединить в файл PDF.ТаблицыТаблицы следует отправлять в виде файлов .csv "
+"или .xlsx (MS Excel).Специализированные форматыТаблицы следует отправлять в "
+"виде файлов .csv или .xlsx (MS Excel).Сбор нескольких файловМожно собрать "
+"несколько файлов в файл .zip или .gz.НумерацияЕсли предоставляется какой-"
+"либо дополнительный материал, в тексте должно быть конкретное упоминание о "
+"материале в виде цитаты, аналогично рисункам и таблицам.Дополнительные файлы "
+"именуйте «Онлайн-ресурс», например: «... как показано на анимации (Интернет-"
+"ресурс 3)», «... дополнительные данные приведены в Онлайн-ресурсе 4»."
+"Назовите файлы последовательно, например. «ESM_3.mpg», «ESM_4.pdf»."
+"ПодписиДля каждого дополнительного материала предоставьте краткую подпись, "
+"описывающую содержимое файла.Обработка дополнительных файловЭлектронный "
+"дополнительный материал будет опубликован в том виде, в котором он получен "
+"от автора, без каких-либо преобразований, редактирования или "
+"переформатирования.ДоступностьЧтобы предоставить людям с любыми "
+"способностями и ограниченными возможностями доступ к содержимому ваших "
+"дополнительных файлов, убедитесь, чтоРукопись содержит описательную подпись "
+"к каждому дополнительному материалу.Видеофайлы не содержат ничего, что "
+"мигает чаще трех раз в секунду (чтобы пользователи, склонные к судорогам, "
+"вызванным такими эффектами, не подвергались риску)"
+msgstr "IJTTM elektron media fayllarni animatsiya, filmlar, audio va boshqalar va boshqa qo'shimcha fayllarni maqola yoki kitob bo'limi bilan birga onlayn nashr qilish uchun qabul qiladi. Bu xususiyat muallif qog'oziga uzunlikni qo'shishi mumkin, chunki ba'zi ma'lumotlarni chop etib bo'lmaydi yoki elektron ko'rinishda qulayroqdir.Tadqiqot ma'lumotlari to'plamini elektron qo'shimcha material sifatida topshirishdan oldin. Iloji bo'lsa, tadqiqot ma'lumotlarini ma'lumotlar omborida arxivlashni tavsiya qilamiz.. Yuborish Barcha qo'shimcha materiallarni standart fayl formatlarida taqdim eting. Iltimos, har bir faylga quyidagi ma'lumotlarni kiriting: maqola nomi, jurnal nomi, mualliflarning ismlari; tegishli muallifning mansubligi va elektron pochta manzili. Foydalanuvchilar yuklab olishi uchun katta hajmdagi fayllar juda uzoq yuklab olish vaqtlarini talab qilishi va baʼzi foydalanuvchilar yuklab olish jarayonida boshqa muammolarga duch kelishi mumkinligini yodda tuting. Audio, video va animatsiya nisbati: 16: 9 yoki 4:3.Maksimal fayl hajmi: 25 GBMMinimal video davomiyligi: 1 soniya. Qoʻllab-quvvatlanadigan fayl formatlari: avi, wmv, mp4, mov, m2p, mp2, mpg, mpeg, flv, mxf, mts, m4v, 3gp. Matn va taqdimotlar PDF formatidagi materialingiz; .doc yoki .ppt fayllari uzoq muddatli yashovchanlik uchun mos emas. Raqamlar toʻplamini PDF faylga ham birlashtirish mumkin. Jadvallar jadvallari .csv yoki .xlsx fayllari MS Excel sifatida taqdim etilishi kerak. .csv yoki .xlsx fayllari MS Excel. Bir nechta fayllarni to'plash. Siz bir nechta fayllarni .zip yoki .gz faylga to'plashingiz mumkin. Raqamlash Agar biron bir qo'shimcha material taqdim etilsa, matnda material haqida alohida eslatma bo'lishi kerak. raqamlar va jadvallarga o'xshash iqtibos. Qo'shimcha fayllarni Onlayn manba deb nomlang, masalan: ...animatsiyada ko'rsatilganidek Onlayn resurs 3, ...batafsil ma'lumotlar 4-Onlayn manbada berilgan .Fayllarni ketma-ket nomlang, masalan. ESM_3.mpg, ESM_4.pdf. Sarlavhalar Har bir qo'shimcha material uchun fayl mazmunini tavsiflovchi qisqacha sarlavhani taqdim eting. Qo'shimcha fayllarni qayta ishlash Elektron qo'shimcha material muallifdan olinganidek, hech qanday konvertatsiya qilinmasdan chop etiladi, tahrirlash yoki qayta formatlash.Accessibility Barcha qobiliyatli va imkoniyati cheklangan odamlar sizning qo‘shimcha fayllaringiz mazmuniga kirishiga ishonch hosil qilish uchun Qo‘lyozmada har bir qo‘shimcha material uchun tavsiflovchi sarlavha mavjud bo‘lishiga ishonch hosil qiling. Video fayllarda har birida uch martadan ko‘proq yonib-o‘chadigan hech narsa bo‘lmasligi kerak. ikkinchidan bunday ta'sirlardan kelib chiqadigan soqchilikka moyil bo'lgan foydalanuvchilarning xavf ostida bo'lmasligi uchun"
+
+#: .\app\templates\home.html:1012
+msgid "Политика измерения экспрессии генов"
+msgstr "Gen ifodasini o'lchash siyosati"
+
+#: .\app\templates\home.html:1016
+msgid ""
+"IJTTM не будет публиковать рукописи, в которых функциональное значение "
+"изменений в экспрессии генов основано только на данных транскриптов. Очень "
+"важно предоставить подтверждающие доказательства для любой такой "
+"интерпретации, например, путем измерения изменений в соответствующих белках "
+"или соответствующих физиологических данных."
+msgstr "IJTTM gen ekspresyonidagi o'zgarishlarning funktsional ahamiyati faqat transkript ma'lumotlariga asoslangan qo'lyozmalarni nashr etmaydi. Har qanday bunday talqin uchun, masalan, tegishli oqsillardagi o'zgarishlarni yoki tegishli fiziologik ma'lumotlarni o'lchash orqali tasdiqlovchi dalillarni taqdim etish muhimdir."
+
+#: .\app\templates\home.html:1030 
+msgid ""
+"Все принятые статьи индексируются в международных научных базах данных Index "
+"Copernicus, OpenAire, ZENODO, Cyberleninka и Google Scholar:  "
+msgstr "Qabul qilingan barcha maqolalar Index Copernicus, OpenAire, ZENODO, Cyberleninka va Google Scholar xalqaro ilmiy maʼlumotlar bazalarida indekslangan:"
+
+#: .\app\templates\home.html:1041
+ 
+msgid ""
+"В состав редколлегии журнала входят ведущие ученые, доктора наук, профессора "
+"Республики Узбекистан, а также зарубежные специалисты, что позволяет "
+"компетентно рассматривать работы по широкому кругу специальностей. "
+"Основатель Учредителем журнала является факультет “Инжиниринг автомобильного "
+"транспорта” Ташкентского государственного траспортного университета.Главный "
+"редактор: Зияев Камолиддин Зухритдинович.Статьи Авторы статьи получат "
+"сертификат с QR-кодом, идентификационным номером и номерами DOI. Языки: "
+"узбекский, русский и английский.Выпуски: 4 раз в год Сайт журнала "
+"Официальный сайт журнала — https://ijttm.uz/, на нем будут размещаться "
+"принятые статьи. Также сборники журналов размещены в архивном разделе сайта. "
+"Антиплагиат Журнал принимает статьи с оригинальностью более 70%%. Проверка "
+"Unity осуществляется редакторами в трех системах — Antiplag.uz, Turnitin и "
+"Антиплагиат.ру. Всем авторам статьи будет выдан сертификат, подтверждающий "
+"результат антиплагиата."
+msgstr "Jurnal tahririyati tarkibiga O‘zbekiston Respublikasining yetakchi olimlari, fan doktorlari, professor-o‘qituvchilari, shuningdek, xorijiy mutaxassislar kiritilgani keng yo‘nalishlar bo‘yicha ishlarni malakali ko‘rib chiqish imkonini beradi. Ta'sischi Jurnalning ta'sischisi Toshkent davlat transport universitetining Avtotransport injiniringi fakultetidir.Ma'muriyat: Ziyaev Kamoliddin Zuxritdinovich.Maqolalar Maqola mualliflariga QR kod, identifikatsiya raqami va DOI raqamlari ko'rsatilgan sertifikat beriladi. Tillar: o'zbek, rus va ingliz Nashrlari: yiliga 4 marta Jurnal sayti Jurnalning rasmiy sayti https://ijttm.uz/, qabul qilingan maqolalar unda joylashtiriladi. Shuningdek, jurnallar to'plamlari saytning arxiv bo'limiga joylashtirilgan. Anti-plagiat Jurnal 70% dan ortiq originallikka ega maqolalarni qabul qiladi. Birlik muharrirlar tomonidan uchta tizimda tekshiriladi - Antiplag.uz, Turnitin va Antiplagiat.ru. Maqolaning barcha mualliflariga antiplagiat natijasini tasdiqlovchi sertifikat beriladi."
+
+#: .\app\templates\home.html:1067
+msgid ""
+" Международный журнал инженерных тенденций и технологий - IJTTM приветствует "
+"оригинальные исследовательские статьи, обзорные статьи и короткие статьи в "
+"номере за январь 2024 года. Рукописи, представленные в этот журнал, будут "
+"считаться неопубликованными и не рассматриваются для публикации в другом "
+"месте.Представление окончательного решения: 50 днейПриемка к публикации: 20 "
+"днейОбратитесь к столбцу тем, указанному в темах веб-сайта. Строго подавайте "
+"свою статью в виде шаблона IJTTM.Особенности IJTTM:Scopus и всемирная "
+"индексация.Электронное цитирование и ссылки на каждую статью через номера "
+"индивидуального цифрового идентификатора объекта (DOI) повышают узнаваемость "
+"вашей работы.Отправка вашей работы в основные индексирующие и реферативные "
+"базы данных, такие как Scopus и другие индексируемые по всему миру.Большее "
+"влияние, охват и видимость ваших исследований благодаря открытому доступу "
+"обеспечивают максимальную известность вашей работы.Преданные редакторы, "
+"активные в своих сообществах.Принятые рукописи будут регулироваться "
+"лицензией CC BY-NC-ND 4.0.Отправьте свою статью в формате Microsoft Word (."
+"doc или .docx). Если вы использовали латекс, отправьте ее в формате PDF.   "
+msgstr "International Journal of Engineering Trends and Technology - IJTTM 2024 yil yanvar sonida original tadqiqot maqolalari, sharh maqolalari va qisqa maqolalarni qabul qiladi. Ushbu jurnalga yuborilgan qo'lyozmalar nashr etilmagan deb hisoblanadi va boshqa joyda nashr qilish uchun ko'rib chiqilmaydi. Yakuniy qarorni topshirish: 50 kun Nashrga qabul qilish: 20 kun Veb-sayt mavzularida ko'rsatilgan mavzu ustuniga murojaat qiling. Maqolangizni IJTTM shabloni sifatida qat'iy ravishda topshiring.IJTTM xususiyatlari: Scopus va butun dunyo bo'ylab indekslash. Elektron iqtibos va Individual Digital Object Identifier (DOI) raqamlari orqali har bir qog'ozga havola qilish ishingiz ko'rinishini oshiradi. Ishingizni asosiy indekslash va abstraktlash ma'lumotlar bazalariga topshirish Scopus va dunyo boʻylab indekslangan boshqalar kabi. Ochiq kirish orqali tadqiqotingizning katta taʼsiri, qamrovi va koʻrinishi ishingiz uchun maksimal taʼsirni taʼminlaydi. Oʻz jamoalarida faol boʻlgan maxsus muharrirlar. Qabul qilingan qoʻlyozmalar CC BY-NC-ND tomonidan boshqariladi. 4.0 litsenziyasi. Hujjatingizni Microsoft Word formatida (.doc yoki .docx) yuboring. Agar siz lateksdan foydalansangiz, uni PDF formatida yuboring."
 
 #: .\app\templates\login.html:8
 msgid "Вход"
@@ -926,38 +1099,237 @@ msgstr "Sizda hech qanday xabar yo'q"
 msgid "Создать пост"
 msgstr "Post yaratish"
 
-#: .\app\views.py:205
+#: .\app\views.py:214
 msgid "Изменения сохранены!"
 msgstr "O'zgarishlar saqlanib qoldi!"
 
-#: .\app\views.py:223
+#: .\app\views.py:232
 msgid "Ваш пароль был успешно изменен!"
 msgstr "Sizning parolingiz muvaffaqiyatli o'zgartirildi!"
 
-#: .\app\views.py:249
+#: .\app\views.py:258
 msgid "Ваш пост успешно добавлен и ожидает проверку администратора!"
 msgstr ""
 "Sizning xabaringiz muvaffaqiyatli qo'shildi va administrator tekshiruvini "
 "kutmoqda!"
 
-#: .\app\views.py:286
+#: .\app\views.py:295
 msgid "Пост успешно был изменен!"
 msgstr "Post muvaffaqiyatli o'zgartirildi!"
 
-#: .\app\views.py:290
+#: .\app\views.py:299
 msgid "Необходимо добавить фотографию или удалить существующую."
 msgstr ""
 "Siz fotosurat qo'shishingiz yoki mavjud bo'lganingizni o'chirishingiz kerak."
 
-#: .\app\views.py:308
+#: .\app\views.py:317
 msgid "Запись была удалена!"
 msgstr "Yozuv oʻchirildi!"
 
+#, fuzzy, python-format
+#~| msgid ""
+#~| " В целях обеспечения реализации задач, предусмотренных Законом "
+#~| "Республики Узбекистан «О науке и научной деятельности», Постановлением "
+#~| "Президента Республики Узбекистан от 29 октября 2020 года № ПФ-6097, в "
+#~| "том числе Международный научный журнал «Концепция развития науки до 2030 "
+#~| "года» «Наука и инновации» учрежден в мае 2023 года. Лицензия "
+#~| "Свидетельство о государственной регистрации № 083538 представлено "
+#~| "Агентством информации и массовых коммуникаций при Администрации "
+#~| "Президента Республики Узбекистан 24 мая 2023 года. Индексация Все "
+#~| "принятые статьи индексируются в международных научных базах данных Index "
+#~| "Copernicus, OpenAire, ZENODO, Cyberleninka и Google Scholar. "
+#~| "Редакционная коллегия В состав редколлегии журнала входят ведущие "
+#~| "ученые, доктора наук, профессора Республики Узбекистан, а также "
+#~| "зарубежные специалисты, что позволяет компетентно рассматривать работы "
+#~| "по широкому кругу специальностей. Основатель  Учредителем журнала "
+#~| "является Общество «РДЗ-НАУКА». Главный редактор: Муслимова Юлдуз.Статьи "
+#~| "На сегодняшний день в журнале опубликовано более 30 статей. Авторы "
+#~| "статьи получат сертификат с QR-кодом, идентификационным номером и "
+#~| "номерами DOI. Сайт журнала Официальный сайт журнала — http://rdz-science."
+#~| "com/, на нем будут размещаться принятые статьи. Также сборники журналов "
+#~| "размещены в архивном разделе сайта. Антиплагиат Журнал принимает статьи "
+#~| "с оригинальностью более 70%%. Проверка Unity осуществляется редакторами "
+#~| "в трех системах — Plagiarism.uz, AntiPlagiarism.NET и "
+#~| "PlagiarismCheckerX. Всем авторам статьи будет выдан сертификат, "
+#~| "подтверждающий результат антиплагиата. © Международный журнал науки и "
+#~| "техники При использовании статей обязательно указывать авторов статьи, "
+#~| "название журнала и URL на сайте. Телефон: +998(90)347-98-31;"
+#~ msgid ""
+#~ " В целях обеспечения реализации задач, предусмотренных Законом Республики "
+#~ "Узбекистан «О науке и научной деятельности», Постановлением Президента "
+#~ "Республики Узбекистан от 29 октября 2020 года № ПФ-6097, в том числе "
+#~ "Международный научный журнал «Концепция развития науки до 2030 года» "
+#~ "«Наука и инновации» учрежден в мае 2023 года. Лицензия Свидетельство о "
+#~ "государственной регистрации № 083538 представлено Агентством информации и "
+#~ "массовых коммуникаций при Администрации Президента Республики Узбекистан "
+#~ "24 мая 2023 года. Индексация Все принятые статьи индексируются в "
+#~ "международных научных базах данных Index Copernicus, OpenAire, ZENODO, "
+#~ "Cyberleninka и Google Scholar. Редакционная коллегия В состав редколлегии "
+#~ "журнала входят ведущие ученые, доктора наук, профессора Республики "
+#~ "Узбекистан, а также зарубежные специалисты, что позволяет компетентно "
+#~ "рассматривать работы по широкому кругу специальностей. Основатель  "
+#~ "Учредителем журнала является Общество «РДЗ-НАУКА». Главный редактор: "
+#~ "Муслимова Юлдуз.Статьи На сегодняшний день в журнале опубликовано более "
+#~ "30 статей. Авторы статьи получат сертификат с QR-кодом, идентификационным "
+#~ "номером и номерами DOI. Сайт журнала Официальный сайт журнала — http://"
+#~ "rdz-science.com/, на нем будут размещаться принятые статьи. Также "
+#~ "сборники журналов размещены в архивном разделе сайта. Антиплагиат Журнал "
+#~ "принимает статьи с оригинальностью более 70%%. Проверка Unity "
+#~ "осуществляется редакторами в трех системах — Plagiarism.uz, "
+#~ "AntiPlagiarism.NET и PlagiarismCheckerX. Всем авторам статьи будет выдан "
+#~ "сертификат, подтверждающий результат антиплагиата. © Международный журнал "
+#~ "науки и техники При использовании статей обязательно указывать авторов "
+#~ "статьи, название журнала и URL на сайте. Телефон: +998(90)347-98-31;"
+#~ msgstr ""
+#~ "xalqaro ilmiy jurnali Ilm-fan va ilmiy faoliyat toʻgʻrisida Oʻzbekiston "
+#~ "Respublikasi Qonuni, Oʻzbekiston Respublikasi Prezidentining 2020 yil 29-"
+#~ "oktabrdagi PF-6097-sonli farmonida koʻzda tutilgan vazifalar, jumladan, "
+#~ "Ilm-fanni 2030-yilgacha rivojlantirish konsepsiyasi ijrosini ta’minlash "
+#~ "maqsadida Science and innovation xalqaro ilmiy jurnali 2023 yil may oyida "
+#~ "tashkil etilgan. Litsenziya O‘zbekiston Respublikasi Prezidenti "
+#~ "Administratsiyasi huzuridagi Axborot va ommaviy kommunikatsiyalar "
+#~ "agentligi tomonidan 2023 yil 24 may kuni davlat roʻyxatidan oʻtkazilgan "
+#~ "va №083538 sonli guvohnoma taqdim etilgan.Indekslash Qabul qilingan "
+#~ "barcha maqolalar Index Copernicus, OpenAire, ZENODO, Cyberleninka va "
+#~ "Google Scholar xalqaro ilmiy bazalarida indekslanadi. Tahrir hay’ati "
+#~ "Jurnal tahrir hay’ati tarkibiga Oʻzbekiston Respublikasining yetakchi "
+#~ "olimlari, fan doktorlari, professorlari, shuningdek, xorijiy ekspertlar "
+#~ "kiradi, bu esa keng doiradagi mutaxassisliklar bo‘yicha ishlarni malakali "
+#~ "ekspertizadan o‘tkazish imkonini beradi. Muassis Jurnal ta’sischisi RDZ-"
+#~ "SCIENCE Jamiyati. Bosh muharriri: Muslimova Yulduz. Maqolalar Hozirgi "
+#~ "kunga qadar jurnalda 30 dan ortiq maqola nashr etildi. Maqola "
+#~ "mualliflariga QR kodli, ID raqamga ega va DOI raqamlari yozilgan "
+#~ "sertifikat taqdim etiladi. Jurnal sayti Jurnalning rasmiy sayti http://"
+#~ "rdz-science.com/ boʻlib, qabul qilingan maqolalar ushbu saytga joylab "
+#~ "boriladi. Shuningdek, jurnal to’plamlari ham saytning arxiv boʻlimiga "
+#~ "joylashtirib boriladi. Antiplagiat Jurnalga originalligi 70% dan yuqori "
+#~ "boʻlgan maqolalar qabul qilinadi. Yagonalikni tekshirish muharrirlar "
+#~ "tomonidan uchta tizimida – Plagiarism.uz, AntiPlagiarism.NET va "
+#~ "PlagiarismCheckerX da amalga oshiriladi. Barcha maqola mualliflariga "
+#~ "antiplagiat natijasi tasdiqlangan sertifikat beriladi.  © Internationale "
+#~ "journal of Science and Technology xalqaro ilmiy jurnali Maqolalardan "
+#~ "foydalanilganda maqola mualliflarini, jurnal nomini va saytdagi URL "
+#~ "manzilini ko'rsatish talab etiladi.Tel: +998(90)347-98-31;"
+
+#~ msgid ""
+#~ "«МЕЖДУНАРОДНЫЙ ЖУРНАЛ НАУКИ И ТЕХНОЛОГИИ» принимает статьи по следующим "
+#~ "направлениям:"
+#~ msgstr ""
+#~ "«XALQARO FAN VA TEXNOLOGIYALAR JURNALI» quyidagi yo'nalishlar bo'yicha "
+#~ "maqolalarni qabul qiladi:"
+
+#~ msgid "Точные и естественные науки"
+#~ msgstr "Aniq va tabiiy fanlari"
+
+#~ msgid "Медицинские науки"
+#~ msgstr "Tibbiyot fanlari"
+
+#~ msgid "Технические науки"
+#~ msgstr "Texnika fanlari"
+
+#~ msgid "Социальные и гуманитарные науки"
+#~ msgstr "Ijtimoiy-gumanitar fanlar"
+
+#~ msgid "экономика"
+#~ msgstr "iqtisod"
+
+#~ msgid "Науки философии и филологии"
+#~ msgstr " falsafa va filologiya fanlari"
+
+#~ msgid "Искусство и культурология"
+#~ msgstr "San’at va madaniyat fanlari"
+
+#~ msgid "Физкультура и спорт"
+#~ msgstr "Jismoniy tarbiya va sport"
+
+#~ msgid "Часто задаваемые вопросы"
+#~ msgstr "Tez-tez beriladigan savollar"
+
+#~ msgid "Статья должна быть написана в формате IMRAD международного уровня"
+#~ msgstr "Maqola xalqaro darajadagi IMRAD formatida yozilishi kerak"
+
+#~ msgid ""
+#~ "Название статьи, аннотация и ключевые слова должны быть представлены на "
+#~ "узбекском, русском и английском языках. "
+#~ msgstr ""
+#~ "Maqolaning sarlavhasi, abstrakt va kalit so'zlar taqdim etilishi kerak "
+#~ "O'zbek, rus va ingliz tillari."
+
+#~ msgid ""
+#~ "Статьи должны быть представлены на актуальные темы, относящиеся к "
+#~ "направлению научного журнала"
+#~ msgstr ""
+#~ "Tegishli mavzular bo'yicha maqolalar taqdim etilishi kerakIlmiy "
+#~ "jurnalning yo'nalishi"
+
+#~ msgid ""
+#~ "основанные на научных и законченных мнениях, с предложениями и "
+#~ "рекомендациями;"
+#~ msgstr "Ilmiy va to'liq mulohazalar asosida, takliflar bilan va tavsiyalar;"
+
+#~ msgid "Текст статьи должен быть в формате А4 "
+#~ msgstr "Maqola matni A4 formatda bo'lishi kerak "
+
+#~ msgid "с полями 2 см сверху и снизу, 2 см слева, 2 см справа;"
+#~ msgstr "yuqorida va pastda 2 sm, chapda 2 sm, o'ng tomonda 2 sm;"
+
+#~ msgid ""
+#~ "Текст статьи должен быть в текстовом редакторе Word, шрифт Times New Roman"
+#~ msgstr ""
+#~ "Maqola matni matn muharririda bo'lishi kerak Word, shrift Times New Roman"
+
+#~ msgid "размер 14, интервал 1,15, объем 3-10 страниц"
+#~ msgstr "hajmi 14, oraliq 1.15, hajmi 3-10 bet"
+
+#~ msgid "При принятии представленной статьи взимается вознаграждение"
+#~ msgstr "Taqdim etilgan maqolani qabul qilgandan so'ng, to'lov olinadi"
+
+#~ msgid "сум за статью."
+#~ msgstr "har bir maqola uchun yig'indi."
+
+#~ msgid ""
+#~ "Статьи на узбекском, русском и английском языках принимаются до 1 июля "
+#~ "2023 года в электронном виде по телеграм-адресу @IJST_2023. Контактный "
+#~ "телефон:  "
+#~ msgstr ""
+#~ "O'zbek, rus va ingliz tillaridagi maqolalar 2023-yil 1-iyulgacha qabul "
+#~ "qilinadi@IJST_2023 telegram manzilida elektron shaklda yillar. Aloqa "
+#~ "telefon raqami: "
+
+#~ msgid "Коллекционная форма журнала - 3 июля 2023 г."
+#~ msgstr "Ko'rgazma to'plami to'plami - 3 Iyulya 2023"
+
+#~ msgid "Он будет размещен в Telegram-канале"
+#~ msgstr "Telegram kanaliga joylanadi"
+
+#~ msgid ""
+#~ "Присланные научные статьи будут рассмотрены редакционной коллегией, а "
+#~ "неотредактированные статьи, не присланные в соответствии с требованиями, "
+#~ "опубликованы не будут;"
+#~ msgstr ""
+#~ "Taqdim etilgan ilmiy maqolalar tahririyat tomonidan ko'rib chiqiladi va "
+#~ "talablarga muvofiq taqdim etilmagan o'tilgan maqolalar, 'nashr etilmaydi';"
+
+#~ msgid "(база OAK 14). Каждой статье присваивается номер DOI."
+#~ msgstr "(OAK 14 bazasi). Har bir maqolaga DOI raqami tayinlanadi."
+
+#~ msgid ""
+#~ "Присылать статьи в журнал могут профессора и преподаватели, докторанты, "
+#~ "независимые исследователи, учителя общеобразовательных школ и "
+#~ "академических лицеев, аспиранты, талантливые студенты и другие "
+#~ "представители науки. Статьи, принятые в журнал, будут предоставлены "
+#~ "автору в течение 3-х рабочих дней с БЕСПЛАТНЫМ сертификатом, письмом о "
+#~ "принятии и авторским свидетельством."
+#~ msgstr ""
+#~ "Jurnalga professor-o‘qituvchilar, doktorantlar, mustaqil izlanuvchilar, "
+#~ "umumta’lim maktablari va akademik litsey o‘qituvchilari, aspirantlar, "
+#~ "iqtidorli talabalar va boshqa fan namoyandalari maqolalarini yuborishlari "
+#~ "mumkin. Jurnalga qabul qilingan maqolalar muallifga 3 ish kuni ichida "
+#~ "BEPUL sertifikat, qabul xati va mualliflik guvohnomasi bilan taqdim "
+#~ "etiladi."
+
 #~ msgid "Введите название"
 #~ msgstr "Nom kiriting"
-
-#~ msgid "Введите описание"
-#~ msgstr "Tavsifni kiriting"
 
 #~ msgid "Оформление"
 #~ msgstr "Tipografiya"
@@ -1054,9 +1426,6 @@ msgstr "Yozuv oʻchirildi!"
 #~ msgid ""
 #~ "Официальный сайт RDZ-SCIENCE, МЕЖДУНАРОДНЫЙ НАУЧНО-ТЕХНИЧЕСКИЙ ЖУРНАЛ."
 #~ msgstr "RDZ-SCIENCEning rasmiy veb-sayti, XALQARO ILMIY-TEXNIK JURNAL."
-
-#~ msgid "Последние стати"
-#~ msgstr "So'nggi maqolalar"
 
 #~ msgid "Новый"
 #~ msgstr "Yangi"

@@ -51,7 +51,7 @@
           <p style="white-space: pre-wrap; word-break: break-all; font-size: 18px;">{{post.description | safe}}</p>
         </div>
         {% if post.file %}
-        <a href="{% url 'download_file' post.pk %}" class="btn btn-primary">{% trans 'Скачать файл' %}</a>
+        <a href="{% url 'download_file' post.pk %}" class="btn btn-light">{% trans 'Скачать файл' %}</a>
         {% endif %}
         <br><br><br>
         <h4>{% trans 'Автор' %}: {{ post.user.username }}</h4>

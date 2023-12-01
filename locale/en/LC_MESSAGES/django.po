@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-01 03:17+0500\n"
+"POT-Creation-Date: 2023-12-01 23:54+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,10 +35,8 @@ msgid "Введите email"
 msgstr "Enter email"
 
 #: .\app\forms.py:45 .\app\templates\login.html:24
-#, fuzzy
-#| msgid "Ваш логин"
 msgid "Введите логин"
-msgstr "Your login"
+msgstr "Enter your login"
 
 #: .\app\forms.py:50 .\app\templates\login.html:32
 msgid "Введите пароль"
@@ -49,23 +47,17 @@ msgid "Подтвердите пароль"
 msgstr "Confirm your password"
 
 #: .\app\forms.py:67
-#, fuzzy
-#| msgid "Ваш логин"
 msgid "Ваш логин"
 msgstr "Your login"
 
 #: .\app\forms.py:71
-#, fuzzy
-#| msgid "Введите email"
 msgid "Ваш email"
 msgstr "Enter email"
 
 #: .\app\forms.py:77 .\app\forms.py:84 .\app\forms.py:91 .\app\forms.py:99
 #: .\app\forms.py:107 .\app\forms.py:115
-#, fuzzy
-#| msgid "Введите пароль"
 msgid "Введите текст"
-msgstr "Enter your password"
+msgstr "Enter text"
 
 #: .\app\templates\about_article.html:8
 msgid "Требования к оформлению статьи"
@@ -187,38 +179,56 @@ msgid "Загрузите картинку"
 msgstr "Upload a picture"
 
 #: .\app\templates\add_post.html:71
-#, fuzzy
-#| msgid "Ваш логин"
 msgid "Выберите Файл (pdf)"
-msgstr "Your login"
+msgstr "Choose file (pdf)"
 
 #: .\app\templates\add_post.html:77 .\app\templates\change_blog.html:44
-#, fuzzy
-#| msgid "Ваш логин"
 msgid "Выберите категорию"
-msgstr "Your login"
+msgstr "Choose category"
 
 #: .\app\templates\add_post.html:83
 msgid "Создать"
 msgstr "Create"
 
 #: .\app\templates\base.html:110
-#, fuzzy
-#| msgid "Языки журнала:"
 msgid "О журнале"
-msgstr "Languages of the journal"
+msgstr "About journal"
+
+#: .\app\templates\base.html:112
+msgid "миссия"
+msgstr "mission"
+
+#: .\app\templates\base.html:113
+msgid "редакционная коллегия"
+msgstr "editorial team"
+
+#: .\app\templates\base.html:114
+msgid "контакты"
+msgstr "Contacts"
 
 #: .\app\templates\base.html:118
-#, fuzzy
-#| msgid "Опубликовано"
 msgid "Публикации"
-msgstr "Published"
+msgstr "Publications"
+
+#: .\app\templates\base.html:120
+msgid "архивы"
+msgstr "arhives"
+
+#: .\app\templates\base.html:121
+msgid "текущий выпуск"
+msgstr "current release"
 
 #: .\app\templates\base.html:126
-#, fuzzy
-#| msgid "ФИО автора:"
 msgid "Для авторов"
-msgstr "Author's name"
+msgstr "For authors"
+
+#: .\app\templates\base.html:128
+msgid "инструкции для авторов"
+msgstr "instructions for authors"
+
+#: .\app\templates\base.html:129 .\app\templates\home.html:1063
+msgid "процесс подачи статей"
+msgstr "article submission process"
 
 #: .\app\templates\base.html:154
 msgid "Найти"
@@ -264,7 +274,7 @@ msgstr "About us"
 msgid "Про нас"
 msgstr "About us"
 
-#: .\app\templates\base.html:209 .\app\templates\home.html:257
+#: .\app\templates\base.html:209 .\app\templates\home.html:283
 msgid "Команда"
 msgstr "Team"
 
@@ -276,13 +286,19 @@ msgstr "Help"
 msgid "Связь с нами"
 msgstr "Contact us"
 
-#: .\app\templates\base.html:220 .\app\templates\home.html:870
+#: .\app\templates\base.html:220 .\app\templates\home.html:896
 msgid "Ответы на вопросы"
 msgstr "Questions Answered"
 
 #: .\app\templates\base.html:243
 msgid "Контактные номера:"
 msgstr "Contact numbers:"
+
+#: .\app\templates\base.html:252
+msgid ""
+"Международный журнал Транспорта и технологических машин «International "
+"Journal of Transport and Technological Machines»"
+msgstr "International Journal of Transport and Technological Machines"
 
 #: .\app\templates\blog.html:27 .\app\templates\blog.html:30
 msgid "Статьи"
@@ -302,7 +318,7 @@ msgstr "All"
 msgid "Просмотров"
 msgstr "Views"
 
-#: .\app\templates\blog.html:119 .\app\templates\home.html:810
+#: .\app\templates\blog.html:119 .\app\templates\home.html:836
 #: .\app\templates\search_result.html:46 .\app\templates\user.html:96
 msgid "Подробнее"
 msgstr "Learn more"
@@ -396,61 +412,27 @@ msgid "Password"
 msgstr "Password"
 
 #: .\app\templates\home.html:81
-#, python-format
 msgid ""
 " В целях обеспечения реализации задач, предусмотренных Законом Республики "
 "Узбекистан «О науке и научной деятельности», Постановлением Президента "
 "Республики Узбекистан от 29 октября 2020 года № ПФ-6097, в том числе "
-"Международный научный журнал «Концепция развития науки до 2030 года» «Наука "
-"и инновации» учрежден в мае 2023 года. Лицензия Свидетельство о "
-"государственной регистрации № 083538 представлено Агентством информации и "
-"массовых коммуникаций при Администрации Президента Республики Узбекистан 24 "
-"мая 2023 года. Индексация Все принятые статьи индексируются в международных "
-"научных базах данных Index Copernicus, OpenAire, ZENODO, Cyberleninka и "
-"Google Scholar. Редакционная коллегия В состав редколлегии журнала входят "
-"ведущие ученые, доктора наук, профессора Республики Узбекистан, а также "
-"зарубежные специалисты, что позволяет компетентно рассматривать работы по "
-"широкому кругу специальностей. Основатель  Учредителем журнала является "
-"Общество «РДЗ-НАУКА». Главный редактор: Муслимова Юлдуз.Статьи На "
-"сегодняшний день в журнале опубликовано более 30 статей. Авторы статьи "
-"получат сертификат с QR-кодом, идентификационным номером и номерами DOI. "
-"Сайт журнала Официальный сайт журнала — http://rdz-science.com/, на нем "
-"будут размещаться принятые статьи. Также сборники журналов размещены в "
-"архивном разделе сайта. Антиплагиат Журнал принимает статьи с "
-"оригинальностью более 70%%. Проверка Unity осуществляется редакторами в трех "
-"системах — Plagiarism.uz, AntiPlagiarism.NET и PlagiarismCheckerX. Всем "
-"авторам статьи будет выдан сертификат, подтверждающий результат "
-"антиплагиата. © Международный журнал науки и техники При использовании "
-"статей обязательно указывать авторов статьи, название журнала и URL на "
-"сайте. Телефон: +998(90)347-98-31;"
+"Международный научный журнал «International Journal of Transport and "
+"Technological Machines» («Международный журнал Транспорта и технологических "
+"машин») учрежден в марте 2023 года. Лицензия Свидетельство о государственной "
+"регистрации № 083538 представлено Агентством информации и массовых "
+"коммуникаций при Администрации Президента Республики Узбекистан 24 мая 2023 "
+"года.              "
 msgstr ""
-"In order to ensure the implementation of tasks provided for by the Law of "
-"the Republic of Uzbekistan  On Science and Scientific Activity , the Decree "
-"of the President of the Republic of Uzbekistan No. PF-6097 of October 29, "
-"2020, including the  Concept of Science Development until 2030 ,  Science "
-"and innovation  international scientific journal was established in May "
-"2023. License State registration certificate No. 083538 was submitted by the "
-"Information and Mass Communications Agency under the Presidential "
-"Administration of the Republic of Uzbekistan on May 24, 2023. Indexing All "
-"accepted articles are indexed in the international scientific databases "
-"Index Copernicus, OpenAire, ZENODO, Cyberleninka and Google Scholar. "
-"Editorial board The editorial board of the journal includes leading "
-"scientists, doctors of science, professors of the Republic of Uzbekistan, as "
-"well as foreign experts, which allows for competent examination of works in "
-"a wide range of specialties. Founder The founder of the magazine is  RDZ-"
-"SCIENCE  Society. Chief editor: Muslimova Yulduz. Articles To date, more "
-"than 30 articles have been published in the magazine. The authors of the "
-"article will receive a certificate with a QR code, an ID number and DOI "
-"numbers. Magazine site The official website of the journal is http://rdz-"
-"science.com/, and accepted articles will be posted on this site. Also, "
-"magazine collections are placed in the archive section of the site. Anti-"
-"plagiarism The journal accepts articles with more than 70% originality. "
-"Unity check is carried out by editors in three systems - Plagiarism.uz, "
-"AntiPlagiarism.NET and PlagiarismCheckerX. All the authors of the article "
-"will be given a certificate confirming the anti-plagiarism result. © "
-"Internationale journal of Science and Technology When using articles, it is "
-"required to indicate the authors of the article, the name of the journal and "
-"the URL on the site. Phone: +998(90)347-98-31;"
+"In order to ensure the implementation of the tasks provided for by the Law "
+"of the Republic of Uzbekistan On Science and Scientific Activities,  "
+"Resolution of the President of the Republic of Uzbekistan dated October 29, "
+"2020 No. PF-6097, including the International Scientific Journal "
+"International Journal of Transport and Technological Machines International "
+"Journal of Transport and Technological Machines. Journal of Transport and "
+"Technological Machines founded in March 2023. License Certificate of State "
+"Registration No. 083538 was presented by the Agency of Information and Mass "
+"Communications under the Administration of the President of the Republic of "
+"Uzbekistan on May 24, 2023."
 
 #: .\app\templates\home.html:132
 msgid "Наши направления"
@@ -458,53 +440,65 @@ msgstr "Our directions"
 
 #: .\app\templates\home.html:133
 msgid ""
-"«МЕЖДУНАРОДНЫЙ ЖУРНАЛ НАУКИ И ТЕХНОЛОГИИ» принимает статьи по следующим "
-"направлениям:"
+"Международный журнал транспорта и технологических машин - IJTTM приветствует "
+"оригинальные статьи/обзоры по любой дисциплине.         Темы: (Любые "
+"области, связанные с инженерией, технологиями и приложениями. Не "
+"ограничиваясь приведенными темами):"
 msgstr ""
-"The INTERNATIONAL JOURNAL OF SCIENCE AND TECHNOLOGY accepts articles on the "
-"following directions:"
+"International Journal of Transportation and Technological Machinery - IJTTM "
+"welcomes original articles/reviews in any discipline. Topics: (Any areas "
+"related to engineering, technology and applications. Not limited to the "
+"topics listed):"
 
 #: .\app\templates\home.html:147
-msgid "Точные и естественные науки"
-msgstr "Exact and natural sciences"
+msgid "Автомобильная инженерия"
+msgstr "Automobile Engineering"
 
 #: .\app\templates\home.html:158
-msgid "Медицинские науки"
-msgstr "Medical sciences"
+msgid "Гражданское строительство"
+msgstr "Civil Engineering"
 
 #: .\app\templates\home.html:170
-msgid "Технические науки"
-msgstr "Technical sciences"
+msgid "Строительная инженерия и менеджмент"
+msgstr "Construction Engineering and Management"
 
 #: .\app\templates\home.html:183
-msgid "Педагогические науки"
-msgstr "Pedagogical sciences"
+msgid "Контрольно-измерительная техника"
+msgstr "Control and Instrumentation Engineering"
 
 #: .\app\templates\home.html:194
-msgid "Социальные и гуманитарные науки"
-msgstr "Social sciences and humanities"
+msgid "Инженерия окружающей среды"
+msgstr "Environmental Engineering"
 
 #: .\app\templates\home.html:208
-msgid "экономика"
-msgstr "economics"
+msgid "Экологические науки  "
+msgstr "Pedagogical sciences"
 
 #: .\app\templates\home.html:219
-msgid "Науки философии и филологии"
-msgstr "Sciences, Philosophy and Philology"
+msgid "Зеленое производство"
+msgstr "Green Manufacturing"
 
-#: .\app\templates\home.html:230
-msgid "Искусство и культурология"
-msgstr "Arts and Cultural Studies"
+#: .\app\templates\home.html:232
+msgid "Промышленная безопасность "
+msgstr "Industrial Safety "
 
-#: .\app\templates\home.html:241
-msgid "Физкультура и спорт"
-msgstr "Physical education and sports"
+#: .\app\templates\home.html:243
+msgid "Технология машиностроения"
+msgstr "Mechanical Engineering"
 
-#: .\app\templates\home.html:258
+#: .\app\templates\home.html:253
+msgid "горное дело"
+msgstr "Mining Engineering"
+
+#: .\app\templates\home.html:264
+msgid "Мехатроника"
+msgstr "Mechatronics"
+
+#: .\app\templates\home.html:284
 msgid "Наши сотрудники"
 msgstr "Our employees"
 
-#: .\app\templates\home.html:387
+#: .\app\templates\home.html:413
 msgid ""
 "Старший научный сотрудник Института астрономии РАН. Кандидат физико-"
 "математических наук. Член редколлегии Международного научно-технического "
@@ -515,7 +509,7 @@ msgstr ""
 "Editorial Board of the International Scientific and Technical Journal of the "
 "Society 'RDZ-SCIENCE'."
 
-#: .\app\templates\home.html:410
+#: .\app\templates\home.html:436
 msgid ""
 "Низомий Ташкентский государственный педагогический университет «Профессор "
 "кафедры педагогики начального образования, кандидат психологических наук. "
@@ -527,7 +521,7 @@ msgstr ""
 "the editorial board of the international scientific journal 'Internationale "
 "Journal of Science and Technology' of the society 'RDZ-SCIENCE'."
 
-#: .\app\templates\home.html:434
+#: .\app\templates\home.html:460
 msgid ""
 "Доцент кафедры физики и методики преподавания Ташкентского государственного "
 "педагогического университета им. Низоми, кандидат педагогических наук, член "
@@ -538,7 +532,7 @@ msgstr ""
 "Sciences, Member of the Editorial Board of the International Journal of "
 "Science and Technology."
 
-#: .\app\templates\home.html:455
+#: .\app\templates\home.html:481
 msgid ""
 "Кандидат физико-математических наук, Доцент Ташкентского государственного "
 "педагогического университета имени Низоми, член редколлегии Международного "
@@ -549,7 +543,7 @@ msgstr ""
 "of the International Scientific and Technical Journal of the Society 'RDZ-"
 "SCIENCE'."
 
-#: .\app\templates\home.html:476
+#: .\app\templates\home.html:502
 msgid ""
 "Ташкентский государственный педагогический университет имени Низоми "
 "Профессор кафедры «Педагогика начального образования», член редколлегии "
@@ -560,7 +554,7 @@ msgstr ""
 "the editorial board of the international scientific journal 'Internationale "
 "Journal of Science and Technology' of the society 'RDZ-SCIENCE'."
 
-#: .\app\templates\home.html:497
+#: .\app\templates\home.html:523
 msgid ""
 "Кандидат физико-математических наук, Ташкентский государственный "
 "педагогический университет, доцент кафедры физики и методики ее "
@@ -572,7 +566,7 @@ msgstr ""
 "Methods, Member of the editorial board of the International Scientific and "
 "Technical Journal of the Society 'RDZ-SCIENCE'."
 
-#: .\app\templates\home.html:519
+#: .\app\templates\home.html:545
 msgid ""
 "Доцент кафедры физики и методики ее преподавания физико-математического "
 "факультета ТДПУ. Доктор философских наук (PhD) в области педагогических "
@@ -585,7 +579,7 @@ msgstr ""
 "international scientific journal 'Internationale Journal of Science and "
 "Technology' of the society 'RDZ-SCIENCE'."
 
-#: .\app\templates\home.html:543
+#: .\app\templates\home.html:569
 msgid ""
 "Адъюнкт-профессор методики преподавания физики и астрономии в Университете "
 "Найроби, доктор философии по физике и математике Член редакционной коллегии "
@@ -596,7 +590,7 @@ msgstr ""
 "Member of the Editorial Board of the International Journal of Science and "
 "Technology RDZ-SCIENCE."
 
-#: .\app\templates\home.html:563
+#: .\app\templates\home.html:589
 msgid ""
 "доктор педагогических наук, профессор Ташкентского государственного "
 "педагогического университета имени Низами"
@@ -604,7 +598,7 @@ msgstr ""
 "Doctor of Pedagogical Sciences,Professor of Tashkent State Pedagogical "
 "University named after Nizami"
 
-#: .\app\templates\home.html:583
+#: .\app\templates\home.html:609
 msgid ""
 "кандидат педагогических наук, доцент Ташкентского государственного "
 "педагогического университета имени Низами"
@@ -612,7 +606,7 @@ msgstr ""
 "Candidate of Pedagogical Sciences,Associate Professor of Tashkent State "
 "Pedagogical University named after Nizami"
 
-#: .\app\templates\home.html:603
+#: .\app\templates\home.html:629
 msgid ""
 "кандидат технических наук, доцент Ташкентского государственного "
 "педагогического университета имени Низами"
@@ -620,7 +614,7 @@ msgstr ""
 "Candidate of Technical Sciences, Associate Professor of the Tashkent State "
 "Pedagogical University named after Nizami"
 
-#: .\app\templates\home.html:624
+#: .\app\templates\home.html:650
 msgid ""
 "кандидат физико-математических наук, доцент,профессор кафедры физики и "
 "астрономии Навоийского государственного педагогического института"
@@ -629,7 +623,7 @@ msgstr ""
 "Professor of the Department of Physics and Astronomy of the Navoi State "
 "Pedagogical Institute"
 
-#: .\app\templates\home.html:646
+#: .\app\templates\home.html:672
 msgid ""
 "кандидат педагогических наук, Доцент Белорусско-Узбекского совместного "
 "междисциплинарного института практических технических квалификаций в Ташкенте"
@@ -638,7 +632,7 @@ msgstr ""
 "Uzbekistan Joint Interdisciplinary Practical Technical Qualifications "
 "Institute in Tashkent"
 
-#: .\app\templates\home.html:668
+#: .\app\templates\home.html:694
 msgid ""
 "Навоийский государственный педагогический институт, доцент кафедры "
 "информатики, доктор философии педагогических наук (PhD). Член редколлегии "
@@ -649,7 +643,7 @@ msgstr ""
 "the editorial board of the International Journal of Science and Technology "
 "of the RDZ-SCIENCE society."
 
-#: .\app\templates\home.html:688
+#: .\app\templates\home.html:714
 msgid ""
 "Навоийский государственный педагогический институт, профессор кафедры физики "
 "и астрономии, кандидат физико-математических наук, член редколлегии "
@@ -660,7 +654,7 @@ msgstr ""
 "the Editorial Board of the International Scientific and Technical Journal of "
 "the RDZ-NAUKA Society."
 
-#: .\app\templates\home.html:708
+#: .\app\templates\home.html:734
 msgid ""
 "Старший преподаватель кафедры методики преподавания физики Джизакского "
 "государственного педагогического института, кандидат физико-математических "
@@ -672,175 +666,421 @@ msgstr ""
 "sciences, member of the editorial board of the International Journal of "
 "Science and Technology of the RDZ-SCIENCE society."
 
-#: .\app\templates\home.html:770
+#: .\app\templates\home.html:796
 msgid "Интересные новости"
 msgstr "Interesting news"
 
-#: .\app\templates\home.html:771
+#: .\app\templates\home.html:797
 msgid "Популярные статьи"
 msgstr "Popular Articles"
 
-#: .\app\templates\home.html:804
+#: .\app\templates\home.html:830
 msgid "Просмотров:"
 msgstr "Views:"
 
-#: .\app\templates\home.html:804
+#: .\app\templates\home.html:830
 msgid "автор"
 msgstr "author"
 
-#: .\app\templates\home.html:817
+#: .\app\templates\home.html:843
 msgid "Временно постов нет... "
 msgstr "There are no posts temporarily..."
 
-#: .\app\templates\home.html:871
-msgid "Часто задаваемые вопросы"
-msgstr "Frequently Asked Questions"
-
-#: .\app\templates\home.html:880
-msgid "Статья должна быть написана в формате IMRAD международного уровня"
-msgstr "The article should be written in IMRAD format of international level"
-
-#: .\app\templates\home.html:885
-msgid ""
-"Название статьи, аннотация и ключевые слова должны быть представлены на "
-"узбекском, русском и английском языках. "
-msgstr ""
-"The title of the article, abstract and keywords should be submitted to "
-"Uzbek, Russian and English."
-
-#: .\app\templates\home.html:892
-msgid ""
-"Статьи должны быть представлены на актуальные темы, относящиеся к "
-"направлению научного журнала"
-msgstr ""
-"Articles should be submitted on relevant topics related toDirection of a "
-"scientific journal"
-
-#: .\app\templates\home.html:896
-msgid ""
-"основанные на научных и законченных мнениях, с предложениями и "
-"рекомендациями;"
-msgstr ""
-"based on scientific and complete opinions, with suggestions and "
-"recommendations;"
-
-#: .\app\templates\home.html:903
-msgid "Текст статьи должен быть в формате А4 "
-msgstr "The text of the article should be in A4 format "
+#: .\app\templates\home.html:897
+msgid "Инструкции для авторов"
+msgstr "Instructions for authors"
 
 #: .\app\templates\home.html:906
-msgid "с полями 2 см сверху и снизу, 2 см слева, 2 см справа;"
-msgstr ""
-"with margins of 2 cm above and bottom, 2 cm on the left, 2 cm on the right"
+msgid "Подача рукописи"
+msgstr "manuscript submission"
 
-#: .\app\templates\home.html:913
+#: .\app\templates\home.html:911
 msgid ""
-"Текст статьи должен быть в текстовом редакторе Word, шрифт Times New Roman"
+"Подача рукописи подразумевает: что описываемая работа ранее не "
+"публиковалась; что он не рассматривается для публикации где-либо еще; что ее "
+"публикация была одобрена всеми соавторами, если таковые имеются, а также "
+"ответственными органами – молчаливо или явно – в институте, где была "
+"выполнена работа. Издатель не будет нести юридическую ответственность в "
+"случае каких-либо требований о компенсации.Разрешения Авторы, желающие "
+"включить рисунки, таблицы или отрывки текста, которые уже были опубликованы "
+"где-либо еще, должны получить разрешение владельца(ов) авторских прав как на "
+"печатный, так и на онлайн-формат, а также при подаче своих статей включить "
+"доказательства того, что такое разрешение было предоставлено. . Любой "
+"материал, полученный без таких доказательств, будет считаться исходящим от "
+"авторов. "
 msgstr ""
-"The text of the article should be in a text editor Word, font Times New Roman"
+"Submission of a manuscript implies: that the work described has not been "
+"previously published; that it is not being considered for publication "
+"elsewhere; that its publication has been approved by all co-authors, if any, "
+"as well as by the responsible authorities - tacit or explicit - at the "
+"institute where the work was performed. The publisher will not be legally "
+"liable in the event of any claims for compensation.Permissions Authors "
+"wishing to include figures, tables or passages of text that have already "
+"been published elsewhere must obtain permission from the copyright holder(s) "
+"in both print and and online format, and when submitting your articles, "
+"include evidence that such permission has been granted. Any material "
+"obtained without such evidence will be deemed to originate with the authors."
 
-#: .\app\templates\home.html:917
-msgid "размер 14, интервал 1,15, объем 3-10 страниц"
-msgstr "size 14, spacing 1.15, volume 3-10 pages"
+#: .\app\templates\home.html:918
+msgid "Заявление о вкладе автора"
+msgstr "Author Contribution Statement"
 
-#: .\app\templates\home.html:924
-msgid "При принятии представленной статьи взимается вознаграждение"
-msgstr "Upon acceptance of the submitted article, a fee is charged"
+#: .\app\templates\home.html:922
+msgid ""
+"Авторы должны предоставить краткое описание вклада каждого из перечисленных "
+"авторов (пожалуйста, используйте инициалы). Это будет опубликовано в "
+"отдельном разделе перед Благодарностями.    Например: AM и DB задумали и "
+"разработали исследование. АМ и ББ проводили эксперименты. GR предоставил "
+"новые реагенты или аналитические инструменты. AM и GR проанализировали "
+"данные. АМ написал рукопись. Все авторы прочитали и одобрили рукопись."
+msgstr ""
+"Authors must provide a brief description of the contributions of each listed "
+"author (please use initials). This will be published in a separate section "
+"before the Acknowledgments. For example: AM and DB conceived and designed "
+"the study. AM and BB performed the experiments. GR contributed new reagents "
+"or analytical tools. AM and GR analyzed the data. AM wrote the manuscript. "
+"All authors read and approved the manuscript."
 
-#: .\app\templates\home.html:928
-msgid "сум за статью."
-msgstr "sum per article."
+#: .\app\templates\home.html:929
+msgid "Титульная страница"
+msgstr "Front page"
+
+#: .\app\templates\home.html:932
+msgid ""
+"На титульном листе должны быть указаны:Полное имя, отчество и фамилия "
+"автора(ов)Краткое и информативное название; избегайте использования "
+"неопределенных сокращений. Ограничьте заголовок 180 символами (включая "
+"пробелы).Аффилированность(я) и адрес(а) всех авторов(ов)Адрес электронной "
+"почты, номера телефона и факса соответствующего автора.Желательно, чтобы вы "
+"использовали свой институциональный адрес электронной почты для переписки."
+"Пожалуйста, предоставьте аннотацию объемом до 250 слов. Аннотация должна "
+"иметь широкую основу, чтобы привлечь внимание широкой аудитории IJTTM. "
+"Избегайте использования неопределенных сокращений или неуказанных ссылок. В "
+"заключение скажите, как эта работа продвинула современное состояние в этой "
+"области.Ключевые словаУкажите от 4 до 6 ключевых слов, которые можно "
+"использовать для индексации. Избегайте использования слов, уже встречающихся "
+"в названии статьи."
+msgstr "The title page must indicate: Full name, patronymic and surname of the author(s); Brief and informative title; Avoid using vague abbreviations. Limit the title to 180 characters (including spaces).Affiliation(s) and address(es) of all author(s)Email address, telephone and fax numbers of the corresponding author.It is preferred that you use your institutional email address for correspondence.Please provide abstract up to 250 words. The abstract should be broad based to appeal to a wide audience of IJTTM. Avoid using vague abbreviations or uncredited references. Conclude by saying how this work has advanced the state of the art in the field. Keywords List 4 to 6 keywords that can be used for indexing. Avoid using words already found in the title of the article."
 
 #: .\app\templates\home.html:939
+msgid "Текст"
+msgstr "Text"
+
+#: .\app\templates\home.html:943
 msgid ""
-"Статьи на узбекском, русском и английском языках принимаются до 1 июля 2023 "
-"года в электронном виде по телеграм-адресу @IJST_2023. Контактный телефон:  "
-msgstr ""
-"Articles in Uzbek, Russian and English are accepted until July 1, 2023years "
-"in electronic form at the telegram address @IJST_2023. Contact phone number: "
-
-#: .\app\templates\home.html:942
-msgid "Коллекционная форма журнала - 3 июля 2023 г."
-msgstr "Magazine Collection Kit - July 3, 2023"
-
-#: .\app\templates\home.html:945
-msgid "Он будет размещен в Telegram-канале"
-msgstr "It will be posted on the Telegram channel"
+"Форматирование текстаРукописи должны быть представлены в формате Word.Для "
+"текста используйте обычный простой шрифт (например, Times Roman размером 10 "
+"пунктов).Используйте курсив для выделения.Используйте функцию автоматической "
+"нумерации страниц для нумерации страниц.Не используйте полевые функции."
+"Используйте позиции табуляции или другие команды для отступов, а не пробел."
+"Для создания таблиц используйте функцию таблицы, а не электронные таблицы."
+"Используйте редактор формул или MathType для уравнений.Сохраните файл в "
+"формате docx (Word 2007 или более поздней версии) или формате doc (более "
+"старые версии Word).Рукописи математического содержания также можно "
+"отправлять в формате LaTeX.ЗаголовкиПожалуйста, используйте не более трех "
+"уровней отображаемых заголовков.СокращенияСокращения должны быть определены "
+"при первом упоминании и впоследствии использоваться последовательно."
+"СноскиСноски могут использоваться для предоставления дополнительной "
+"информации, которая может включать в себя цитирование ссылки, включенной в "
+"список литературы. Они не должны состоять исключительно из ссылки на ссылку "
+"и никогда не должны включать библиографические подробности ссылки. Они также "
+"не должны содержать каких-либо рисунков и таблиц.Сноски к тексту нумеруются "
+"последовательно; данные в таблицах должны обозначаться строчными буквами "
+"надстрочного индекса (или звездочками для значений значимости и других "
+"статистических данных). В сносках к названию или авторам статьи ссылочные "
+"обозначения не даются.Всегда используйте сноски вместо концевых."
+msgstr "Text FormattingManuscripts should be submitted in Word format.For text, use a regular, plain font (such as 10-point Times Roman).Use italics for emphasis.Use the automatic pagination feature to number pages.Do not use field functions.Use tab stops or other commands for indentation, not space. To create tables, use the table function rather than spreadsheets. Use the formula editor or MathType for equations. Save the file as docx format (Word 2007 or later) or doc format (older versions of Word). Manuscripts of mathematical content may also be submitted in LaTeX format. Headings Please use no more than three levels of display headings. Abbreviations Abbreviations should be defined on first mention and subsequently used consistently. Footnotes Footnotes may be used to provide additional information, which may include citing a reference included in bibliography. They should not consist solely of a reference to the reference and should never include bibliographical details of the reference. They should also not contain any figures or tables. Footnotes to the text are numbered sequentially; data in tables should be identified by superscript lowercase letters (or asterisks for significance values and other statistics). No references are given in footnotes to the title or authors of an article. Always use footnotes instead of endnotes."
 
 #: .\app\templates\home.html:950
+msgid "Научный стиль"
+msgstr "Scientific style"
+
+#: .\app\templates\home.html:954
 msgid ""
-"Присланные научные статьи будут рассмотрены редакционной коллегией, а "
-"неотредактированные статьи, не присланные в соответствии с требованиями, "
-"опубликованы не будут;"
-msgstr ""
-"The submitted scientific articles will be reviewed by the editorial board, "
-"and Unedited articles not submitted in accordance with the requirements, "
-"will not be published;"
+"Названия родов и видов должны быть выделены курсивом.Авторы должны внести "
+"новые нуклеотидные последовательности в GenBank до подачи статьи для "
+"публикации в IJTTM. В рукописи должен быть указан инвентарный номер для "
+"новой геномной ДНК, комплементарной ДНК, РНК и других нуклеотидных "
+"последовательностей, обсуждаемых в рукописи.Статистический анализ "
+"результатов:Авторы должны указать в подразделе в конце раздела «Материалы и "
+"методы» воспроизводимость или статистическую значимость результатов, "
+"особенно если это относится к цифрам, где не указаны полосы погрешностей "
+"(например, изображения, блоты).Использование антител:Укажите код продукта "
+"антител, если использовались коммерчески доступные антитела."
+msgstr "Names of genus and species should be in italics. Authors must submit new nucleotide sequences to GenBank before submitting the article for publication in IJTTM. The manuscript must provide an accession number for the novel genomic DNA, complementary DNA, RNA, and other nucleotide sequences discussed in the manuscript. Statistical analysis of results: Authors should indicate in the subsection at the end of the Materials and Methods section the reproducibility or statistical significance of the results, especially if this applies to figures where error bars are not provided (e.g., images, blots). Antibody Use: Provide antibody product code if commercially available antibodies were used."
 
-#: .\app\templates\home.html:956
-msgid "Каждая статья индексируется в международных базах данных"
-msgstr "Each article is indexed in international databases"
+#: .\app\templates\home.html:965
+msgid "Рекомендации"
+msgstr "Recommendations"
 
-#: .\app\templates\home.html:957
-msgid "(база OAK 14). Каждой статье присваивается номер DOI."
-msgstr "(OAK 14 base). Each article is assigned a DOI number."
-
-#: .\app\templates\home.html:958
+#: .\app\templates\home.html:969
 msgid ""
-"Присылать статьи в журнал могут профессора и преподаватели, докторанты, "
-"независимые исследователи, учителя общеобразовательных школ и академических "
-"лицеев, аспиранты, талантливые студенты и другие представители науки. "
-"Статьи, принятые в журнал, будут предоставлены автору в течение 3-х рабочих "
-"дней с БЕСПЛАТНЫМ сертификатом, письмом о принятии и авторским "
-"свидетельством."
-msgstr ""
-"Professors and teachers, doctoral students, independent researchers, "
-"teachers of secondary schools and academic lyceums, graduate students, "
-"talented students and other representatives of science can send articles to "
-"the journal. Articles accepted to the journal will be provided to the author "
-"within 3 working days with a FREE certificate, a letter of acceptance and an "
-"author's certificate."
+"ЦитированиеСсылки в тексте цитируйте по названию и году в скобках. Некоторые "
+"примеры:Исследования в области переговоров охватывают многие дисциплины "
+"(Томпсон, 1990).Позднее этот результат был опровергнут Беккером и Селигманом "
+"(1996).Этот эффект широко изучен (Abbott 1991; Barakat et al. 1995a, b; "
+"Kelso and Smith 1998; Medvec et al. 1999, 2000).Список литературыВ список "
+"использованной литературы следует включать только работы, цитируемые в "
+"тексте и опубликованные или принятые к публикации. Личные сообщения и "
+"неопубликованные работы должны упоминаться только в тексте. Не используйте "
+"сноски или концевые сноски вместо списка литературы.Записи в списке "
+"литературы должны располагаться в алфавитном порядке по фамилиям первого "
+"автора каждой работы. Упорядочивайте публикации нескольких авторов одного и "
+"того же первого автора в алфавитном порядке относительно второго, третьего и "
+"т. д. автора. Публикации одного и того же автора(ов) должны располагаться в "
+"хронологическом порядке.Журнальная статьяГамелен FX, Baquet G, Berthoin S, "
+"Thevenet D, Nourry C, Nottin S, Bosquet L (2009)Влияние высокоинтенсивных "
+"прерывистых тренировок на вариабельность сердечного ритма у детей "
+"препубертатного возраста. Eur J ApplPhysiol 105:731-738. https://doi."
+"org/10.1007/s00421-008-0955-8В идеале должны быть указаны имена всех "
+"авторов, но также допускается использование слова «и др.» в длинных списках "
+"авторов: Smith J, Jones M Jr, Houghton L et al (1999) Будущее медицинского "
+"страхования. N Engl J Med 965: 325–329Статья ДОИСлифка М.К., Уиттон Дж.Л. "
+"(2000)Клинические последствия нарушения регуляции выработки цитокинов. Дж "
+"Мол Мед. https://doi.org/10.1007/s001090000086КнигаСаут Дж., Бласс Б. "
+"(2001)Будущее современной геномики. Блэквелл, ЛондонГлава книгиБраун Б., "
+"Аарон М. (2001) Политика природы. В: Смит Дж. (ред.) Развитие современной "
+"геномики, 3-е изд. Уайли, Нью-Йорк, стр. 230–257.Онлайн-документКартрайт Дж. "
+"(2007) У больших звезд тоже есть погода. Издательство IOP PhysicsWeb. http://"
+"physicalweb.org/articles/news/11/6/16/1. По состоянию на 26 июня 2007 г."
+"ДиссертацияТрент Дж.В. (1975)Экспериментальная острая почечная "
+"недостаточность. Диссертация, Калифорнийский университет. Всегда используйте "
+"стандартное сокращение названия журнала в соответствии со Списком сокращений "
+"заглавных слов ISSN, см.ISSN LTWAЕсли вы не уверены, пожалуйста, используйте "
+"полное название журнала.Важная заметка:В идеале следует указать имена всех "
+"авторов, однако допускается также использование слова «и др.» в длинных "
+"списках авторов, насчитывающих более 15 авторов. Пожалуйста, всегда "
+"указывайте минимум трех авторов:Смит Дж., Джонс М. младший, Хоутон Л. и др. "
+"(1999)Будущее медицинского страхования. N Engl J Med 965: 325–329"
+msgstr "Citing References in the text, cite them by title and year in parentheses. Some examples: Negotiation research spans many disciplines (Thompson 1990). This result was later refuted by Becker and Seligman (1996). This effect has been widely studied (Abbott 1991; Barakat et al. 1995a, b; Kelso and Smith 1998; Medvec et al. 1999, 2000).ReferencesThe reference list should include only works cited in the text and published or accepted for publication. Personal communications and unpublished works should be mentioned in the text only. Do not use footnotes or endnotes in place of a bibliography. Entries in the bibliography should be listed alphabetically by the last name of the first author of each work. Arrange publications by multiple authors of the same first author in alphabetical order relative to the second, third, etc. author. Publications by the same author(s) should be listed in chronological order. Journal article Hamelin FX, Baquet G, Berthoin S, Thevenet D, Nourry C, Nottin S, Bosquet L (2009) Effects of high-intensity intermittent training on heart rate variability in prepubertal children age. Eur J ApplPhysiol 105:731–738. https://doi.org/10.1007/s00421-008-0955-8Ideally all authors should be named, but the word “et al.” is also acceptable. long-listed authors: Smith J, Jones M Jr, Houghton L et al (1999) The future of health insurance. N Engl J Med 965: 325–329 Article DOISlifka MK, Whitton JL. (2000) Clinical implications of dysregulated cytokine production. J Mol Med. https://doi.org/10.1007/s001090000086BookSouth J, Blass B (2001) The future of modern genomics. Blackwell, LondonChapter bookBrown B, Aaron M (2001) The politics of nature. In: Smith J (ed) The Development of Modern Genomics, 3rd edn. Wiley, New York, pp 230–257. Online paper Cartwright J (2007) Big stars have weather too. Published by IOP PhysicsWeb. http://physicalweb.org/articles/news/11/6/16/1. Accessed June 26, 2007 Dissertation Trent J.W. (1975) Experimental acute renal failure. Dissertation, University of California. Always use the standard abbreviation of the journal title as per the ISSN List of Headword Abbreviations, see ISSN LTWA If you are unsure, please use the full title of the journal. Important note: Ideally, all authors' names should be included, but the use of etc is also acceptable. » in long lists of authors numbering more than 15 authors. Please always list at least three authors: Smith J, Jones M Jr, Houghton L et al (1999) The future of health insurance. N Engl J Med 965:325–329"
 
-#: .\app\templates\home.html:967
+#: .\app\templates\home.html:977
+msgid "Таблицы"
+msgstr "Tables"
+
+#: .\app\templates\home.html:981
 msgid ""
-"Международный журнал Транспорта и технологических машин – IJTTM – это "
-"широкомасштабный журнал с двойным слепым рецензированием и открытым "
-"доступом, в котором публикуются новые результаты первичных исследований, "
-"обзоры и короткие сообщения по широкому спектру инженерных дисциплин. "
-"Редакционная коллегия журнала приветствует рукописи как в фундаментальных, "
-"так и в прикладных областях исследований и поощряет публикации, которые "
-"вносят новые и инновационные идеи в инженерную науку и технологии. Все "
-"представленные статьи, которые считаются подходящими для IJTTM, подвергаются "
-"строгому двойному слепому рецензированию для обеспечения высочайшего уровня "
-"качества. Журнал носит междисциплинарный характер и приветствует научно "
-"обоснованные исследования в традиционных и новых областях. Приветствуются "
-"оригинальные статьи, которые вносят существенный вклад в развитие инженерных "
-"наук и сообщают о значительных достижениях в этой области. Процесс "
-"рецензирования осуществляется максимально быстро, чтобы минимизировать "
-"задержки при публикации статей в Интернете.        IJTTM стремится улучшить "
-"понимание технических наук, предоставляя платформу для публикации уникальных "
-"материалов в области техники и технологий по различным темам, включая, "
-"помимо прочего, темы, перечисленные на нашем веб-сайте. Его цели - "
-"обеспечить форум высокого уровня для распространения и обмена передовыми "
-"достижениями в области инженерных исследований и разработок, текущими "
-"результатами первичных исследований и значительными достижениями; сообщать о "
-"прогрессе в инженерной науке, обсуждать актуальные темы, области интересов, "
-"препятствия и перспективы развития техники, а также принимать во внимание "
-"благополучие людей и окружающей среды, а также инженерную этику; продвигать "
-"инженерные прорывы и инновации, которые приносят пользу людям и окружающей "
-"среде.        Географический охват авторов: Австралия, США, Россия, Китай, "
-"Южная Корея, Перу, Греция, Индия, Индонезия, Алжир, Египет, Ирак, Малайзия, "
-"Узбекистан, Казахстан, Таджикистан и др.        В целях обеспечения "
-"реализации задач, предусмотренных Законом Республики Узбекистан «О науке и "
-"научной деятельности», Постановлением Президента Республики Узбекистан от 29 "
-"октября 2020 года № ПФ-6097, в том числе Международный научный журнал "
-"«International Journal of Transport and Technological "
-"Machines» («Международный журнал Транспорта и технологических машин») "
-"учрежден в марте 2023 года. Лицензия Свидетельство о государственной "
-"регистрации № 083538 представлено Агентством информации и массовых "
-"коммуникаций при Администрации Президента Республики Узбекистан 24 мая 2023 "
-"года. "
+"Все таблицы нумеруются арабскими цифрами.Таблицы всегда должны цитироваться "
+"в тексте в последовательном нумерованном порядке.Для каждой таблицы укажите "
+"заголовок (название) таблицы, объясняющий ее компоненты.Укажите любой ранее "
+"опубликованный материал, указав первоначальный источник в виде ссылки в "
+"конце заголовка таблицы.Сноски к таблицам должны обозначаться строчными "
+"буквами верхнего индекса (или звездочками для значений значимости и других "
+"статистических данных) и располагаться под телом таблицы."
+msgstr "All tables are numbered in Arabic numerals. Tables should always be cited in the text in sequential numbered order. For each table, provide a table title (title) that explains its components. Cite any previously published material, citing the original source as a reference at the end of the table title. Footnotes to Tables should be identified by lowercase superscript letters (or asterisks for significance values and other statistics) and located below the body of the table."
+
+#: .\app\templates\home.html:989
+ 
+msgid "Произведение искусства"
+msgstr "Piece of art"
+
+#: .\app\templates\home.html:993
+msgid ""
+"Для обеспечения наилучшего качества конечного продукта настоятельно "
+"рекомендуется отправлять все свои работы – фотографии, штриховые рисунки и "
+"т. д. – в электронном формате. Тогда ваше произведение искусства будет "
+"создано по самым высоким стандартам с максимальной точностью до деталей. "
+"Опубликованная работа будет напрямую отражать качество предоставленного "
+"произведения искусства.Электронная подача фигурокПредоставьте все цифры в "
+"электронном виде.Укажите, какая графическая программа использовалась для "
+"создания произведения искусства.Для векторной графики предпочтительным "
+"форматом является EPS; для полутонов используйте формат TIFF. Файлы MS "
+"Office также принимаются.Векторная графика, содержащая шрифты, должна "
+"содержать шрифты, встроенные в файлы.Назовите файлы рисунков, используя "
+"«Рис» и номер рисунка, например, Fig1.eps.Штриховое ИскусствоОпределение: "
+"Черно-белое изображение без затенения.Не используйте слабые линии и/или "
+"буквы и убедитесь, что все линии и буквы на рисунках разборчивы в "
+"окончательном размере.Все линии должны быть шириной не менее 0,1 мм (0,3 пт)."
+"Отсканированные штриховые рисунки и штриховые рисунки в растровом формате "
+"должны иметь минимальное разрешение 1200 dpi.Векторная графика, содержащая "
+"шрифты, должна содержать шрифты, встроенные в файлы.Полутоновое "
+"искусствоОпределение: фотографии, рисунки или картины с мелкой штриховкой и "
+"т. д.Если на фотографиях используется какое-либо увеличение, укажите это с "
+"помощью масштабных линеек внутри самих рисунков.Полутона должны иметь "
+"минимальное разрешение 300 dpi.Комбинированное искусствоОпределение: "
+"сочетание полутонов и штриховых рисунков, например, полутона, содержащие "
+"штриховой рисунок, обширные буквы, цветные диаграммы и т. д.Комбинированное "
+"изображение должно иметь минимальное разрешение 600 dpi.Цветовое "
+"искусствоЦветное искусство бесплатно для печати и онлайн-публикации.Цветные "
+"иллюстрации должны быть представлены в формате RGB.Рисунок НадписьДля "
+"добавления надписей лучше всего использовать Helvetica или Arial (шрифты без "
+"засечек).Сохраняйте одинаковый размер букв на протяжении всего "
+"окончательного размера, обычно около 2–3 мм (8–12 пикселей).Разница в "
+"размере шрифта на иллюстрации должна быть минимальной, например, не "
+"используйте шрифт размером 8 пунктов на оси и шрифт размером 20 пунктов для "
+"метки оси.Избегайте таких эффектов, как затенение, контурные буквы и т. д.Не "
+"включайте заголовки и подписи в свои иллюстрации.Нумерация рисунковВсе "
+"рисунки нумеруются арабскими цифрами.Рисунки всегда должны приводиться в "
+"тексте в последовательном порядке номеров.Части рисунка следует обозначать "
+"строчными буквами (а, б, в и т. д.).Если в вашей статье появилось приложение "
+"и оно содержит один или несколько рисунков, продолжайте последовательную "
+"нумерацию основного текста. Не нумеруйте рисунки в приложении «А1, А2, А3 и "
+"т. д.». Однако рисунки в онлайн-приложениях (электронный дополнительный "
+"материал) должны быть пронумерованы отдельно.Подписи к рисункамКаждый "
+"рисунок должен иметь краткую подпись, точно описывающую, что изображено на "
+"рисунке. Включайте подписи в текстовый файл рукописи, а не в файл рисунков."
+"Подписи к рисункам начинаются со слова «Рис.», выделенного жирным шрифтом, "
+"за которым следует номер рисунка, также выделенный жирным шрифтом.После "
+"номера не должно быть никаких знаков препинания, а также никаких знаков "
+"препинания в конце подписи.В подписи к рисунку укажите все элементы, "
+"представленные на рисунке; и используйте прямоугольники, круги и т. д. в "
+"качестве точек координат на графиках.Укажите ранее опубликованный материал, "
+"указав первоначальный источник в виде ссылки в конце подписи к рисунку."
+"Размещение и размер фигурыПри подготовке рисунков выбирайте их размеры так, "
+"чтобы они соответствовали ширине столбца.Для большинства журналов цифры "
+"должны быть шириной 39 мм, 84 мм, 129 мм или 174 мм и не выше 234 мм.Для "
+"книг и журналов книжного формата рисунки должны быть шириной 80 мм или 122 "
+"мм и не выше 198 мм.РазрешенияЕсли вы включаете рисунки, которые уже были "
+"опубликованы где-либо еще, вы должны получить разрешение от владельцев "
+"авторских прав как на печатный, так и на онлайн-формат. Имейте в виду, что "
+"некоторые издатели не предоставляют электронные права бесплатно и что IJETT "
+"не сможет возместить любые расходы, которые могли возникнуть при получении "
+"этих разрешений. В таких случаях следует использовать материал из других "
+"источников.ДоступностьЧтобы предоставить людям с любыми способностями и "
+"ограниченными возможностями доступ к содержимому ваших фигурок, убедитесь, "
+"чтоВсе рисунки имеют описательные подписи (слепые пользователи могут затем "
+"использовать программное обеспечение для преобразования текста в речь или "
+"оборудование для преобразования текста в Брайля).Для передачи информации "
+"вместо цветов или в дополнение к ним используются узоры (тогда пользователи "
+"с дальтонизмом смогут различать визуальные элементы).Любая цифровая надпись "
+"имеет коэффициент контрастности не менее 4,5:1."
+msgstr "To ensure the best quality final product, it is strongly recommended that you submit all your work - photographs, line art, etc. - in electronic format. Then your work of art will be created to the highest standards with the utmost precision in detail. The published work will directly reflect the quality of the artwork submitted.Electronic Submission of FiguresSubmit all figures electronically.Indicate which graphics program was used to create the artwork.For vector graphics, EPS is the preferred format; for halftones, use TIFF format. MS Office files are also accepted.Vector graphics that contain fonts must have fonts embedded in the files.Name the drawing files using  Fig  and the drawing number, for example, Fig1.eps.Line ArtDefinition: A black and white image without shading.Do not use faint lines and/or letters and ensure that all lines and letters in the drawings are legible at the final size. All lines must be at least 0.1 mm (0.3 pt) wide. Scanned line art and line art in raster format must have minimum resolution 1200 dpi.Vector graphics containing fonts must contain fonts embedded in the files.Halftone ArtDefinition: photographs, drawings or paintings with fine shading, etc.If photographs use any magnification, indicate this using scale bars within the drawings themselves.Halftones must have a minimum resolution of 300 dpi.Combination ArtDefinition: A combination of halftones and line art, such as halftones containing line art, extensive letters, color charts, etc.Combination art must have a minimum resolution of 600 dpi.Color ArtColor art is free for print and online publication.Color illustrations should be in RGB format.Drawing LetteringFor adding lettering, it is best to use Helvetica or Arial (sans-serif fonts).Keep the letters the same size throughout the final size, usually around 2-3mm (8-12 pixels). The difference in font size in the illustration should be minimal, for example, do not use 8 point font on the axis and 20 point font for the axis label. Avoid effects such as shading, outline letters, etc. Do not include titles or captions in your illustrations.Numbering of FiguresAll figures are numbered in Arabic numerals.Figures should always be presented in the text in sequential number order.Parts of a figure should be identified by lowercase letters (a, b, c, etc.).If in your article an application has appeared and it contains one or more pictures, continue sequential numbering of the main text. Do not number the drawings in the application “A1, A2, A3, etc.” However, figures in the online appendices (electronic supplementary material) should be numbered separately.Figure CaptionsEach figure should have a brief caption that describes exactly what the figure shows. Include captions in the text file of the manuscript, not in the figure file. Figure captions begin with the word Figure in bold, followed by the figure number, also in bold. There should be no punctuation after the number, and no punctuation at the end of the caption. In the figure caption, indicate all the elements presented in the figure; and use rectangles, circles, etc. as coordinate points in graphs.Cite previously published material by giving the original source as a link at the end of the figure caption.Placement and size of the figureWhen preparing figures, size them to match the width of the column .For most magazines, figures must be 39mm, 84mm, 129mm, or 174mm wide and no taller than 234mm. For books and book-size magazines, figures must be 80mm or 122mm wide and no taller than 198mm.PermissionsIf you include figures that have already been published elsewhere, you must obtain permission from the copyright holders for both print and online formats. Please be aware that some publishers do not provide electronic rights free of charge and that IJETT will not be able to reimburse any costs that may have been incurred in obtaining these permissions. In such cases, material from other sources should be used. Accessibility To allow people of all abilities and disabilities access to the content of your figures, ensure that all figures have descriptive captions (blind users can then use text-to-speech software or text-to-speech equipment in Braille). Patterns are used instead of or in addition to colors to convey information (so color-blind users can distinguish visual elements). Any digital inscription has a contrast ratio of at least 4.5:1."
+
+#: .\app\templates\home.html:1001
+msgid "Электронный дополнительный материал"
+msgstr "Electronic supplementary material"
+
+#: .\app\templates\home.html:1005
+msgid ""
+"IJTTM принимает электронные мультимедийные файлы (анимация, фильмы, аудио и "
+"т. д.) и другие дополнительные файлы для публикации в Интернете вместе со "
+"статьей или главой книги. Эта функция может добавить объемности статье "
+"автора, поскольку определенную информацию невозможно распечатать или удобнее "
+"в электронном виде.Перед отправкой наборов исследовательских данных в "
+"качестве дополнительного электронного материала. Мы рекомендуем по "
+"возможности архивировать данные исследований в хранилищах данных."
+"ПодчинениеПредоставляйте все дополнительные материалы в стандартных форматах "
+"файлов.Пожалуйста, укажите в каждом файле следующую информацию: название "
+"статьи, название журнала, имена авторов; аффилиация и адрес электронной "
+"почты соответствующего автора.Чтобы обеспечить возможность загрузки "
+"пользователями, имейте в виду, что файлы большего размера могут потребовать "
+"очень длительного времени загрузки и что у некоторых пользователей могут "
+"возникнуть другие проблемы во время загрузки.Аудио, видео и "
+"анимацияСоотношение сторон: 16:9 или 4:3.Максимальный размер файла: 25 "
+"ГБМинимальная продолжительность видео: 1 сек.Поддерживаемые форматы файлов: "
+"avi, wmv, mp4, mov, m2p, mp2, mpg, mpeg, flv, mxf, mts, m4v, 3gp.Текст и "
+"презентацииОтправьте свой материал в формате PDF; Файлы .doc или .ppt не "
+"подходят для долгосрочной жизнеспособности.Коллекцию рисунков также можно "
+"объединить в файл PDF.ТаблицыТаблицы следует отправлять в виде файлов .csv "
+"или .xlsx (MS Excel).Специализированные форматыТаблицы следует отправлять в "
+"виде файлов .csv или .xlsx (MS Excel).Сбор нескольких файловМожно собрать "
+"несколько файлов в файл .zip или .gz.НумерацияЕсли предоставляется какой-"
+"либо дополнительный материал, в тексте должно быть конкретное упоминание о "
+"материале в виде цитаты, аналогично рисункам и таблицам.Дополнительные файлы "
+"именуйте «Онлайн-ресурс», например: «... как показано на анимации (Интернет-"
+"ресурс 3)», «... дополнительные данные приведены в Онлайн-ресурсе 4»."
+"Назовите файлы последовательно, например. «ESM_3.mpg», «ESM_4.pdf»."
+"ПодписиДля каждого дополнительного материала предоставьте краткую подпись, "
+"описывающую содержимое файла.Обработка дополнительных файловЭлектронный "
+"дополнительный материал будет опубликован в том виде, в котором он получен "
+"от автора, без каких-либо преобразований, редактирования или "
+"переформатирования.ДоступностьЧтобы предоставить людям с любыми "
+"способностями и ограниченными возможностями доступ к содержимому ваших "
+"дополнительных файлов, убедитесь, чтоРукопись содержит описательную подпись "
+"к каждому дополнительному материалу.Видеофайлы не содержат ничего, что "
+"мигает чаще трех раз в секунду (чтобы пользователи, склонные к судорогам, "
+"вызванным такими эффектами, не подвергались риску)"
+msgstr "IJTTM accepts electronic media files (animation, films, audio, etc.) and other supplementary files for publication online along with an article or book chapter. This feature can add length to an author's paper because certain information cannot be printed or is more convenient electronically. Before submitting research data sets as electronic supplementary material. We recommend archiving research data in data repositories whenever possible. Submission Provide all supplementary materials in standard file formats. Please include the following information in each file: title of article, title of journal, names of authors; affiliation and email address of the corresponding author. To ensure that users can download, please be aware that larger files may require very long download times and that some users may experience other issues during download. Audio, Video and Animation Aspect Ratio: 16: 9 or 4:3.Maximum file size: 25 GBMinimum video duration: 1 sec.Supported file formats: avi, wmv, mp4, mov, m2p, mp2, mpg, mpeg, flv, mxf, mts, m4v, 3gp.Text and presentationsSubmit your material in PDF format; .doc or .ppt files are not suitable for long-term viability. A collection of figures can also be combined into a PDF file. TablesTables should be submitted as .csv or .xlsx files (MS Excel).Custom formatsTables should be submitted as .csv or .xlsx files ( MS Excel).Collecting Multiple FilesYou can collect multiple files into a .zip or .gz file.NumberingIf any additional material is provided, there should be specific mention of the material in the text in the form of a citation, similar to figures and tables.Name additional files as “Online Resource” , for example: ...as shown in the animation (Online Resource 3), ...more details are given in Online Resource 4.Name the files sequentially, e.g. ESM_3.mpg, ESM_4.pdf. Captions For each supplementary material, please provide a brief caption describing the contents of the file. Processing of supplementary files Electronic supplementary material will be published as received from the author, without any conversion, editing or reformatting.AccessibilityTo ensure that people of all abilities and disabilities have access to the content of your supplementary files, ensure that the Manuscript contains a descriptive caption for each supplementary material. The video files do not contain anything that flashes more than three times per second (to prevent users prone to seizures caused by such effects were not at risk)"
+
+#: .\app\templates\home.html:1012
+msgid "Политика измерения экспрессии генов"
+msgstr "Gene Expression Measurement Policy"
+
+#: .\app\templates\home.html:1016
+msgid ""
+"IJTTM не будет публиковать рукописи, в которых функциональное значение "
+"изменений в экспрессии генов основано только на данных транскриптов. Очень "
+"важно предоставить подтверждающие доказательства для любой такой "
+"интерпретации, например, путем измерения изменений в соответствующих белках "
+"или соответствующих физиологических данных."
+msgstr "IJTTM will not publish manuscripts in which the functional significance of changes in gene expression is based on transcript data alone. It is important to provide supporting evidence for any such interpretation, for example by measuring changes in relevant proteins or relevant physiological data."
+
+#: .\app\templates\home.html:1030
+msgid ""
+"Все принятые статьи индексируются в международных научных базах данных Index "
+"Copernicus, OpenAire, ZENODO, Cyberleninka и Google Scholar:  "
 msgstr ""
+" All accepted articles are indexed in the international scientific databases "
+"Index Copernicus, OpenAire, ZENODO, Cyberleninka and Google Scholar:"
+
+#: .\app\templates\home.html:1041
+
+msgid ""
+"В состав редколлегии журнала входят ведущие ученые, доктора наук, профессора "
+"Республики Узбекистан, а также зарубежные специалисты, что позволяет "
+"компетентно рассматривать работы по широкому кругу специальностей. "
+"Основатель Учредителем журнала является факультет “Инжиниринг автомобильного "
+"транспорта” Ташкентского государственного траспортного университета.Главный "
+"редактор: Зияев Камолиддин Зухритдинович.Статьи Авторы статьи получат "
+"сертификат с QR-кодом, идентификационным номером и номерами DOI. Языки: "
+"узбекский, русский и английский.Выпуски: 4 раз в год Сайт журнала "
+"Официальный сайт журнала — https://ijttm.uz/, на нем будут размещаться "
+"принятые статьи. Также сборники журналов размещены в архивном разделе сайта. "
+"Антиплагиат Журнал принимает статьи с оригинальностью более 70%%. Проверка "
+"Unity осуществляется редакторами в трех системах — Antiplag.uz, Turnitin и "
+"Антиплагиат.ру. Всем авторам статьи будет выдан сертификат, подтверждающий "
+"результат антиплагиата."
+msgstr ""
+"The editorial board of the journal includes leading scientists, doctors of "
+"science, professors of the Republic of Uzbekistan, as well as foreign "
+"specialists, which allows competent consideration of works in a wide range "
+"of specialties. Founder The founder of the magazine is the Faculty of "
+"Automotive Transport Engineering of the Tashkent State Transport University. "
+"Editor-in-Chief: Ziyaev Kamoliddin Zukhritdinovich. Articles Authors of the "
+"article will receive a certificate with a QR code, identification number and "
+"DOI numbers. Languages: Uzbek, Russian and English. Issues: 4 times a year. "
+"Journal website The official website of the journal is https://ijttm.uz/, "
+"accepted articles will be posted on it. Also, collections of magazines are "
+"posted in the archive section of the site. Anti-plagiarism The magazine "
+"accepts articles with more than 70% originality. Unity is checked by editors "
+"in three systems - Antiplag.uz, Turnitin and Antiplagiat.ru. All authors of "
+"the article will be issued a certificate confirming the result of anti-"
+"plagiarism."
+
+#: .\app\templates\home.html:1067
+msgid ""
+" Международный журнал инженерных тенденций и технологий - IJTTM приветствует "
+"оригинальные исследовательские статьи, обзорные статьи и короткие статьи в "
+"номере за январь 2024 года. Рукописи, представленные в этот журнал, будут "
+"считаться неопубликованными и не рассматриваются для публикации в другом "
+"месте.Представление окончательного решения: 50 днейПриемка к публикации: 20 "
+"днейОбратитесь к столбцу тем, указанному в темах веб-сайта. Строго подавайте "
+"свою статью в виде шаблона IJTTM.Особенности IJTTM:Scopus и всемирная "
+"индексация.Электронное цитирование и ссылки на каждую статью через номера "
+"индивидуального цифрового идентификатора объекта (DOI) повышают узнаваемость "
+"вашей работы.Отправка вашей работы в основные индексирующие и реферативные "
+"базы данных, такие как Scopus и другие индексируемые по всему миру.Большее "
+"влияние, охват и видимость ваших исследований благодаря открытому доступу "
+"обеспечивают максимальную известность вашей работы.Преданные редакторы, "
+"активные в своих сообществах.Принятые рукописи будут регулироваться "
+"лицензией CC BY-NC-ND 4.0.Отправьте свою статью в формате Microsoft Word (."
+"doc или .docx). Если вы использовали латекс, отправьте ее в формате PDF.   "
+msgstr ""
+"International Journal of Engineering Trends and Technology - IJTTM welcomes "
+"original research articles, review articles and short articles in the "
+"January 2024 issue. Manuscripts submitted to this journal will be considered "
+"unpublished and will not be considered for publication elsewhere.Final "
+"Decision Submission: 50 daysAcceptance for Publication: 20 daysRefer to the "
+"topic column listed in the website topics. Strictly submit your paper as an "
+"IJTTM template. Features of IJTTM: Scopus and worldwide indexing. Electronic "
+"citation and linking to each paper through Individual Digital Object "
+"Identifier (DOI) numbers increase the visibility of your work. Submitting "
+"your work to major indexing and abstracting databases such as like Scopus "
+"and others indexed around the world.Greater impact, reach and visibility of "
+"your research through open access ensures maximum exposure for your work."
+"Dedicated editors active in their communities.Accepted manuscripts will be "
+"governed by a CC BY-NC-ND 4.0 license.Submit your paper in Microsoft Word "
+"format (.doc or .docx). If you used latex, please send it in PDF format."
 
 #: .\app\templates\login.html:8
 msgid "Вход"
@@ -851,8 +1091,6 @@ msgid "Неправильно введен логин или пароль"
 msgstr "Incorrectly entered username or password"
 
 #: .\app\templates\login.html:22 .\app\templates\register.html:39
-#, fuzzy
-#| msgid "Ваш логин"
 msgid "Логин"
 msgstr "Your login"
 
@@ -921,39 +1159,157 @@ msgstr "You don't have any posts"
 msgid "Создать пост"
 msgstr "Create a post"
 
-#: .\app\views.py:205
+#: .\app\views.py:214
 msgid "Изменения сохранены!"
 msgstr "Changes saved!"
 
-#: .\app\views.py:223
+#: .\app\views.py:232
 msgid "Ваш пароль был успешно изменен!"
 msgstr "Your password has been successfully changed!"
 
-#: .\app\views.py:249
+#: .\app\views.py:258
 msgid "Ваш пост успешно добавлен и ожидает проверку администратора!"
 msgstr ""
 "Your post has been added successfully and is awaiting admin verification!"
 
-#: .\app\views.py:286
+#: .\app\views.py:295
 msgid "Пост успешно был изменен!"
 msgstr "The post has been successfully modified!"
 
-#: .\app\views.py:290
+#: .\app\views.py:299
 msgid "Необходимо добавить фотографию или удалить существующую."
 msgstr "You need to add a photo or delete an existing one."
 
-#: .\app\views.py:308
+#: .\app\views.py:317
 msgid "Запись была удалена!"
 msgstr "The entry has been deleted!"
+
+#~ msgid ""
+#~ "«МЕЖДУНАРОДНЫЙ ЖУРНАЛ НАУКИ И ТЕХНОЛОГИИ» принимает статьи по следующим "
+#~ "направлениям:"
+#~ msgstr ""
+#~ "The INTERNATIONAL JOURNAL OF SCIENCE AND TECHNOLOGY accepts articles on "
+#~ "the following directions:"
+
+#~ msgid "Точные и естественные науки"
+#~ msgstr "Exact and natural sciences"
+
+#~ msgid "Медицинские науки"
+#~ msgstr "Medical sciences"
+
+#~ msgid "Технические науки"
+#~ msgstr "Technical sciences"
+
+#~ msgid "Социальные и гуманитарные науки"
+#~ msgstr "Social sciences and humanities"
+
+#~ msgid "экономика"
+#~ msgstr "economics"
+
+#~ msgid "Науки философии и филологии"
+#~ msgstr "Sciences, Philosophy and Philology"
+
+#~ msgid "Искусство и культурология"
+#~ msgstr "Arts and Cultural Studies"
+
+#~ msgid "Физкультура и спорт"
+#~ msgstr "Physical education and sports"
+
+#~ msgid "Часто задаваемые вопросы"
+#~ msgstr "Frequently Asked Questions"
+
+#~ msgid "Статья должна быть написана в формате IMRAD международного уровня"
+#~ msgstr ""
+#~ "The article should be written in IMRAD format of international level"
+
+#~ msgid ""
+#~ "Название статьи, аннотация и ключевые слова должны быть представлены на "
+#~ "узбекском, русском и английском языках. "
+#~ msgstr ""
+#~ "The title of the article, abstract and keywords should be submitted to "
+#~ "Uzbek, Russian and English."
+
+#~ msgid ""
+#~ "Статьи должны быть представлены на актуальные темы, относящиеся к "
+#~ "направлению научного журнала"
+#~ msgstr ""
+#~ "Articles should be submitted on relevant topics related toDirection of a "
+#~ "scientific journal"
+
+#~ msgid ""
+#~ "основанные на научных и законченных мнениях, с предложениями и "
+#~ "рекомендациями;"
+#~ msgstr ""
+#~ "based on scientific and complete opinions, with suggestions and "
+#~ "recommendations;"
+
+#~ msgid "Текст статьи должен быть в формате А4 "
+#~ msgstr "The text of the article should be in A4 format "
+
+#~ msgid "с полями 2 см сверху и снизу, 2 см слева, 2 см справа;"
+#~ msgstr ""
+#~ "with margins of 2 cm above and bottom, 2 cm on the left, 2 cm on the right"
+
+#~ msgid ""
+#~ "Текст статьи должен быть в текстовом редакторе Word, шрифт Times New Roman"
+#~ msgstr ""
+#~ "The text of the article should be in a text editor Word, font Times New "
+#~ "Roman"
+
+#~ msgid "размер 14, интервал 1,15, объем 3-10 страниц"
+#~ msgstr "size 14, spacing 1.15, volume 3-10 pages"
+
+#~ msgid "При принятии представленной статьи взимается вознаграждение"
+#~ msgstr "Upon acceptance of the submitted article, a fee is charged"
+
+#~ msgid "сум за статью."
+#~ msgstr "sum per article."
+
+#~ msgid ""
+#~ "Статьи на узбекском, русском и английском языках принимаются до 1 июля "
+#~ "2023 года в электронном виде по телеграм-адресу @IJST_2023. Контактный "
+#~ "телефон:  "
+#~ msgstr ""
+#~ "Articles in Uzbek, Russian and English are accepted until July 1, "
+#~ "2023years in electronic form at the telegram address @IJST_2023. Contact "
+#~ "phone number: "
+
+#~ msgid "Коллекционная форма журнала - 3 июля 2023 г."
+#~ msgstr "Magazine Collection Kit - July 3, 2023"
+
+#~ msgid "Он будет размещен в Telegram-канале"
+#~ msgstr "It will be posted on the Telegram channel"
+
+#~ msgid ""
+#~ "Присланные научные статьи будут рассмотрены редакционной коллегией, а "
+#~ "неотредактированные статьи, не присланные в соответствии с требованиями, "
+#~ "опубликованы не будут;"
+#~ msgstr ""
+#~ "The submitted scientific articles will be reviewed by the editorial "
+#~ "board, and Unedited articles not submitted in accordance with the "
+#~ "requirements, will not be published;"
+
+#~ msgid "(база OAK 14). Каждой статье присваивается номер DOI."
+#~ msgstr "(OAK 14 base). Each article is assigned a DOI number."
+
+#~ msgid ""
+#~ "Присылать статьи в журнал могут профессора и преподаватели, докторанты, "
+#~ "независимые исследователи, учителя общеобразовательных школ и "
+#~ "академических лицеев, аспиранты, талантливые студенты и другие "
+#~ "представители науки. Статьи, принятые в журнал, будут предоставлены "
+#~ "автору в течение 3-х рабочих дней с БЕСПЛАТНЫМ сертификатом, письмом о "
+#~ "принятии и авторским свидетельством."
+#~ msgstr ""
+#~ "Professors and teachers, doctoral students, independent researchers, "
+#~ "teachers of secondary schools and academic lyceums, graduate students, "
+#~ "talented students and other representatives of science can send articles "
+#~ "to the journal. Articles accepted to the journal will be provided to the "
+#~ "author within 3 working days with a FREE certificate, a letter of "
+#~ "acceptance and an author's certificate."
 
 #, fuzzy
 #~| msgid "Ваш логин"
 #~ msgid "Введите название"
-#~ msgstr "Your login"
-
-#, fuzzy
-#~| msgid "Ваш логин"
-#~ msgid "Введите описание"
 #~ msgstr "Your login"
 
 #~ msgid "Оформление"

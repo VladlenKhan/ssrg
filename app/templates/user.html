@@ -5,7 +5,7 @@
 
 {% block content %}
 <br><br><br>
-<div class="text-center">
+<div class="text-center  ">
   <h2>{% trans 'Добро пожаловать' %}, {{ user.username }}!</h2>
   <br><br>
   
@@ -13,9 +13,9 @@
   <div class="container">
     <div class="card">
       <br>
-      <h3>{% trans 'Email' %}: <span class="text-success"> {{ user.email }}</span></h3>
+      <h3>{% trans 'Email' %}: <span class="text-primary"> {{ user.email }}</span></h3>
       <br>
-      <h3>{% trans 'Имя пользователя' %}: <span class="text-success"> {{ user.username }}</span></h3>
+      <h3>{% trans 'Имя пользователя' %}: <span class="text-primary"> {{ user.username }}</span></h3>
       <br>
       <h3>{% trans 'Password' %}: **********</h3>
       <br>
@@ -102,7 +102,7 @@
                 {% endfor %}
               {% else %}
                 <h1>{% trans 'У вас нет постов' %}</h1>
-                <a href="{% url 'add_post' %}" style="width:300px;" class="btn btn-success">{% trans 'Создать пост' %}</a>
+                <a href="{% url 'add_post' %}" style="width:300px;" class="btn btn-light">{% trans 'Создать пост' %}</a>
               {% endif %}
 
 
