@@ -115,7 +115,7 @@
                                 </ul>   
                         </li>
                         <li class="nav-item select"> 
-                            <a class="nav-link" href="{% url 'home'%}#ab" style="font-size: 14px;">{% trans 'Публикации'%}</a>
+                            <a class="nav-link" href="{% url 'blogs'%}" style="font-size: 14px;">{% trans 'Публикации'%}</a>
                             <ul>
                                 <li><a href="#">миссия</a></li>
                                 <li><a href="#">редакционная коллегия</a></li>
@@ -226,6 +226,13 @@
                     <div style="background-color: white; padding: 35px;">
                     </div>
                 </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4">
+                    <div class="footer-widget">
+                        <h5 class="mb-4  font-secondary">{% trans 'Адресс' %}</h5>
+                        <p>{% trans 'ул. Темирелчилар, 1, Мирабадский район, г. Ташкент, 100167'%}</p>
+                    </div>
+                </div>
+                
             </div>
             <div class="row align-items-center mt-5 text-center text-md-start">
                 <div class="col-lg-4">
@@ -243,13 +250,14 @@
                         <h3>{% trans 'Контактные номера:' %}
                         </h3>
                     </div>
+                    
                     <ul class="list-unstyled list-inline mb-0 text-lg-center">
                         <li class="list-inline-item me-4"><a href="tel:+998971569421">+998(97)156-94-21</a>
                             
                         </li>
                         <br>
                         <br><br>
-                        <li class="list-inline-item me-4">  © Международный журнал Транспорта и технологических машин «International Journal of Transport and Technological Machines» 
+                        <li class="list-inline-item me-4">© {% trans 'Международный журнал Транспорта и технологических машин «International Journal of Transport and Technological Machines»'%} 
                             
                         </li>
                         
